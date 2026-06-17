@@ -3,7 +3,7 @@
     "title": "無口君 爐石戰場 排組對策站",
     "subtitle": "Wuco Hearthstone Battlegrounds Tier List & Counters",
     "source": "https://www.youtube.com/@Wuco/videos",
-    "hsVersion": "[?]",
+    "hsVersion": "35.6.2",
     "lastUpdated": "2026-06-18",
     "rankOrder": [
       "S+",
@@ -12,7 +12,9 @@
       "B",
       "C"
     ],
-    "artBase": "https://art.hearthstonejson.com/v1/256x/"
+    "artBase": "https://art.hearthstonejson.com/v1/256x/",
+    "version": "35.6.2",
+    "season": 13
   },
   "scalingBuilds": [
     {
