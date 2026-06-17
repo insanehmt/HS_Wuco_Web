@@ -136,8 +136,8 @@
         null
       ],
       "addonIds": [
-        null,
-        null,
+        "BG30_802",
+        "BG23_017",
         "BG35_431"
       ]
     },
@@ -173,13 +173,13 @@
       "notes": "異變版本首次記錄",
       "coreIds": [
         "BG32_234",
-        null,
-        null
+        "BGS_119",
+        "BG30_802"
       ],
       "addonIds": [
         "BG33_825",
-        null,
-        null
+        "EBG_Spell_032",
+        "BG26_817"
       ]
     },
     {
@@ -211,12 +211,12 @@
       ],
       "notes": "異變版本首次記錄，「教授的作品」",
       "coreIds": [
-        null,
-        null
+        "BG21_005",
+        "BG34_403"
       ],
       "addonIds": [
         "BG27_002",
-        null
+        "BGS_018"
       ]
     },
     {
@@ -250,12 +250,12 @@
       ],
       "notes": "異變版本首次記錄",
       "coreIds": [
-        null,
+        "BG35_700",
         "BG26_ICC_065",
         "BG35_MagicItem_714"
       ],
       "addonIds": [
-        null,
+        "BG26_817",
         null
       ]
     },
@@ -291,14 +291,14 @@
       ],
       "notes": "異變版本首次記錄",
       "coreIds": [
-        null,
+        "BG33_371",
         "BG32_MagicItem_803",
         "BG34_231",
         "BG35_MagicItem_840"
       ],
       "addonIds": [
-        null,
-        null,
+        "BG34_Giant_679",
+        "BG32_324",
         "BG26_ICC_027"
       ]
     },
@@ -333,7 +333,7 @@
       ],
       "notes": "異變版本首次記錄，「0分卡的魅力」",
       "coreIds": [
-        null,
+        "BG32_822",
         null,
         "EBG_Spell_017"
       ],
@@ -379,7 +379,7 @@
       ],
       "addonIds": [
         "BG30_MagicItem_700",
-        null
+        "BG26_160"
       ]
     },
     {
@@ -414,7 +414,7 @@
       "coreIds": [
         "BG35_MagicItem_300",
         "BG31_171",
-        null
+        "BG33_371"
       ],
       "addonIds": [
         "BG30_MagicItem_942",
@@ -457,7 +457,7 @@
       ],
       "addonIds": [
         "BG31_HERO_802_Buddy",
-        null,
+        "BG33_371",
         "BG20_HERO_101_Buddy"
       ]
     },
@@ -494,7 +494,7 @@
       "notes": "異變版本首次記錄",
       "coreIds": [
         "BG35_MagicItem_931",
-        null,
+        "BG35_952",
         "BG26_ICC_901",
         "BG35_883"
       ],
@@ -534,7 +534,7 @@
       ],
       "notes": "異變版本首次記錄",
       "coreIds": [
-        null,
+        "BG21_HERO_030_Buddy",
         "BG26_ICC_027",
         "BG26_ICC_065"
       ],
@@ -578,7 +578,7 @@
         "BG26_ICC_065"
       ],
       "addonIds": [
-        null,
+        "BG26_160",
         "BG35_433"
       ]
     },
@@ -616,7 +616,7 @@
         "BG32_MagicItem_801"
       ],
       "addonIds": [
-        null,
+        "BG26_817",
         "BG35_701"
       ]
     },
@@ -733,7 +733,7 @@
       "notes": "十戒指龍突破上限首次記錄，「至尊魔戒 歸位」",
       "coreIds": [
         "BG34_921",
-        null,
+        "BG30_802",
         "BG34_922",
         "BG35_922"
       ],
@@ -815,13 +815,13 @@
       "notes": "異變版本野豬人加強首次記錄，「無限魔力毒豬」",
       "coreIds": [
         "BG35_MagicItem_432",
-        null,
+        "BG30_MagicItem_411",
         "BGS_078",
         "BG26_ICC_065"
       ],
       "addonIds": [
         "BG35_433",
-        null
+        "BG26_160"
       ]
     },
     {
@@ -857,12 +857,12 @@
       "coreIds": [
         "BG35_MagicItem_840",
         "BGS_041",
-        null
+        "BG30_MagicItem_418"
       ],
       "addonIds": [
         "BG26_ICC_027",
         "BG29_813",
-        null
+        "EBG_Spell_032"
       ]
     }
   ],
@@ -926,7 +926,7 @@
       ],
       "addonIds": [
         null,
-        null
+        "BG35_604"
       ]
     },
     {
@@ -952,7 +952,7 @@
       "against": "海盜揮擊流（荷蘭人等大揮擊）",
       "question": "遇到「海盜揮擊流」怎麼辦？",
       "coreIds": [
-        null,
+        "BG26_817",
         "BG23_318"
       ],
       "addonIds": []
@@ -979,7 +979,7 @@
       "against": "海盜佔上風流、不死族重生流",
       "question": "遇到「海盜佔上風流」怎麼辦？",
       "coreIds": [
-        null
+        "BG25_016"
       ],
       "addonIds": []
     },
@@ -1007,7 +1007,7 @@
       "against": "四首夢魘馬流（12000攻+分身）、高血量重生流",
       "question": "遇到「四首夢魘馬流」怎麼辦？",
       "coreIds": [
-        null,
+        "BG25_016",
         "BG34_604",
         "BG23_318"
       ],
@@ -1095,11 +1095,11 @@
       "question": "遇到「高體質大怪打點流」怎麼辦？",
       "coreIds": [
         "BG35_MagicItem_432",
-        null,
+        "BG30_MagicItem_411",
         "BG35_433"
       ],
       "addonIds": [
-        null,
+        "BG26_160",
         "BG26_ICC_065"
       ]
     },
@@ -1153,8 +1153,8 @@
       "against": "魚人毒素流（魚人帶毒）",
       "question": "遇到「魚人毒素流」怎麼辦？",
       "coreIds": [
-        null,
-        null
+        "BG21_HERO_030_Buddy",
+        "BG34_Giant_599"
       ],
       "addonIds": []
     },
@@ -1182,7 +1182,7 @@
       "against": "不死族嘲諷重生流（多層嘲諷+重生護盾）",
       "question": "遇到「不死族嘲諷重生流」怎麼辦？",
       "coreIds": [
-        null,
+        "BG25_016",
         "BGS_126"
       ],
       "addonIds": []
