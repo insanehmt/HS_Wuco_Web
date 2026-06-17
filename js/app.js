@@ -243,7 +243,12 @@ async function init() {
   const m = DATA.meta || {};
   if (m.artBase) ART = m.artBase;
   if (m.source) document.getElementById("sourceLink").href = m.source;
-  document.getElementById("hsVersion").textContent = "v" + (m.hsVersion || "[?]");
+  document.getElementById("hsVersion").textContent = "v" + (m.version || m.hsVersion || "[?]");
+  if (m.season) {
+    const sb = document.getElementById("seasonBadge");
+    sb.textContent = "S" + m.season;
+    sb.style.display = "";
+  }
   document.getElementById("lastUpdated").textContent = m.lastUpdated || "—";
 
   // counter page (with filters)
