@@ -158,50 +158,62 @@ function bindRows(el) {
   });
 }
 
-const FILTERS = { tier: "全部", diff: "全部", race: "全部" };
 const RACE_ORDER = ["DRAGON","NAGA","DEMON","PIRATE","MECHANICAL","MURLOC","QUILBOAR","UNDEAD","ELEMENTAL","BEAST","ALL"];
+const PANELS = {
+  tier:    { dataKey:"scalingBuilds", kind:"tier",    listEl:"tierList",    tierRow:"tierFilterRow",    raceRow:"raceFilterRow",        countEl:"tierCount",    toggleEl:"showOldVersion", noun:"套組合", f:{tier:"全部",diff:"全部",race:"全部"} },
+  counter: { dataKey:"counters",      kind:"counter", listEl:"counterList", tierRow:"counterFilterRow", raceRow:"counterRaceFilterRow", countEl:"counterCount", toggleEl:null,             noun:"個對策", f:{tier:"全部",diff:"全部",race:"全部"} },
+};
 
-function buildFilterBars() {
-  // tier + difficulty
+function buildFilterBars(key) {
+  const P = PANELS[key], items = DATA[P.dataKey] || [];
   const tiers = ["全部","S","A","B","C"];
   const diffs = [["全部","全部難度"],["easy","🟢 簡單"],["medium","🟡 中等"],["hard","🔴 困難"]];
   let th = "";
-  tiers.forEach(t => th += `<button class="fbtn${FILTERS.tier===t?' on':''}" data-f="tier" data-v="${t}">${t==='全部'?'全部 Tier':'Tier '+t}</button>`);
+  tiers.forEach(t => th += `<button class="fbtn${P.f.tier===t?' on':''}" data-f="tier" data-v="${t}">${t==='全部'?'全部 Tier':'Tier '+t}</button>`);
   th += `<span class="vsep"></span>`;
-  diffs.forEach(([v,label]) => th += `<button class="fbtn${FILTERS.diff===v?' on':''}" data-f="diff" data-v="${v}">${label}</button>`);
-  document.getElementById("tierFilterRow").innerHTML = th;
+  diffs.forEach(([v,label]) => th += `<button class="fbtn${P.f.diff===v?' on':''}" data-f="diff" data-v="${v}">${label}</button>`);
+  document.getElementById(P.tierRow).innerHTML = th;
 
-  // race pills (only races present in data)
+  // race pills (only races present in this panel's data; hide row if none)
   const present = [];
-  (DATA.scalingBuilds||[]).forEach(b => raceCodes(b.races).forEach(r => { if(!present.includes(r)) present.push(r); }));
+  items.forEach(b => raceCodes(b.races).forEach(r => { if(!present.includes(r)) present.push(r); }));
   const ordered = RACE_ORDER.filter(r => present.includes(r));
-  let rh = `<span class="flabel">族裔：</span><button class="fbtn${FILTERS.race==='全部'?' on':''}" data-f="race" data-v="全部">全部</button>`;
-  ordered.forEach(r => rh += `<button class="race-pill race-${r} fpill${FILTERS.race===r?' on':''}" data-f="race" data-v="${r}">${esc(RACE_ZH[r]||r)}</button>`);
-  document.getElementById("raceFilterRow").innerHTML = rh;
+  const raceEl = document.getElementById(P.raceRow);
+  if (ordered.length) {
+    let rh = `<span class="flabel">族裔：</span><button class="fbtn${P.f.race==='全部'?' on':''}" data-f="race" data-v="全部">全部</button>`;
+    ordered.forEach(r => rh += `<button class="race-pill race-${r} fpill${P.f.race===r?' on':''}" data-f="race" data-v="${r}">${esc(RACE_ZH[r]||r)}</button>`);
+    raceEl.innerHTML = rh; raceEl.style.display = "";
+  } else {
+    raceEl.innerHTML = ""; raceEl.style.display = "none";
+  }
 
-  document.querySelectorAll("#tierFilterRow [data-f], #raceFilterRow [data-f]").forEach(btn => {
+  document.querySelectorAll(`#${P.tierRow} [data-f], #${P.raceRow} [data-f]`).forEach(btn => {
     btn.addEventListener("click", () => {
       const f = btn.dataset.f, v = btn.dataset.v;
-      FILTERS[f] = (f==="race" && FILTERS.race===v && v!=="全部") ? "全部" : v;
-      buildFilterBars();
-      applyFilters();
+      P.f[f] = (f==="race" && P.f.race===v && v!=="全部") ? "全部" : v;
+      buildFilterBars(key);
+      applyFilters(key);
     });
   });
 }
 
-function applyFilters() {
-  const show = document.getElementById("showOldVersion").checked;
-  let list = (DATA.scalingBuilds || []).filter(b => show || b.currentVersion !== false);
-  if (FILTERS.tier !== "全部") list = list.filter(b => tierOf(b.rank) === FILTERS.tier);
-  if (FILTERS.diff !== "全部") list = list.filter(b => diffKey(b.difficulty) === FILTERS.diff);
-  if (FILTERS.race !== "全部") list = list.filter(b => raceCodes(b.races).includes(FILTERS.race));
-  const el = document.getElementById("tierList");
-  renderTierGroups(el, list, "tier");
+function applyFilters(key) {
+  const P = PANELS[key];
+  let list = (DATA[P.dataKey] || []).slice();
+  if (P.toggleEl) {
+    const show = document.getElementById(P.toggleEl).checked;
+    list = list.filter(b => show || b.currentVersion !== false);
+  }
+  if (P.f.tier !== "全部") list = list.filter(b => tierOf(b.rank) === P.f.tier);
+  if (P.f.diff !== "全部") list = list.filter(b => diffKey(b.difficulty) === P.f.diff);
+  if (P.f.race !== "全部") list = list.filter(b => raceCodes(b.races).includes(P.f.race));
+  const el = document.getElementById(P.listEl);
+  renderTierGroups(el, list, P.kind);
   bindRows(el);
-  const total = (DATA.scalingBuilds || []).length;
-  const hidden = (DATA.scalingBuilds || []).filter(b => b.currentVersion === false).length;
-  document.getElementById("tierCount").textContent =
-    `${list.length} / ${total} 套組合` + (hidden ? ` ｜ 🗃️ ${hidden} 組可顯示` : "");
+  const total = (DATA[P.dataKey] || []).length;
+  const hidden = P.toggleEl ? (DATA[P.dataKey] || []).filter(b => b.currentVersion === false).length : 0;
+  document.getElementById(P.countEl).textContent =
+    `${list.length} / ${total} ${P.noun}` + (hidden ? ` ｜ 🗃️ ${hidden} 組可顯示` : "");
 }
 
 function setupTabs() {
@@ -234,10 +246,9 @@ async function init() {
   document.getElementById("hsVersion").textContent = "v" + (m.hsVersion || "[?]");
   document.getElementById("lastUpdated").textContent = m.lastUpdated || "—";
 
-  // counter page
-  const cEl = document.getElementById("counterList");
-  renderTierGroups(cEl, DATA.counters || [], "counter");
-  bindRows(cEl);
+  // counter page (with filters)
+  buildFilterBars("counter");
+  applyFilters("counter");
 
   // duo page
   const duo = DATA.duo || {};
@@ -246,9 +257,9 @@ async function init() {
     (duo.tips || []).map(t => `<div class="duo-card"><h3>${esc(t.title)}</h3><p>${esc(t.detail)}</p></div>`).join("");
 
   // tier page + filters + version toggle
-  document.getElementById("showOldVersion").addEventListener("change", applyFilters);
-  buildFilterBars();
-  applyFilters();
+  document.getElementById("showOldVersion").addEventListener("change", () => applyFilters("tier"));
+  buildFilterBars("tier");
+  applyFilters("tier");
 }
 
 document.addEventListener("DOMContentLoaded", init);
