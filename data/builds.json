@@ -264,7 +264,7 @@
       ],
       "addonIds": [
         "BG26_817",
-        null
+        "BG22_HERO_002p"
       ]
     },
     {
@@ -344,7 +344,7 @@
       "notes": "異變版本首次記錄，「0分卡的魅力」",
       "coreIds": [
         "BG32_822",
-        null,
+        "BG33_823",
         "EBG_Spell_017"
       ],
       "addonIds": [
@@ -917,7 +917,7 @@
       "question": "遇到「辛多雷」怎麼辦？",
       "coreIds": [
         "BG28_603",
-        null
+        "BG23_318"
       ],
       "addonIds": []
     },
@@ -948,7 +948,7 @@
       "positioning": "[嘲諷] [老鼠] [毒素] [老鼠] [毒素] [其他] 前排   後排",
       "coreIds": [
         "BG_CFM_316",
-        null,
+        "BG28_825",
         "BGS_131"
       ],
       "addonIds": [
