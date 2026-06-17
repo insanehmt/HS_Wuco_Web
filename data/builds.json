@@ -30,6 +30,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=dzdsFk_zCsE",
+      "episode": "#2098",
       "hsVersion": "[?]",
       "currentVersion": true,
       "coreCards": [
@@ -73,6 +74,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=-m9mZaaqV58",
+      "episode": "#2096",
       "hsVersion": "[?]",
       "currentVersion": true,
       "coreCards": [
@@ -112,6 +114,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=VJccJ1_tfWE",
+      "episode": "#2097",
       "hsVersion": "[?]",
       "currentVersion": true,
       "coreCards": [
@@ -135,7 +138,7 @@
       "coreIds": [
         "BG26_867",
         "BG26_ICC_065",
-        null
+        "BG35_Anomaly_001"
       ],
       "addonIds": [
         "BG30_802",
@@ -155,6 +158,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=y1kuxNQaZYE",
+      "episode": "#2095",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -196,6 +200,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=VqqFQx-kUAw",
+      "episode": "#2091b",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -233,6 +238,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=B7sXlTRnG9U",
+      "episode": "#2091a",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -273,6 +279,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=_JKeaW-iAeE",
+      "episode": "#2093",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -316,6 +323,7 @@
         "元素"
       ],
       "source": "https://www.youtube.com/watch?v=8VQua3yJ9OY",
+      "episode": "#2090",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -342,7 +350,7 @@
       "addonIds": [
         "BG26_ICC_027",
         "BG34_921",
-        "BG27_004_Gt2"
+        "BG27_004t2"
       ]
     },
     {
@@ -357,6 +365,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=vOKvIYzUaIQ",
+      "episode": "#2089",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -395,6 +404,7 @@
         "機械"
       ],
       "source": "https://www.youtube.com/watch?v=SEMRsTwnSdk",
+      "episode": "#2088",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -434,6 +444,7 @@
         "機械"
       ],
       "source": "https://www.youtube.com/watch?v=_ezkW-sjH_s",
+      "episode": "#2084",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -475,6 +486,7 @@
         "元素"
       ],
       "source": "https://www.youtube.com/watch?v=G3Jp-i9DYeg",
+      "episode": "#2087",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -518,6 +530,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=nZqoj7grUYk",
+      "episode": "#2086",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -557,6 +570,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=XdMznIpXqtQ",
+      "episode": "#2085",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -595,6 +609,7 @@
         "海盜"
       ],
       "source": "https://www.youtube.com/watch?v=paql4_iBNLM",
+      "episode": "#2083",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -634,6 +649,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=z0iUZZpbWtk",
+      "episode": "#2082",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -674,6 +690,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=17ihPzmqps0",
+      "episode": "#2081",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -715,6 +732,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=cFXcaUNSMUQ",
+      "episode": "#2079",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -759,6 +777,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=VXavj5chGR0",
+      "episode": "#2078",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -783,7 +802,7 @@
         "BG35_883_G"
       ],
       "addonIds": [
-        null,
+        "BG26_505",
         "BG26_ICC_027"
       ]
     },
@@ -799,6 +818,7 @@
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=PdS51pvZaP8",
+      "episode": "#2077",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -839,6 +859,7 @@
         "龍族"
       ],
       "source": "https://www.youtube.com/watch?v=uwJp4TzUTsA",
+      "episode": "#2075",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -879,6 +900,7 @@
       "statusKey": "active",
       "difficulty": "低",
       "source": "https://www.youtube.com/watch?v=dzdsFk_zCsE",
+      "episode": "#2098",
       "hsVersion": "[?]",
       "currentVersion": true,
       "coreCards": [
@@ -907,6 +929,7 @@
       "statusKey": "active",
       "difficulty": "中",
       "source": "https://www.youtube.com/watch?v=-m9mZaaqV58",
+      "episode": "#2096",
       "hsVersion": "[?]",
       "currentVersion": true,
       "coreCards": [
@@ -941,6 +964,7 @@
       "statusKey": "active",
       "difficulty": "低",
       "source": "https://www.youtube.com/watch?v=B7sXlTRnG9U",
+      "episode": "#2091a",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -969,6 +993,7 @@
       "statusKey": "active",
       "difficulty": "中",
       "source": "https://www.youtube.com/watch?v=paql4_iBNLM",
+      "episode": "#2083",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -995,6 +1020,7 @@
       "statusKey": "active",
       "difficulty": "中",
       "source": "https://www.youtube.com/watch?v=17ihPzmqps0",
+      "episode": "#2081",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -1025,6 +1051,7 @@
       "statusKey": "active",
       "difficulty": "中",
       "source": "https://www.youtube.com/watch?v=uwJp4TzUTsA",
+      "episode": "#2075",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -1051,6 +1078,7 @@
       "statusKey": "active",
       "difficulty": "中",
       "source": "https://www.youtube.com/watch?v=6PVHMZCGpsk",
+      "episode": "#2076",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -1077,6 +1105,7 @@
       "statusKey": "active",
       "difficulty": "中",
       "source": "https://www.youtube.com/watch?v=PdS51pvZaP8",
+      "episode": "#2077",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -1115,6 +1144,7 @@
       "statusKey": "active",
       "difficulty": "低",
       "source": "https://www.youtube.com/watch?v=XdMznIpXqtQ",
+      "episode": "#2085",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -1142,6 +1172,7 @@
       "statusKey": "active",
       "difficulty": "中",
       "source": "https://www.youtube.com/watch?v=nZqoj7grUYk",
+      "episode": "#2086",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
@@ -1170,6 +1201,7 @@
       "statusKey": "active",
       "difficulty": "高",
       "source": "https://www.youtube.com/watch?v=_JKeaW-iAeE",
+      "episode": "#2093",
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
