@@ -232,7 +232,8 @@ async function init() {
   document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
 
   try {
-    const res = await fetch("data/builds.json", { cache: "no-store" });
+    // 加時間戳避開 GitHub Pages 邊緣 CDN 快取，確保拿到最新資料
+    const res = await fetch("data/builds.json?t=" + Date.now(), { cache: "no-store" });
     DATA = await res.json();
   } catch (e) {
     document.getElementById("tierList").innerHTML =
