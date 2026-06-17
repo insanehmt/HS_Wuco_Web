@@ -1,124 +1,150 @@
-/* 無口君 爐石戰場 排組對策站 — 前端邏輯 (vanilla JS, GitHub Pages friendly) */
+/* 無口君 爐石戰場 排組對策站 — themed after hs-bg-web tier-list */
 
-const RANK_COLORS = {
-  "S+": "#f2c14e",
-  "S":  "#ef8e5b",
-  "A":  "#7dd87d",
-  "B":  "#6db3f2",
-  "C":  "#9aa7b4"
+const esc = (s) => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
+
+// rank (S+/S/A/B/C) → tier group used for sorting & badge class
+const TIER_ORDER = ["S", "A", "B", "C"];
+const tierOf = (rank) => {
+  const r = String(rank).toUpperCase();
+  if (r.startsWith("S")) return "S";
+  if (r.startsWith("A")) return "A";
+  if (r.startsWith("B")) return "B";
+  return "C";
+};
+const TIER_LABEL = {
+  S: "🔥 頂級 — 當前賽季最強",
+  A: "💪 強勢 — 穩定上分",
+  B: "⚖️ 中庸 — 看局勢",
+  C: "🧪 實驗 — 娛樂/特定局",
 };
 
-const ytId = (url) => {
-  const m = String(url).match(/[?&]v=([^&]+)/);
-  return m ? m[1] : null;
+// Chinese race string → race code (matches reference race-pill classes)
+const RACE_MAP = [
+  ["龍", "DRAGON"], ["納迦", "NAGA"], ["惡魔", "DEMON"], ["海盜", "PIRATE"],
+  ["機械", "MECHANICAL"], ["魚人", "MURLOC"], ["野豬", "QUILBOAR"],
+  ["不死", "UNDEAD"], ["亡靈", "UNDEAD"], ["元素", "ELEMENTAL"],
+  ["野獸", "BEAST"], ["中立", "ALL"],
+];
+const RACE_ZH = {
+  DRAGON:"龍族", NAGA:"納迦", DEMON:"惡魔", PIRATE:"海盜", MECHANICAL:"機械",
+  MURLOC:"魚人", QUILBOAR:"野豬人", UNDEAD:"亡靈", ELEMENTAL:"元素",
+  BEAST:"野獸", ALL:"中立",
 };
-
-const esc = (s) => String(s ?? "")
-  .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
-
-function statusClass(key) {
-  return key === "active" ? "status-active"
-       : key === "warning" ? "status-warning"
-       : key === "nerf" ? "status-nerf" : "";
+function raceCodes(races) {
+  const out = [];
+  (races || []).forEach((zh) => {
+    for (const [key, code] of RACE_MAP) {
+      if (zh.includes(key) && !out.includes(code)) { out.push(code); break; }
+    }
+  });
+  return out;
 }
 
-function chips(arr, cls) {
-  return (arr || []).map(r => `<span class="chip ${cls}">${esc(r)}</span>`).join("");
-}
+// difficulty 高/中/低 → easy/medium/hard
+const diffKey = (d) => (d || "").includes("高") ? "hard" : (d || "").includes("低") ? "easy" : "medium";
+const diffLabel = (d) => ({hard:"🔴 困難", medium:"🟡 中等", easy:"🟢 簡單"})[diffKey(d)];
 
-function tipsList(tips) {
-  if (!tips || !tips.length) return "";
-  return `<ul class="tips">${tips.map(t => `<li>${esc(t)}</li>`).join("")}</ul>`;
-}
-
-function ytButton(url) {
-  if (!url) return "";
-  return `<a class="yt-btn" href="${esc(url)}" target="_blank" rel="noopener">看無口君影片</a>`;
-}
-
-function buildCard(b) {
-  const color = RANK_COLORS[b.rank] || "#888";
-  const dim = b.currentVersion === false ? " dim" : "";
+function rowHTML(b, kind) {
+  const tier = tierOf(b.rank);
+  const races = raceCodes(b.races);
+  const dk = diffKey(b.difficulty);
+  const archived = b.currentVersion === false;
+  const coreChips = (b.coreCards || []).map(c => `<span class="card-chip core">${esc(c)}</span>`).join("");
+  const addonChips = (b.supportCards || []).map(c => `<span class="card-chip addon">${esc(c)}</span>`).join("");
+  const racePills = races.map(r => `<span class="race-pill race-${r}">${esc(RACE_ZH[r]||r)}</span>`).join("");
+  const qtag = b.question ? `<span class="q-tag">❓ ${esc(b.question)}</span>` : "";
   return `
-  <article class="build-card${dim}" style="--rank-color:${color}" data-current="${b.currentVersion !== false}">
-    <div class="bc-top">
-      <div class="rank-badge">${esc(b.rank)}</div>
-      <div class="bc-title">
-        <div class="bc-id">${esc(b.id)}</div>
-        <h3>${esc(b.name)}</h3>
+  <div class="comp-row tier-${tier}-row ${archived ? "rotated" : ""}" data-id="${esc(b.id)}" data-kind="${kind}" tabindex="0">
+    <div class="tier-badge tier-${tier} row-badge">${esc(b.rank)}</div>
+    <span class="row-name">${esc(b.name)}</span>
+    ${archived ? `<span class="archive-tag" title="使用非當前版本卡牌">🗃️ 歸檔</span>` : ""}
+    ${qtag}
+    ${racePills}
+    <span class="diff-${dk}">${diffLabel(b.difficulty)}</span>
+    <div class="vdiv"></div>
+    ${coreChips}
+    ${addonChips ? `<div class="vdiv"></div>${addonChips}` : ""}
+    <span class="arrow">›</span>
+  </div>`;
+}
+
+function renderTierGroups(el, items, kind) {
+  let html = "";
+  for (const tier of TIER_ORDER) {
+    const group = items.filter(b => tierOf(b.rank) === tier);
+    if (!group.length) continue;
+    html += `<div class="tier-sep"><div class="tier-badge tier-${tier}">${tier}</div><div class="line"></div><span>${TIER_LABEL[tier]}</span></div>`;
+    html += `<div class="comp-list">${group.map(b => rowHTML(b, kind)).join("")}</div>`;
+  }
+  el.innerHTML = html || `<p class="note">（無資料）</p>`;
+}
+
+function ovalSlot(name, cls) {
+  return `<div class="cslot"><div class="oval ${cls}">${esc(name)}</div>${cls==="core"?'<div class="tag">CORE</div>':''}</div>`;
+}
+
+function openModal(b) {
+  const tier = tierOf(b.rank);
+  const races = raceCodes(b.races);
+  const dk = diffKey(b.difficulty);
+  const racePills = races.map(r => `<span class="race-pill race-${r}">${esc(RACE_ZH[r]||r)}</span>`).join("");
+  const core = (b.coreCards || []).map(c => ovalSlot(c, "core")).join("");
+  const addon = (b.supportCards || []).map(c => ovalSlot(c, "addon")).join("");
+  const tips = (b.tips || []).map(t => `<div class="tip-item"><span class="b">▸</span><span>${esc(t)}</span></div>`).join("");
+  const box = document.getElementById("modalBox");
+  box.innerHTML = `
+    <div class="modal-header">
+      <div class="modal-htop">
+        <div class="tier-badge tier-${tier}" style="width:44px;height:44px;border-radius:10px;font-size:1.3rem">${esc(b.rank)}</div>
+        <div>
+          <div class="modal-title">${esc(b.name)}</div>
+          <div style="display:flex;gap:6px;margin-top:4px;flex-wrap:wrap">
+            ${racePills}<span class="diff-${dk}">${diffLabel(b.difficulty)}</span>
+            <span style="font-size:.66rem;color:#6a5a7a;align-self:center">${esc(b.status||"")}</span>
+          </div>
+        </div>
+        <button class="modal-close" id="modalClose">✕</button>
       </div>
     </div>
-    <div class="meta-row">
-      <span class="chip ${statusClass(b.statusKey)}">${esc(b.status)}</span>
-      <span class="chip diff">難度：${esc(b.difficulty)}</span>
-      ${b.hsVersion ? `<span class="chip">版本：${esc(b.hsVersion)}</span>` : ""}
-    </div>
-    <div class="meta-row">${chips(b.races, "race")}</div>
-    <div>
-      <div class="section-label">核心卡牌</div>
-      <div class="cards-line core">${esc((b.coreCards || []).join("、"))}</div>
-    </div>
-    ${b.supportCards && b.supportCards.length ? `
-    <div>
-      <div class="section-label">搭配卡牌</div>
-      <div class="cards-line">${esc(b.supportCards.join("、"))}</div>
-    </div>` : ""}
-    <div>
-      <div class="section-label">運作邏輯</div>
-      <div class="logic">${esc(b.logic)}</div>
-    </div>
-    <div>
-      <div class="section-label">Tips</div>
-      ${tipsList(b.tips)}
-    </div>
-    ${ytButton(b.source)}
-    ${b.notes ? `<div class="notes-line">${esc(b.notes)}</div>` : ""}
-  </article>`;
+    <div class="modal-body">
+      ${b.question ? `<div class="strategy-box" style="border-color:#205060;color:#9bd6e6;margin-bottom:4px">❓ ${esc(b.question)}${b.against?`<br><span style="color:#6a5a7a;font-size:.78rem">針對：${esc(b.against)}</span>`:""}</div>` : ""}
+      <div class="section-title">🔑 核心卡牌 Core Cards</div>
+      <div class="cslot-row">${core}</div>
+      ${addon ? `<div class="section-title">🔧 搭配卡牌 Addon Cards</div><div class="cslot-row">${addon}</div>` : ""}
+      <div class="section-title">📖 排組說明</div>
+      <div class="strategy-box">${esc(b.logic)}</div>
+      ${b.positioning ? `<div class="section-title">📍 站位</div><div class="strategy-box" style="font-family:monospace;font-size:.78rem">${esc(b.positioning)}</div>` : ""}
+      ${tips ? `<div class="section-title">💡 注意事項 Tips</div>${tips}` : ""}
+      ${b.source ? `<div><a class="yt-btn" href="${esc(b.source)}" target="_blank" rel="noopener">看無口君影片</a></div>` : ""}
+      ${b.notes ? `<div class="notes-line">${esc(b.notes)}</div>` : ""}
+    </div>`;
+  document.getElementById("modal").classList.add("open");
+  document.getElementById("modalClose").addEventListener("click", closeModal);
 }
+function closeModal() { document.getElementById("modal").classList.remove("open"); }
 
-function counterCard(c) {
-  const color = RANK_COLORS[c.rank] || "#888";
-  return `
-  <article class="build-card" style="--rank-color:${color}">
-    <div class="bc-top">
-      <div class="rank-badge">${esc(c.rank)}</div>
-      <div class="bc-title">
-        <div class="bc-id">${esc(c.id)}</div>
-        <h3>${esc(c.name)}</h3>
-      </div>
-    </div>
-    ${c.question ? `<div class="q-line">❓ ${esc(c.question)}</div>` : ""}
-    <div class="meta-row">
-      <span class="chip ${statusClass(c.statusKey)}">${esc(c.status)}</span>
-      <span class="chip diff">難度：${esc(c.difficulty)}</span>
-    </div>
-    ${c.against ? `<div><div class="section-label">針對</div><div class="cards-line">${esc(c.against)}</div></div>` : ""}
-    <div>
-      <div class="section-label">核心卡牌</div>
-      <div class="cards-line core">${esc((c.coreCards || []).join("、"))}</div>
-    </div>
-    ${c.supportCards && c.supportCards.length ? `
-    <div><div class="section-label">搭配卡牌</div><div class="cards-line">${esc(c.supportCards.join("、"))}</div></div>` : ""}
-    <div>
-      <div class="section-label">運作邏輯</div>
-      <div class="logic">${esc(c.logic)}</div>
-    </div>
-    ${c.positioning ? `<div><div class="section-label">站位</div><div class="positioning">${esc(c.positioning)}</div></div>` : ""}
-    <div><div class="section-label">Tips</div>${tipsList(c.tips)}</div>
-    ${ytButton(c.source)}
-    ${c.notes ? `<div class="notes-line">${esc(c.notes)}</div>` : ""}
-  </article>`;
-}
-
-function duoCard(t) {
-  return `<article class="duo-card"><h3>${esc(t.title)}</h3><p>${esc(t.detail)}</p></article>`;
+let DATA = null;
+function bindRows(el) {
+  el.querySelectorAll(".comp-row").forEach(row => {
+    const open = () => {
+      const kind = row.dataset.kind, id = row.dataset.id;
+      const pool = kind === "counter" ? DATA.counters : DATA.scalingBuilds;
+      const b = (pool || []).find(x => x.id === id);
+      if (b) openModal(b);
+    };
+    row.addEventListener("click", open);
+    row.addEventListener("keydown", e => { if (e.key === "Enter") open(); });
+  });
 }
 
 function applyVersionFilter(show) {
-  document.querySelectorAll("#tierList .build-card").forEach(el => {
-    const current = el.getAttribute("data-current") === "true";
-    el.style.display = (current || show) ? "" : "none";
-  });
+  const list = (DATA.scalingBuilds || []).filter(b => show || b.currentVersion !== false);
+  const el = document.getElementById("tierList");
+  renderTierGroups(el, list, "tier");
+  bindRows(el);
+  const hidden = (DATA.scalingBuilds || []).filter(b => b.currentVersion === false).length;
+  document.getElementById("tierCount").textContent =
+    `${list.length} 套組合` + (hidden ? ` ｜ 🗃️ ${hidden} 組已隱藏` : "");
 }
 
 function setupTabs() {
@@ -133,41 +159,35 @@ function setupTabs() {
 
 async function init() {
   setupTabs();
-  let data;
+  document.getElementById("modal").addEventListener("click", e => { if (e.target.id === "modal") closeModal(); });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
   try {
     const res = await fetch("data/builds.json", { cache: "no-store" });
-    data = await res.json();
+    DATA = await res.json();
   } catch (e) {
     document.getElementById("tierList").innerHTML =
-      `<p class="note">⚠️ 無法載入資料：${esc(e.message)}（請以 HTTP 伺服器或 GitHub Pages 開啟，勿直接 file:// 開啟）</p>`;
+      `<p class="note">⚠️ 無法載入資料：${esc(e.message)}（請用 HTTP 伺服器或 GitHub Pages 開啟，勿用 file://）</p>`;
     return;
   }
 
-  // meta
-  const m = data.meta || {};
-  if (m.source) { const a = document.getElementById("sourceLink"); a.href = m.source; }
-  document.getElementById("hsVersion").textContent = m.hsVersion || "[?]";
+  const m = DATA.meta || {};
+  if (m.source) document.getElementById("sourceLink").href = m.source;
+  document.getElementById("hsVersion").textContent = "v" + (m.hsVersion || "[?]");
   document.getElementById("lastUpdated").textContent = m.lastUpdated || "—";
 
-  // tier
-  document.getElementById("tierList").innerHTML =
-    (data.scalingBuilds || []).map(buildCard).join("");
-  const hasOld = (data.scalingBuilds || []).some(b => b.currentVersion === false);
-  document.getElementById("tierVersionNote").textContent = hasOld
-    ? "部分排組使用非當前版本卡牌，已預設隱藏。勾選右上方可顯示。搭配卡仍可用者會加註說明。"
-    : "目前所有排組皆使用當前版本可用卡牌。";
+  // counter page
+  const cEl = document.getElementById("counterList");
+  renderTierGroups(cEl, DATA.counters || [], "counter");
+  bindRows(cEl);
 
-  // counters
-  document.getElementById("counterList").innerHTML =
-    (data.counters || []).map(counterCard).join("");
-
-  // duo
-  const duo = data.duo || {};
-  document.getElementById("duoIntro").textContent = duo.intro || "";
+  // duo page
+  const duo = DATA.duo || {};
+  document.getElementById("duoIntro").textContent = "👥 " + (duo.intro || "");
   document.getElementById("duoList").innerHTML =
-    (duo.tips || []).map(duoCard).join("");
+    (duo.tips || []).map(t => `<div class="duo-card"><h3>${esc(t.title)}</h3><p>${esc(t.detail)}</p></div>`).join("");
 
-  // version toggle
+  // tier page + version toggle
   const toggle = document.getElementById("showOldVersion");
   toggle.addEventListener("change", () => applyVersionFilter(toggle.checked));
   applyVersionFilter(false);

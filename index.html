@@ -5,59 +5,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>無口君 爐石戰場 排組對策站</title>
   <meta name="description" content="無口君（Wuco）爐石戰記英雄戰場影片分析 — 提升素質排組、終局對策、雙打專區。" />
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Noto+Sans+TC:wght@400;600;700;900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="wrap">
-      <h1 class="site-title">無口君 <span>爐石戰場</span> 排組對策站</h1>
-      <p class="site-sub">Wuco Hearthstone Battlegrounds — Tier List &amp; Counters</p>
-      <p class="site-meta">
-        資料來源：<a id="sourceLink" href="https://www.youtube.com/@Wuco/videos" target="_blank" rel="noopener">@Wuco</a>
-        ｜ HS 版本：<span id="hsVersion">[?]</span>
-        ｜ 更新：<span id="lastUpdated">—</span>
-      </p>
+    <div class="wrap header-row">
+      <span class="page-title">⚔️ 無口君 爐石戰場</span>
+      <span class="badge-season">Wuco</span>
+      <span class="badge-ver" id="hsVersion">v[?]</span>
+      <span class="header-src">資料來源：<a id="sourceLink" href="https://www.youtube.com/@Wuco/videos" target="_blank" rel="noopener">@Wuco</a> ｜ 更新 <span id="lastUpdated">—</span></span>
     </div>
+    <nav class="wrap tabs" role="tablist">
+      <button class="tab is-active" data-tab="tier"    role="tab">⚔️ 排組頁 <small>Tier List</small></button>
+      <button class="tab"           data-tab="counter" role="tab">🛡️ 對策頁 <small>Counter</small></button>
+      <button class="tab"           data-tab="duo"     role="tab">👥 雙打專區 <small>Duo</small></button>
+    </nav>
   </header>
-
-  <nav class="tabs wrap" role="tablist">
-    <button class="tab is-active" data-tab="tier"    role="tab">排組頁 <small>Tier List</small></button>
-    <button class="tab"           data-tab="counter" role="tab">對策頁 <small>Counter</small></button>
-    <button class="tab"           data-tab="duo"     role="tab">雙打專區 <small>Duo</small></button>
-  </nav>
 
   <main class="wrap">
     <!-- 排組頁 -->
     <section id="tab-tier" class="tabpanel is-active">
-      <div class="panel-head">
-        <h2>🔺 提升素質排組 <small>Scaling Builds</small></h2>
-        <label class="toggle">
-          <input type="checkbox" id="showOldVersion" />
-          <span>顯示非當前版本排組</span>
-        </label>
+      <div class="toolbar">
+        <span class="count" id="tierCount">—</span>
+        <label class="toggle"><input type="checkbox" id="showOldVersion" /><span>🗃️ 顯示歸檔（非當前版本）</span></label>
       </div>
-      <p class="note" id="tierVersionNote"></p>
-      <div id="tierList" class="card-grid"></div>
+      <div id="tierList"></div>
     </section>
 
     <!-- 對策頁 -->
     <section id="tab-counter" class="tabpanel">
-      <div class="panel-head">
-        <h2>🛡️ 終局對策 <small>Endgame Counters</small></h2>
-      </div>
-      <p class="note">依「遇到什麼怎麼辦」對應對策排組。</p>
-      <div id="counterList" class="card-grid"></div>
+      <p class="note">🛡️ 終局對策 — 依「遇到什麼怎麼辦」對應對策排組。點一列看詳情。</p>
+      <div id="counterList"></div>
     </section>
 
     <!-- 雙打專區 -->
     <section id="tab-duo" class="tabpanel">
-      <div class="panel-head">
-        <h2>👥 雙打專區 <small>Duo 2v2</small></h2>
-      </div>
       <p class="note" id="duoIntro"></p>
       <div id="duoList" class="duo-grid"></div>
     </section>
   </main>
+
+  <!-- detail modal -->
+  <div class="modal-backdrop" id="modal">
+    <div class="modal-box" id="modalBox"></div>
+  </div>
 
   <footer class="site-footer wrap">
     <p>非官方粉絲站 ｜ 內容整理自無口君公開影片，版權歸原作者所有。</p>
