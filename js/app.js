@@ -158,14 +158,50 @@ function bindRows(el) {
   });
 }
 
-function applyVersionFilter(show) {
-  const list = (DATA.scalingBuilds || []).filter(b => show || b.currentVersion !== false);
+const FILTERS = { tier: "全部", diff: "全部", race: "全部" };
+const RACE_ORDER = ["DRAGON","NAGA","DEMON","PIRATE","MECHANICAL","MURLOC","QUILBOAR","UNDEAD","ELEMENTAL","BEAST","ALL"];
+
+function buildFilterBars() {
+  // tier + difficulty
+  const tiers = ["全部","S","A","B","C"];
+  const diffs = [["全部","全部難度"],["easy","🟢 簡單"],["medium","🟡 中等"],["hard","🔴 困難"]];
+  let th = "";
+  tiers.forEach(t => th += `<button class="fbtn${FILTERS.tier===t?' on':''}" data-f="tier" data-v="${t}">${t==='全部'?'全部 Tier':'Tier '+t}</button>`);
+  th += `<span class="vsep"></span>`;
+  diffs.forEach(([v,label]) => th += `<button class="fbtn${FILTERS.diff===v?' on':''}" data-f="diff" data-v="${v}">${label}</button>`);
+  document.getElementById("tierFilterRow").innerHTML = th;
+
+  // race pills (only races present in data)
+  const present = [];
+  (DATA.scalingBuilds||[]).forEach(b => raceCodes(b.races).forEach(r => { if(!present.includes(r)) present.push(r); }));
+  const ordered = RACE_ORDER.filter(r => present.includes(r));
+  let rh = `<span class="flabel">族裔：</span><button class="fbtn${FILTERS.race==='全部'?' on':''}" data-f="race" data-v="全部">全部</button>`;
+  ordered.forEach(r => rh += `<button class="race-pill race-${r} fpill${FILTERS.race===r?' on':''}" data-f="race" data-v="${r}">${esc(RACE_ZH[r]||r)}</button>`);
+  document.getElementById("raceFilterRow").innerHTML = rh;
+
+  document.querySelectorAll("#tierFilterRow [data-f], #raceFilterRow [data-f]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const f = btn.dataset.f, v = btn.dataset.v;
+      FILTERS[f] = (f==="race" && FILTERS.race===v && v!=="全部") ? "全部" : v;
+      buildFilterBars();
+      applyFilters();
+    });
+  });
+}
+
+function applyFilters() {
+  const show = document.getElementById("showOldVersion").checked;
+  let list = (DATA.scalingBuilds || []).filter(b => show || b.currentVersion !== false);
+  if (FILTERS.tier !== "全部") list = list.filter(b => tierOf(b.rank) === FILTERS.tier);
+  if (FILTERS.diff !== "全部") list = list.filter(b => diffKey(b.difficulty) === FILTERS.diff);
+  if (FILTERS.race !== "全部") list = list.filter(b => raceCodes(b.races).includes(FILTERS.race));
   const el = document.getElementById("tierList");
   renderTierGroups(el, list, "tier");
   bindRows(el);
+  const total = (DATA.scalingBuilds || []).length;
   const hidden = (DATA.scalingBuilds || []).filter(b => b.currentVersion === false).length;
   document.getElementById("tierCount").textContent =
-    `${list.length} 套組合` + (hidden ? ` ｜ 🗃️ ${hidden} 組已隱藏` : "");
+    `${list.length} / ${total} 套組合` + (hidden ? ` ｜ 🗃️ ${hidden} 組可顯示` : "");
 }
 
 function setupTabs() {
@@ -209,10 +245,10 @@ async function init() {
   document.getElementById("duoList").innerHTML =
     (duo.tips || []).map(t => `<div class="duo-card"><h3>${esc(t.title)}</h3><p>${esc(t.detail)}</p></div>`).join("");
 
-  // tier page + version toggle
-  const toggle = document.getElementById("showOldVersion");
-  toggle.addEventListener("change", () => applyVersionFilter(toggle.checked));
-  applyVersionFilter(false);
+  // tier page + filters + version toggle
+  document.getElementById("showOldVersion").addEventListener("change", applyFilters);
+  buildFilterBars();
+  applyFilters();
 }
 
 document.addEventListener("DOMContentLoaded", init);

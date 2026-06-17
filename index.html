@@ -26,9 +26,13 @@
   <main class="wrap">
     <!-- 排組頁 -->
     <section id="tab-tier" class="tabpanel is-active">
-      <div class="toolbar">
-        <span class="count" id="tierCount">—</span>
-        <label class="toggle"><input type="checkbox" id="showOldVersion" /><span>🗃️ 顯示歸檔（非當前版本）</span></label>
+      <div class="filterbar">
+        <div class="filter-row" id="tierFilterRow"></div>
+        <div class="filter-row" id="raceFilterRow"></div>
+        <div class="filter-row meta-row">
+          <span class="count" id="tierCount">—</span>
+          <label class="toggle"><input type="checkbox" id="showOldVersion" /><span>🗃️ 顯示歸檔（非當前版本）</span></label>
+        </div>
       </div>
       <div id="tierList"></div>
     </section>

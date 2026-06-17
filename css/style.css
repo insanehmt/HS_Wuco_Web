@@ -45,6 +45,18 @@ a { text-decoration: none; }
 
 .toolbar { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 14px; }
 .toolbar .count { font-size: .75rem; color: #6a5a7a; }
+
+/* filter bar (ported from hs-bg-web) */
+.filterbar { display: flex; flex-direction: column; gap: 8px; margin-bottom: 16px; }
+.filter-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+.filter-row.meta-row { margin-top: 2px; }
+.filter-row .flabel { font-size: .68rem; color: #5a4a6a; flex-shrink: 0; margin-right: 2px; }
+.filter-row .vsep { width: 1px; height: 18px; background: #2a1040; margin: 0 4px; }
+.fbtn { padding: 4px 13px; border-radius: 6px; border: 1px solid #3a1a50; color: #8060a0; font-size: .78rem; cursor: pointer; transition: all .15s; background: transparent; white-space: nowrap; font-family: inherit; }
+.fbtn.on, .fbtn:hover { background: #2a0a40; border-color: #9060c0; color: #d0a0ff; }
+.race-pill.fpill { cursor: pointer; border: 1px solid transparent; transition: all .15s; font-size: .72rem; padding: 3px 9px; opacity: .5; }
+.race-pill.fpill.on, .race-pill.fpill:hover { opacity: 1; outline: 2px solid #9060c0; outline-offset: 1px; }
+.filter-row .count { font-size: .75rem; color: #6a5a7a; }
 .note { color: #6a5a7a; font-size: .8rem; margin: 2px 0 14px; }
 .toggle { display: inline-flex; align-items: center; gap: 7px; color: #8060a0; font-size: .78rem; cursor: pointer; user-select: none; margin-left: auto; }
 .toggle input { accent-color: #9060c0; }
