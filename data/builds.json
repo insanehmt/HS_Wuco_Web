@@ -1,0 +1,136 @@
+{
+  "meta": {
+    "title": "無口君 爐石戰場 排組對策站",
+    "subtitle": "Wuco Hearthstone Battlegrounds Tier List & Counters",
+    "source": "https://www.youtube.com/@Wuco/videos",
+    "hsVersion": "[?]",
+    "lastUpdated": "2026-06-18",
+    "rankOrder": ["S+", "S", "A", "B", "C"]
+  },
+  "scalingBuilds": [
+    {
+      "id": "B-01",
+      "name": "無限路克炸雞重生流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": ["不死族", "野獸（炸雞）", "中立"],
+      "source": "https://www.youtube.com/watch?v=dzdsFk_zCsE",
+      "hsVersion": "[?]",
+      "currentVersion": true,
+      "coreCards": ["路克（Luke）", "大科（時光扭曲5星）", "炸雞（帶重生）"],
+      "supportCards": ["天譴軍團法杖", "楊過的手（木乃伊）", "永恆騎士"],
+      "logic": "路克 × 大科複製 → 複數路克賦予全場重生 → 炸雞無限重生 → 對手打不完。天譴軍團法杖進一步召回死亡友方，擴大循環。",
+      "tips": [
+        "大科 5 星（舊版 6 星），現版更容易取得",
+        "留 2 格空位供炸雞重生進場",
+        "剋星：辛多雷（Sindragosa）→ 對策見 C-01"
+      ],
+      "notes": "首次記錄，大科由 6 星調整至 5 星版本（2026-06-18）"
+    },
+    {
+      "id": "B-02",
+      "name": "縫衣針巴姐四倍放大流（魚人局）",
+      "rank": "S+",
+      "status": "⚠️ 預計即將被封印",
+      "statusKey": "warning",
+      "difficulty": "高",
+      "races": ["魚人", "元素（野火）", "中立"],
+      "source": "https://www.youtube.com/watch?v=-m9mZaaqV58",
+      "hsVersion": "[?]",
+      "currentVersion": true,
+      "coreCards": ["縫衣針（Needle，飾品）", "巴姐（Buffet Big'un，普卡即可）"],
+      "supportCards": ["野火（元素）", "合唱團", "強化機器人"],
+      "logic": "縫衣針回收隨從 → 重新打出時數值翻倍。搭配巴姐升級為 4 倍。實測數值路徑：野火 7,000 → 26,000 → 100,000+（「按一下就 2 萬，再按一下就十萬」）。",
+      "tips": [
+        "點牌優先選攻擊力最高者",
+        "維持 2-3 個打點防毒素一刀死",
+        "巴姐金卡無額外加成（已實測），普卡即可"
+      ],
+      "notes": "無口君警告：「魚人局合唱+縫衣針太無敵，一定會被改掉」"
+    },
+    {
+      "id": "B-03",
+      "name": "搖旗吶喊異變 — 三隻小豬十二連死聲流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": ["中立（三隻小豬死聲）"],
+      "source": "https://www.youtube.com/watch?v=VJccJ1_tfWE",
+      "hsVersion": "[?]",
+      "currentVersion": true,
+      "coreCards": ["三隻小豬（Three Little Pigs）", "男爵 Rivendare", "搖旗吶喊（異變技能）"],
+      "supportCards": ["快樂球", "血紅", "地歌薩滿"],
+      "logic": "搖旗吶喊選三隻小豬 → 洗入一打 → 12 張上場。男爵觸發死聲翻倍 → 12 張 = 36 隻小豬出場。地歌薩滿寶石 +80/回合（40 層定型）。",
+      "tips": [
+        "7 星牌無法被選取（上限 6 星）",
+        "三隻小豬 9 個為理想陣容上限",
+        "威脅：機械發明家 2000 攻帶靈氣，需備光盾",
+        "異變其他選項：路克→無限路克 / 不懈哨衛→無限重生 / 雷諾戰巡艦→無限戰巡艦"
+      ],
+      "notes": "首次記錄（2026-06-18）"
+    }
+  ],
+  "counters": [
+    {
+      "id": "C-01",
+      "name": "甲蟲法術 / 嘲諷炸雞防辛多雷",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "低",
+      "question": "遇到聖盾/重生剋星（辛多雷）怎麼辦？",
+      "against": "辛多雷（Sindragosa）剋制無限路克重生流",
+      "source": "https://www.youtube.com/watch?v=dzdsFk_zCsE",
+      "currentVersion": true,
+      "coreCards": ["甲蟲法術（死聲召喚嘲諷）", "嘲諷炸雞"],
+      "logic": "辛多雷效果：攻擊後消除目標重生護盾 → 無限路克流剋星。對策 A（甲蟲法術）：辛多雷前 2 擊打甲蟲/嘲諷死聲 → 浪費辛多雷攻擊次數。對策 B（嘲諷炸雞）：辛多雷強制打炸雞 → 炸雞重生 → 循環消耗辛多雷。",
+      "tips": [
+        "嘲諷炸雞血量需 ≤3，確保辛多雷一擊消滅觸發循環",
+        "辛多雷 70+ 體質：加狼哥卡位"
+      ],
+      "notes": "首次記錄（2026-06-18）"
+    },
+    {
+      "id": "C-02",
+      "name": "老鼠防禦姿態 vs 大怪打點流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "question": "遇到大怪 / 高體質打點流怎麼辦？",
+      "against": "高體質大怪打點流（野豬人等）、縫衣針野火流",
+      "source": "https://www.youtube.com/watch?v=-m9mZaaqV58",
+      "currentVersion": true,
+      "coreCards": ["爆爆老鼠（Rat Pack）x2", "嘲諷隨從", "毒素隨從"],
+      "supportCards": ["蟲子（Venom）", "鼠王（Rat King）"],
+      "logic": "嘲諷卡位 → 老鼠死聲爆出一群小老鼠 → 各帶毒素 → 連鎖爆盾毒殺大怪。對縫衣針野火：野火體質再高，毒素一碰即死。雙鼠王加強效果。",
+      "positioning": "[嘲諷] [老鼠] [毒素] [老鼠] [毒素] [其他]  — 嘲諷站前排，老鼠站後排",
+      "tips": [
+        "老鼠站後排防禦位，嘲諷站前排",
+        "毒素來源：蟲子或帶毒素小隨從",
+        "雙鼠王加強效果"
+      ],
+      "notes": "首次記錄（2026-06-18）"
+    }
+  ],
+  "duo": {
+    "intro": "雙打（2v2）專區：隊友間的資源傳遞與對策支援。",
+    "tips": [
+      {
+        "title": "傳送門傳牌",
+        "detail": "花費 1 枚金幣，透過傳送門把關鍵牌傳給隊友，幫隊友湊齊核心卡（如縫衣針、路克、三隻小豬）。"
+      },
+      {
+        "title": "對策分工",
+        "detail": "一人主打提升素質流（B-01～B-03 衝高數值），另一人準備終局對策（C-01 防辛多雷 / C-02 老鼠毒素防大怪），互補陣容威脅。"
+      },
+      {
+        "title": "毒素 / 嘲諷支援",
+        "detail": "若隊友面對高體質大怪，可傳遞毒素或嘲諷隨從，套用 C-02 老鼠防禦姿態思路一碰即死。"
+      }
+    ]
+  }
+}
