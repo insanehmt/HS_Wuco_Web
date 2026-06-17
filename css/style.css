@@ -82,10 +82,18 @@ a { text-decoration: none; }
 .q-tag { font-size: .66rem; background: #10202a; border: 1px solid #205060; color: #60b0c8; border-radius: 4px; padding: 1px 7px; flex-shrink: 0; white-space: nowrap; }
 .archive-tag { font-size: .65rem; background: #3a1a2a; color: #cc6688; border: 1px solid #662244; border-radius: 4px; padding: 1px 5px; flex-shrink: 0; }
 
-/* card chips inside row */
+/* card chips inside row (text fallback when no card art) */
 .card-chip { font-size: .68rem; padding: 3px 9px; border-radius: 999px; white-space: nowrap; flex-shrink: 0; }
 .card-chip.core { background: #20160a; border: 1px solid #ffd700; color: #ffd700; box-shadow: 0 0 6px #ffd70030; }
 .card-chip.addon { background: #150a22; border: 1px solid #3a2a50; color: #b8a8d0; }
+
+/* card art ovals (in row) */
+.card-oval { border-radius: 50% 50% 44% 44% / 46% 46% 54% 54%; overflow: hidden; background: #1a0a28; flex-shrink: 0; display: flex; align-items: center; justify-content: center; text-align: center; font-size: .55rem; color: #d0c0e8; line-height: 1.15; }
+.card-oval img { width: 100%; height: 100%; object-fit: cover; object-position: center 15%; }
+.card-oval.core { border: 2px solid #ffd700; box-shadow: 0 0 8px #ffd70050; }
+.card-oval.addon { border: 2px solid #3a2a50; }
+.card-oval.sm { width: 44px; height: 44px; }
+.card-oval.xs { width: 38px; height: 38px; padding: 2px; }
 
 /* race / difficulty pills (ported) */
 .race-pill { font-size: .62rem; padding: 2px 7px; border-radius: 8px; font-weight: 600; flex-shrink: 0; }

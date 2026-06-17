@@ -2,6 +2,16 @@
 
 const esc = (s) => String(s ?? "").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;");
 
+let ART = "https://art.hearthstonejson.com/v1/256x/";
+// art oval if id resolved; onerror → show card name text inside the oval
+function artOval(name, id, cls, size) {
+  const n = esc(name);
+  if (!id) return `<div class="card-oval ${cls} ${size}" title="${n}">${n}</div>`;
+  return `<div class="card-oval ${cls} ${size}" title="${n}">`
+       + `<img src="${ART}${esc(id)}.jpg" alt="${n}" loading="lazy"`
+       + ` onerror="this.parentNode.textContent='${n.replace(/'/g,"\\'")}'"></div>`;
+}
+
 // rank (S+/S/A/B/C) → tier group used for sorting & badge class
 const TIER_ORDER = ["S", "A", "B", "C"];
 const tierOf = (rank) => {
@@ -49,8 +59,12 @@ function rowHTML(b, kind) {
   const races = raceCodes(b.races);
   const dk = diffKey(b.difficulty);
   const archived = b.currentVersion === false;
-  const coreChips = (b.coreCards || []).map(c => `<span class="card-chip core">${esc(c)}</span>`).join("");
-  const addonChips = (b.supportCards || []).map(c => `<span class="card-chip addon">${esc(c)}</span>`).join("");
+  const coreIds = b.coreIds || [], addonIds = b.addonIds || [];
+  // card with art id → oval; otherwise text chip
+  const coreChips = (b.coreCards || []).map((c, i) =>
+    coreIds[i] ? artOval(c, coreIds[i], "core", "sm") : `<span class="card-chip core">${esc(c)}</span>`).join("");
+  const addonChips = (b.supportCards || []).map((c, i) =>
+    addonIds[i] ? artOval(c, addonIds[i], "addon", "xs") : `<span class="card-chip addon">${esc(c)}</span>`).join("");
   const racePills = races.map(r => `<span class="race-pill race-${r}">${esc(RACE_ZH[r]||r)}</span>`).join("");
   const qtag = b.question ? `<span class="q-tag">❓ ${esc(b.question)}</span>` : "";
   return `
@@ -79,8 +93,14 @@ function renderTierGroups(el, items, kind) {
   el.innerHTML = html || `<p class="note">（無資料）</p>`;
 }
 
-function ovalSlot(name, cls) {
-  return `<div class="cslot"><div class="oval ${cls}">${esc(name)}</div>${cls==="core"?'<div class="tag">CORE</div>':''}</div>`;
+function ovalSlot(name, id, cls) {
+  const n = esc(name);
+  const inner = id
+    ? `<img src="${ART}${esc(id)}.jpg" alt="${n}" style="width:100%;height:100%;object-fit:cover;object-position:center 15%;border-radius:inherit" onerror="this.parentNode.textContent='${n.replace(/'/g,"\\'")}'">`
+    : n;
+  return `<div class="cslot"><div class="oval ${cls}">${inner}</div>`
+       + `<div class="cname" style="font-size:.6rem;color:#b8a8d0;text-align:center;max-width:80px;line-height:1.2">${n}</div>`
+       + (cls==="core"?'<div class="tag">CORE</div>':'') + `</div>`;
 }
 
 function openModal(b) {
@@ -88,8 +108,9 @@ function openModal(b) {
   const races = raceCodes(b.races);
   const dk = diffKey(b.difficulty);
   const racePills = races.map(r => `<span class="race-pill race-${r}">${esc(RACE_ZH[r]||r)}</span>`).join("");
-  const core = (b.coreCards || []).map(c => ovalSlot(c, "core")).join("");
-  const addon = (b.supportCards || []).map(c => ovalSlot(c, "addon")).join("");
+  const coreIds = b.coreIds || [], addonIds = b.addonIds || [];
+  const core = (b.coreCards || []).map((c, i) => ovalSlot(c, coreIds[i], "core")).join("");
+  const addon = (b.supportCards || []).map((c, i) => ovalSlot(c, addonIds[i], "addon")).join("");
   const tips = (b.tips || []).map(t => `<div class="tip-item"><span class="b">▸</span><span>${esc(t)}</span></div>`).join("");
   const box = document.getElementById("modalBox");
   box.innerHTML = `
@@ -172,6 +193,7 @@ async function init() {
   }
 
   const m = DATA.meta || {};
+  if (m.artBase) ART = m.artBase;
   if (m.source) document.getElementById("sourceLink").href = m.source;
   document.getElementById("hsVersion").textContent = "v" + (m.hsVersion || "[?]");
   document.getElementById("lastUpdated").textContent = m.lastUpdated || "—";
