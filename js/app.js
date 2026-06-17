@@ -136,7 +136,7 @@ function openModal(b) {
       <div class="strategy-box">${esc(b.logic)}</div>
       ${b.positioning ? `<div class="section-title">📍 站位</div><div class="strategy-box" style="font-family:monospace;font-size:.78rem">${esc(b.positioning)}</div>` : ""}
       ${tips ? `<div class="section-title">💡 注意事項 Tips</div>${tips}` : ""}
-      ${b.source ? `<div><a class="yt-btn" href="${esc(b.source)}" target="_blank" rel="noopener">看無口君影片</a></div>` : ""}
+      ${b.source ? `<div class="yt-line">${b.episode?`<span class="ep-tag">${esc(b.episode)}</span>`:""}<a class="yt-btn" href="${esc(b.source)}" target="_blank" rel="noopener">看無口君影片</a></div>` : ""}
       ${b.notes ? `<div class="notes-line">${esc(b.notes)}</div>` : ""}
     </div>`;
   document.getElementById("modal").classList.add("open");
