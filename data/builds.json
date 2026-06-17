@@ -24,7 +24,7 @@
       "difficulty": "高",
       "races": [
         "不死族",
-        "野獸（炸雞）",
+        "野獸",
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=dzdsFk_zCsE",
@@ -44,13 +44,13 @@
       "tips": [
         "大科 5 星（舊版 6 星），現版更容易取得",
         "留 2 格空位供炸雞重生進場",
-        "剋星：辛多雷（Sindragosa）→ 對策見 C-01"
+        "剋星：辛多雷（Sindragosa）→ 對策見 [C-01]"
       ],
-      "notes": "首次記錄，大科由 6 星調整至 5 星版本（2026-06-18）",
+      "notes": "首次記錄，大科由 6 星調整至 5 星版本",
       "coreIds": [
         null,
         null,
-        null
+        "BG23_318"
       ],
       "addonIds": [
         "BG30_MagicItem_437",
@@ -67,7 +67,7 @@
       "difficulty": "高",
       "races": [
         "魚人",
-        "元素（野火）",
+        "元素",
         "中立"
       ],
       "source": "https://www.youtube.com/watch?v=-m9mZaaqV58",
@@ -82,16 +82,16 @@
         "合唱團",
         "強化機器人"
       ],
-      "logic": "縫衣針回收隨從 → 重新打出時數值翻倍。搭配巴姐升級為 4 倍。實測數值路徑：野火 7,000 → 26,000 → 100,000+（「按一下就 2 萬，再按一下就十萬」）。",
+      "logic": "縫衣針回收隨從 → 重新打出時數值翻倍。搭配巴姐升級為 **4 倍**。實測數值路徑：野火 7,000 → 26,000 → 100,000+（「按一下就 2 萬，再按一下就十萬」）。",
       "tips": [
         "點牌優先選攻擊力最高者",
         "維持 2-3 個打點防毒素一刀死",
         "巴姐金卡無額外加成（已實測），普卡即可"
       ],
-      "notes": "無口君警告：「魚人局合唱+縫衣針太無敵，一定會被改掉」",
+      "notes": "首次記錄。無口君警告：「魚人局合唱+縫衣針太無敵，一定會被改掉」",
       "coreIds": [
         "BG35_MagicItem_838",
-        null
+        "BG35_883"
       ],
       "addonIds": [
         "BGS_126",
@@ -107,7 +107,7 @@
       "statusKey": "active",
       "difficulty": "高",
       "races": [
-        "中立（三隻小豬死聲）"
+        "中立"
       ],
       "source": "https://www.youtube.com/watch?v=VJccJ1_tfWE",
       "hsVersion": "[?]",
@@ -127,9 +127,9 @@
         "7 星牌無法被選取（上限 6 星）",
         "三隻小豬 9 個為理想陣容上限",
         "威脅：機械發明家 2000 攻帶靈氣，需備光盾",
-        "異變其他選項：路克→無限路克 / 不懈哨衛→無限重生 / 雷諾戰巡艦→無限戰巡艦"
+        "異變其他選項：路克 → 無限路克 / 不懈哨衛 → 無限重生 / 雷諾戰巡艦 → 無限戰巡艦"
       ],
-      "notes": "首次記錄（2026-06-18）",
+      "notes": "首次記錄",
       "coreIds": [
         "BG26_867",
         "BG26_ICC_065",
@@ -139,6 +139,730 @@
         null,
         null,
         "BG35_431"
+      ]
+    },
+    {
+      "id": "B-04",
+      "name": "佐司特+旋風無限複製流（海盜）",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "海盜",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=y1kuxNQaZYE",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "佐司特",
+        "旋風（金卡）",
+        "快樂球"
+      ],
+      "supportCards": [
+        "傲氣",
+        "口咬",
+        "剛普"
+      ],
+      "logic": "旋風站後排複製高體質海盜，佐司特逐回合疊加，快樂球資源滾動無限雪球。剛普達到 4000+ 攻，揮擊觸發兩萬傷害。「你永遠可以相信佐司特」。",
+      "tips": [
+        "旋風不能站前面（否則少複製）",
+        "快樂球自買機制，資源滾動後無限疊"
+      ],
+      "notes": "異變版本首次記錄",
+      "coreIds": [
+        "BG32_234",
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG33_825",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-05",
+      "name": "不懈蝙蝠+一張永爸無限穢土重生流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "低",
+      "races": [
+        "不死族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=VqqFQx-kUAw",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "不懈蝙蝠",
+        "永爸（Mal'Ganis）× 1"
+      ],
+      "supportCards": [
+        "軟泥怪（嘲諷）",
+        "狼哥（卡位操作）"
+      ],
+      "logic": "傳統無限永爸需要大量永爸，本版只需一張 + 不懈蝙蝠。「重生又起來 起來又重生 根本不可能打完啊 這一招是禁術」。",
+      "tips": [
+        "永爸一張即夠，組成門檻超低",
+        "軟泥怪提供嘲諷保護蝙蝠"
+      ],
+      "notes": "異變版本首次記錄，「教授的作品」",
+      "coreIds": [
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG27_002",
+        null
+      ]
+    },
+    {
+      "id": "B-06",
+      "name": "九男爵荷蘭人死亡飛行流（海盜）",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "極高",
+      "races": [
+        "海盜",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=B7sXlTRnG9U",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "荷蘭人",
+        "男爵 Rivendare × 9",
+        "火藥桶"
+      ],
+      "supportCards": [
+        "剛普",
+        "霜狼狂熱"
+      ],
+      "logic": "9 男爵使荷蘭人死亡觸發 9 次飛行死聲，一隻死亡 = 7000+ 傷害直接飛出。「史上最強荷蘭人 重出江湖」。",
+      "tips": [
+        "1 號位剛普防揮擊（見 C-03）",
+        "加鸚鵡可再翻倍飛行次數（但難度極高）",
+        "9 男爵極端運氣局，實戰罕見"
+      ],
+      "notes": "異變版本首次記錄",
+      "coreIds": [
+        null,
+        "BG26_ICC_065",
+        "BG35_MagicItem_714"
+      ],
+      "addonIds": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-07",
+      "name": "不死族咕咕機+古老靈魂+炫彩之淚流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "不死族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=_JKeaW-iAeE",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "咕咕機（金卡）",
+        "鸚鵡頭像",
+        "古老靈魂",
+        "炫彩之淚"
+      ],
+      "supportCards": [
+        "時光美拉",
+        "屠夫",
+        "骨龍"
+      ],
+      "logic": "鸚鵡頭像觸發頂級戰吼，不死族靈氣爆炸，咕咕機金卡+風怒連頂 4 下各 5000 傷害。「一咕頂天下」。法強 1658 攻。",
+      "tips": [
+        "6 星屠刀找到即可，不急於換牌",
+        "辛多雷只能解 2 個重生，本陣型從容應對"
+      ],
+      "notes": "異變版本首次記錄",
+      "coreIds": [
+        null,
+        "BG32_MagicItem_803",
+        "BG34_231",
+        "BG35_MagicItem_840"
+      ],
+      "addonIds": [
+        null,
+        null,
+        "BG26_ICC_027"
+      ]
+    },
+    {
+      "id": "B-08",
+      "name": "雙羅龍外線法術彈射流（龍族）",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "元素"
+      ],
+      "source": "https://www.youtube.com/watch?v=8VQua3yJ9OY",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "龍外線（0分飾品）",
+        "雙羅",
+        "大地之母"
+      ],
+      "supportCards": [
+        "骨龍",
+        "戒指龍",
+        "螃蟹（點金）"
+      ],
+      "logic": "龍外線逐法術累積，骨龍破 1 萬攻，戒指龍彈射繼續加成。「800 層 × 2 隻加起來快要 2000」「0 分龍外線 找到方法了」。",
+      "tips": [
+        "龍外線是 0 分飾品但潛力無限",
+        "戒指龍在戰鬥中繼續養層數"
+      ],
+      "notes": "異變版本首次記錄，「0分卡的魅力」",
+      "coreIds": [
+        null,
+        null,
+        "EBG_Spell_017"
+      ],
+      "addonIds": [
+        "BG26_ICC_027",
+        "BG34_921",
+        "BG27_004_Gt2"
+      ]
+    },
+    {
+      "id": "B-09",
+      "name": "野豬人棘刺肩鎧+三隻小豬+金男爵流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野豬人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=vOKvIYzUaIQ",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "棘刺肩鎧（飾品）",
+        "三隻小豬",
+        "男爵 Rivendare（金卡）"
+      ],
+      "supportCards": [
+        "死亡骨匣（飾品）",
+        "馮迪索"
+      ],
+      "logic": "棘刺肩鎧：觸發死聲後鮮血寶石 +2/+1。三隻小豬死聲 + 男爵翻倍 = 每回合疊爛。珠寶盒 1 顆版本依然 T0。「99% 人都小看的飾品」。",
+      "tips": [
+        "最佳寶石順序：光盾 > 重生 > 嘲諷（嘲諷無用）",
+        "一滴血男爵夾住對手"
+      ],
+      "notes": "珠寶盒削弱後（1顆）首次記錄",
+      "coreIds": [
+        "BG35_MagicItem_431t",
+        "BG26_867",
+        "BG26_ICC_065"
+      ],
+      "addonIds": [
+        "BG30_MagicItem_700",
+        null
+      ]
+    },
+    {
+      "id": "B-10",
+      "name": "機械銅線圈+月鋼+咕咕機連頂4下流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械"
+      ],
+      "source": "https://www.youtube.com/watch?v=SEMRsTwnSdk",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "銅線圈（T0飾品）",
+        "月鋼（金卡）",
+        "咕咕機（金卡）"
+      ],
+      "supportCards": [
+        "機甲妖怪貼紙（唯一風怒來源）",
+        "伊萊克"
+      ],
+      "logic": "銅線圈每次合體強化，月鋼金卡回合結束大量貼片。咕咕機金卡+風怒+報復5 = 連頂4下，各 5000 傷害。「銅線圈 T0 玩機械選下去就對了」。",
+      "tips": [
+        "機甲妖怪貼紙是本版唯一取得風怒的方法",
+        "大象靠背零作用（大象永遠小於月鋼）",
+        "組裝機不要貼在第一隻怪"
+      ],
+      "notes": "異變版本機械大改版首次記錄",
+      "coreIds": [
+        "BG35_MagicItem_300",
+        "BG31_171",
+        null
+      ],
+      "addonIds": [
+        "BG30_MagicItem_942",
+        "BG20_HERO_101_Buddy"
+      ]
+    },
+    {
+      "id": "B-11",
+      "name": "機械銅線圈+單輪車+月鋼（大師兄回歸版）",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械"
+      ],
+      "source": "https://www.youtube.com/watch?v=_ezkW-sjH_s",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "銅線圈（T0飾品）",
+        "單輪車（4星，舊版6星降級）",
+        "月鋼"
+      ],
+      "supportCards": [
+        "普羅比斯（點金）",
+        "咕咕機",
+        "伊萊克"
+      ],
+      "logic": "單輪車從 6 星降為 4 星，大幅降低組成難度。銅線圈一個貼片從 +75/+75 疊至 +174/+174 層。月鋼 108/108，遊戲 14 回合結束。「神仙下凡 直接輾過去 車神」。",
+      "tips": [
+        "普羅比斯點金：任何機械永久變金",
+        "第一隻怪不要貼組裝機（打亂節奏）"
+      ],
+      "notes": "單輪車 6星→4星版本首次記錄，174層",
+      "coreIds": [
+        "BG35_MagicItem_300",
+        "BG31_175",
+        "BG31_171"
+      ],
+      "addonIds": [
+        "BG31_HERO_802_Buddy",
+        null,
+        "BG20_HERO_101_Buddy"
+      ]
+    },
+    {
+      "id": "B-12",
+      "name": "抄錄打字機+靠背+附魔師+巴姐龍族流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "元素"
+      ],
+      "source": "https://www.youtube.com/watch?v=G3Jp-i9DYeg",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "抄錄打字機",
+        "靠背（Zapp）",
+        "附魔師（金卡）",
+        "巴姐（金卡）"
+      ],
+      "supportCards": [
+        "災變（金卡）",
+        "骨龍",
+        "魔焰"
+      ],
+      "logic": "打字機複製出全套金卡（災變/附魔師/巴姐/魔焰），靠背一發 1400+，巴姐×3倍。骨龍 2 萬，「前期孵蛋龍穩場，後期靠背打爛」。",
+      "tips": [
+        "孵蛋龍是過渡前期的關鍵",
+        "靠背流需要強過渡，否則前期死太快"
+      ],
+      "notes": "異變版本首次記錄",
+      "coreIds": [
+        "BG35_MagicItem_931",
+        null,
+        "BG26_ICC_901",
+        "BG35_883"
+      ],
+      "addonIds": [
+        "BG35_123",
+        "BG26_ICC_027",
+        "BG32_821"
+      ]
+    },
+    {
+      "id": "B-13",
+      "name": "迴旋機+骨龍+男爵3次死聲彈射流（龍族）",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=nZqoj7grUYk",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "迴旋機（大量吸收死聲）",
+        "骨龍（戰鬥中彈射）",
+        "男爵 Rivendare"
+      ],
+      "supportCards": [
+        "戒指龍",
+        "炸雞（護衛）"
+      ],
+      "logic": "迴旋機死聲 + 骨龍彈射 + 男爵翻倍 = 3 次死聲觸發，傷害突破 2 萬。「迴旋機+骨龍 雙倍吸收，男爵額外觸發 3 次」，迴旋機寶寶打魚人也很強。",
+      "tips": [
+        "炸雞放 2 號位護衛骨龍",
+        "站位：後面兩龍傷害已夠，前面平均展開"
+      ],
+      "notes": "異變版本首次記錄",
+      "coreIds": [
+        null,
+        "BG26_ICC_027",
+        "BG26_ICC_065"
+      ],
+      "addonIds": [
+        "BG34_921",
+        "BG23_318"
+      ]
+    },
+    {
+      "id": "B-14",
+      "name": "做夢豬（做夢織棘者）+珠寶盒（1顆版）+男爵野豬人流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野豬人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=XdMznIpXqtQ",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "做夢織棘者（新卡，報復3血量+1）",
+        "珠寶盒（削弱後1顆）",
+        "男爵金卡"
+      ],
+      "supportCards": [
+        "馮迪索",
+        "赤牙"
+      ],
+      "logic": "做夢豬（新卡）配合馮迪索常駐，一回合 9 顆寶石，每顆 +5/+8。珠寶盒削弱至 1 顆仍為 T0。「珠寶盒從3顆砍成1顆 照樣S級」。",
+      "tips": [
+        "可在 4 星旅店刷牌運作，無需升高星",
+        "最佳寶石：光盾 > 重生（嘲諷無用）"
+      ],
+      "notes": "做夢織棘者（新卡）+珠寶盒削弱版首次記錄",
+      "coreIds": [
+        "BG32_433",
+        "BG35_MagicItem_434",
+        "BG26_ICC_065"
+      ],
+      "addonIds": [
+        null,
+        "BG35_433"
+      ]
+    },
+    {
+      "id": "B-15",
+      "name": "海盜佐司特+羅傑9元財富自由+森林之心飾品流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "海盜"
+      ],
+      "source": "https://www.youtube.com/watch?v=paql4_iBNLM",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "佐司特",
+        "羅傑傲氣（9元版）",
+        "森林之心（大飾品）"
+      ],
+      "supportCards": [
+        "剛普",
+        "狂妄海賊（留揮擊用）"
+      ],
+      "logic": "羅傑 10元→9元，錢滾錢效益提升 30%+，財富自由更快達成。森林之心：每5法術強化法強，直接匹配海盜法術體系。佐司特 4000+ 攻，4800 揮擊。",
+      "tips": [
+        "無森林之心可考慮鯊魚砲（法術多時有說法）",
+        "留下狂妄海賊確保揮擊力道夠強（不提前吃掉）"
+      ],
+      "notes": "羅傑加強（10元→9元）版本首次記錄",
+      "coreIds": [
+        "BG32_234",
+        "BG33_823",
+        "BG32_MagicItem_801"
+      ],
+      "addonIds": [
+        null,
+        "BG35_701"
+      ]
+    },
+    {
+      "id": "B-16",
+      "name": "魔咒彩帶+多漩渦+破土者 800法術流（納迦）",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "納迦",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=z0iUZZpbWtk",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "魔咒彩帶（飾品，戰鬥中法術 +3/+2 永久）",
+        "破土者（多層）",
+        "漩渦 × 多隻"
+      ],
+      "supportCards": [
+        "女王之令",
+        "鸚鵡（翻倍法術次數）"
+      ],
+      "logic": "魔咒彩帶：每次施法 +3/+2 永久，6漩渦+戒指龍 = 瞬間 120 層。破土者 200 層，出一張納迦 +402/+402，一場打 800 個法術。",
+      "tips": [
+        "漩渦越多越強，是核心數量牌",
+        "戒指龍戰鬥中繼續養層數",
+        "完成後放置型即可，適合手機黨"
+      ],
+      "notes": "異變版本首次記錄，「白內障製造機」",
+      "coreIds": [
+        "BG35_MagicItem_923",
+        "BG31_035",
+        null
+      ],
+      "addonIds": [
+        "BG35_922",
+        "BGS_078"
+      ]
+    },
+    {
+      "id": "B-17",
+      "name": "四首夢魘+雙破土頭像+納迦海床流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "極高",
+      "races": [
+        "納迦",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=17ihPzmqps0",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "四首夢魘（特殊頭像）",
+        "破土者（雙頭像效果）",
+        "海床"
+      ],
+      "supportCards": [
+        "巴姐",
+        "戒指龍"
+      ],
+      "logic": "雙破土頭像：前方牌也同時算破土者，疊層倍速。四首夢魘 1 萬 2 + 分身 = 等效 4 萬 8。",
+      "tips": [
+        "不能放在破土者左邊（站位關鍵）",
+        "辛多雷 4 號布陣消除敵方重生（見 C-05）"
+      ],
+      "notes": "四首夢魘特殊局，「版本最強打字機節奏」",
+      "coreIds": [
+        null,
+        "BG31_035",
+        "BG34_925"
+      ],
+      "addonIds": [
+        "BG35_883",
+        "BG34_921"
+      ]
+    },
+    {
+      "id": "B-18",
+      "name": "十戒指龍+快樂球突破6星上限+女王之令流（納迦）",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "極高",
+      "races": [
+        "納迦",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=cFXcaUNSMUQ",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "戒指龍（最多 10 隻）",
+        "快樂球（突破上限）",
+        "漩渦",
+        "女王之令"
+      ],
+      "supportCards": [
+        "冥想",
+        "石油",
+        "巴姐"
+      ],
+      "logic": "快樂球選下去 -7 血出現第 10 個戒指龍，突破 6 星系統上限。10 戒指龍撞一下全隊 +200+ 攻，法強從 0 疊至 2000+，「我是魔戒之主 索倫本人」。",
+      "tips": [
+        "快樂球 -7 需有 HP 緩衝才敢選",
+        "冥想不能丟（每次施法次數直接影響法強）",
+        "大飾品哨子不會重複出現（有規則保障）"
+      ],
+      "notes": "十戒指龍突破上限首次記錄，「至尊魔戒 歸位」",
+      "coreIds": [
+        "BG34_921",
+        null,
+        "BG34_922",
+        "BG35_922"
+      ],
+      "addonIds": [
+        "BG32_835",
+        "BG28_805",
+        "BG35_883"
+      ]
+    },
+    {
+      "id": "B-19",
+      "name": "博學行者卷軸×2+香菇藍調+巴姐金卡（納迦）",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "納迦",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=VXavj5chGR0",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "博學行者卷軸（飾品×2，施法+10/+10）",
+        "藍調（納迦）",
+        "巴姐金卡"
+      ],
+      "supportCards": [
+        "香菇（觸發法術）",
+        "骨龍"
+      ],
+      "logic": "卷軸×2 支架 = 一發 +20/+20，巴姐金卡×3倍 = 一發等效 +60/+60。骨龍 4000 攻，全場 4000~5000 攻水準。「原來博學行者卷軸不是 0 分耶」「替 0 分飾品找到解答了」。",
+      "tips": [
+        "此飾品加強後 +8→+10",
+        "香菇藍調比靠背流容易太多，可無縫銜接",
+        "無需靠背即可達到靠背等級輸出"
+      ],
+      "notes": "飾品加強版首次記錄，「0分飾品的解答」",
+      "coreIds": [
+        "BG30_MagicItem_422",
+        "BG34_931",
+        null
+      ],
+      "addonIds": [
+        null,
+        "BG26_ICC_027"
+      ]
+    },
+    {
+      "id": "B-20",
+      "name": "鮮血護符+小豬撲滿+鸚鵡+男爵無限魔力毒豬（野豬人）",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野豬人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=PdS51pvZaP8",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "鮮血護符（飾品）",
+        "小豬撲滿（飾品，死聲觸發寶石）",
+        "鸚鵡",
+        "男爵"
+      ],
+      "supportCards": [
+        "赤牙（重生）",
+        "馮迪索（常駐）"
+      ],
+      "logic": "鮮血護符+小豬撲滿：全部的豬都有死聲，死聲觸發寶石（+N/+N），鸚鵡+男爵雙重翻倍。「無限塗毒，掉毒補毒」「把墊底野豬人直接盤活」。",
+      "tips": [
+        "進階版：藤蔓語者（7星、以前0分現在100分）加入更強",
+        "有光盾豬最佳，「鮮血護符+小豬撲滿 有光盾就無敵」"
+      ],
+      "notes": "異變版本野豬人加強首次記錄，「無限魔力毒豬」",
+      "coreIds": [
+        "BG35_MagicItem_432",
+        null,
+        "BGS_078",
+        "BG26_ICC_065"
+      ],
+      "addonIds": [
+        "BG35_433",
+        null
+      ]
+    },
+    {
+      "id": "B-21",
+      "name": "雙炫彩之淚+卡雷苟斯+銅鬚龍族流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族"
+      ],
+      "source": "https://www.youtube.com/watch?v=uwJp4TzUTsA",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "炫彩之淚（大飾品×2，每7戰吼給4炫彩龍）",
+        "卡雷苟斯",
+        "銅鬚龍"
+      ],
+      "supportCards": [
+        "骨龍",
+        "吟龍（金卡）",
+        "口咬"
+      ],
+      "logic": "雙淚：每 7 戰吼給 4 隻炫彩龍，法強無限疊加。卡雷 7000 攻，撞一下全隊 +200+。英雄：藍教頭「隱藏 S 級英雄，1 塊錢 4 星旅店輕鬆建立場面」。",
+      "tips": [
+        "龍族終點是骨龍+吟龍（數值質變）",
+        "骨龍 200 攻 × 吟龍金卡翻倍 = 戰鬥中 +800 全隊",
+        "7 星黑龍是最強攻擊卡，適時引入"
+      ],
+      "notes": "異變版龍族首次記錄，「炫彩之淚 炫 彩 之 淚」",
+      "coreIds": [
+        "BG35_MagicItem_840",
+        "BGS_041",
+        null
+      ],
+      "addonIds": [
+        "BG26_ICC_027",
+        "BG29_813",
+        null
       ]
     }
   ],
@@ -150,9 +874,8 @@
       "status": "🟢 現役有效",
       "statusKey": "active",
       "difficulty": "低",
-      "question": "遇到聖盾/重生剋星（辛多雷）怎麼辦？",
-      "against": "辛多雷（Sindragosa）剋制無限路克重生流",
       "source": "https://www.youtube.com/watch?v=dzdsFk_zCsE",
+      "hsVersion": "[?]",
       "currentVersion": true,
       "coreCards": [
         "甲蟲法術（死聲召喚嘲諷）",
@@ -163,7 +886,9 @@
         "嘲諷炸雞血量需 ≤3，確保辛多雷一擊消滅觸發循環",
         "辛多雷 70+ 體質：加狼哥卡位"
       ],
-      "notes": "首次記錄（2026-06-18）",
+      "notes": "首次記錄",
+      "against": "辛多雷（Sindragosa）剋制無限路克重生流",
+      "question": "遇到「辛多雷」怎麼辦？",
       "coreIds": [
         "BG28_603",
         null
@@ -177,9 +902,8 @@
       "status": "🟢 現役有效",
       "statusKey": "active",
       "difficulty": "中",
-      "question": "遇到大怪 / 高體質打點流怎麼辦？",
-      "against": "高體質大怪打點流（野豬人等）、縫衣針野火流",
       "source": "https://www.youtube.com/watch?v=-m9mZaaqV58",
+      "hsVersion": "[?]",
       "currentVersion": true,
       "coreCards": [
         "爆爆老鼠（Rat Pack）x2",
@@ -191,13 +915,10 @@
         "鼠王（Rat King）"
       ],
       "logic": "嘲諷卡位 → 老鼠死聲爆出一群小老鼠 → 各帶毒素 → 連鎖爆盾毒殺大怪。對縫衣針野火：野火體質再高，毒素一碰即死。雙鼠王加強效果。",
-      "positioning": "[嘲諷] [老鼠] [毒素] [老鼠] [毒素] [其他]  — 嘲諷站前排，老鼠站後排",
-      "tips": [
-        "老鼠站後排防禦位，嘲諷站前排",
-        "毒素來源：蟲子或帶毒素小隨從",
-        "雙鼠王加強效果"
-      ],
-      "notes": "首次記錄（2026-06-18）",
+      "notes": "首次記錄",
+      "against": "高體質大怪打點流（野豬人等）、縫衣針野火流",
+      "question": "遇到「高體質大怪打點流」怎麼辦？",
+      "positioning": "[嘲諷] [老鼠] [毒素] [老鼠] [毒素] [其他] 前排   後排",
       "coreIds": [
         "BG_CFM_316",
         null,
@@ -207,6 +928,264 @@
         null,
         null
       ]
+    },
+    {
+      "id": "C-03",
+      "name": "剛普1號嘲諷防揮擊（反制海盜揮擊流）",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "低",
+      "source": "https://www.youtube.com/watch?v=B7sXlTRnG9U",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "剛普（Zapp，嘲諷站1號位）",
+        "炸雞（卡位反製）"
+      ],
+      "logic": "對手看到大揮擊必放炸雞，我方 1 號剛普截揮擊 + 炸雞重生循環消耗。「炸雞剋剛普，炸雞剋揮擊」。",
+      "tips": [
+        "如對手有雙炸雞則需額外對策",
+        "細節：「留下狂妄海賊 讓揮擊夠力 一定要一下把他揮掉」"
+      ],
+      "notes": "首次記錄，版本博弈細節",
+      "against": "海盜揮擊流（荷蘭人等大揮擊）",
+      "question": "遇到「海盜揮擊流」怎麼辦？",
+      "coreIds": [
+        null,
+        "BG23_318"
+      ],
+      "addonIds": []
+    },
+    {
+      "id": "C-04",
+      "name": "辛多雷1號布陣反制佔上風海盜/重生流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "source": "https://www.youtube.com/watch?v=paql4_iBNLM",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "辛多雷（Sindragosa，1號位）"
+      ],
+      "logic": "辛多雷 1 號「天國一揮 哇全倒」，消除海盜佔上風護盾，也清除不死族重生。",
+      "tips": [
+        "辛多雷 vs 剛普 1 號：依對手是揮擊流還是重生流選擇",
+        "勝率高但需判斷對手體系"
+      ],
+      "notes": "首次記錄",
+      "against": "海盜佔上風流、不死族重生流",
+      "question": "遇到「海盜佔上風流」怎麼辦？",
+      "coreIds": [
+        null
+      ],
+      "addonIds": []
+    },
+    {
+      "id": "C-05",
+      "name": "辛多雷4號+弱者5號精準站位反制分身馬+重生",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "source": "https://www.youtube.com/watch?v=17ihPzmqps0",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "辛多雷（4號位）",
+        "弱者（5號位）",
+        "炸雞（後備）"
+      ],
+      "logic": "辛多雷 4 號消除分身馬的重生護盾，弱者 5 號緊接跟進，炸雞 6 號兜底。「4 號辛多雷 5 號弱者 KO」「全中 擺位完美」。",
+      "tips": [
+        "不要把辛多雷放 1 號（會被優先打掉）",
+        "此站位針對四首夢魘馬，非通用站法"
+      ],
+      "notes": "首次記錄，精準站位破局",
+      "against": "四首夢魘馬流（12000攻+分身）、高血量重生流",
+      "question": "遇到「四首夢魘馬流」怎麼辦？",
+      "coreIds": [
+        null,
+        "BG34_604",
+        "BG23_318"
+      ],
+      "addonIds": []
+    },
+    {
+      "id": "C-06",
+      "name": "佔上風反制惡魔靈氣流",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "source": "https://www.youtube.com/watch?v=uwJp4TzUTsA",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "佔上風（Whelp Smoldering）"
+      ],
+      "logic": "「惡魔超怕佔上風」— 惡魔靈氣流依賴戰鬥中靈氣觸發爆炸性成長，佔上風在靈氣觸發前先破護盾，打亂惡魔靈氣的觸發節奏。",
+      "tips": [
+        "佔上風在靈氣激活前先行破盾，時機關鍵",
+        "惡魔靈氣流主動攻擊時節奏被打亂，效果更好"
+      ],
+      "notes": "首次記錄，逐字稿原話「惡魔超怕佔上風」",
+      "against": "惡魔靈氣流（靈氣爆炸型惡魔陣型）",
+      "question": "遇到「惡魔靈氣流」怎麼辦？",
+      "coreIds": [
+        "BG28_573"
+      ],
+      "addonIds": []
+    },
+    {
+      "id": "C-07",
+      "name": "骨龍有無決定龍族對鏡勝負",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "source": "https://www.youtube.com/watch?v=6PVHMZCGpsk",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "骨龍（Dragonbone Golem，戰鬥中彈射傷害）"
+      ],
+      "logic": "「他沒骨龍我隨便打，但是因為他有骨龍，那就反過來了，被隨便打」。龍族對鏡時，骨龍是決定性差異：有骨龍方壓倒性優勢，無骨龍方完全被動。",
+      "tips": [
+        "龍族局必須優先確保骨龍入手",
+        "對方若先拿骨龍，考慮放棄龍族轉線"
+      ],
+      "notes": "首次記錄，龍族鏡像關鍵博弈點",
+      "against": "龍族鏡像（對手也是龍族體系）",
+      "question": "遇到「龍族鏡像」怎麼辦？",
+      "coreIds": [
+        "BG26_ICC_027"
+      ],
+      "addonIds": []
+    },
+    {
+      "id": "C-08",
+      "name": "毒豬掉毒補毒反制高攻大怪",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "source": "https://www.youtube.com/watch?v=PdS51pvZaP8",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "鮮血護符（飾品）",
+        "小豬撲滿（飾品）",
+        "赤牙（補毒素）"
+      ],
+      "supportCards": [
+        "馮迪索（常駐）",
+        "男爵（翻倍）"
+      ],
+      "logic": "鮮血護符+小豬撲滿：全部豬帶死聲觸發寶石，赤牙持續補回毒素。「無限塗毒塗毒，掉毒補毒掉毒補毒」— 毒素一碰即死，高攻大怪完全無效。",
+      "tips": [
+        "毒素對所有高攻大怪有效（含 10 萬攻的縫衣針野火）",
+        "需保住帶毒素的豬，不讓毒素全部戰損",
+        "赤牙是補毒素的關鍵，優先保護"
+      ],
+      "notes": "首次記錄，毒豬反制高攻流的完整機制",
+      "against": "高體質大怪打點流（縫衣針野火、戒指龍高攻、靠背流）",
+      "question": "遇到「高體質大怪打點流」怎麼辦？",
+      "coreIds": [
+        "BG35_MagicItem_432",
+        null,
+        "BG35_433"
+      ],
+      "addonIds": [
+        null,
+        "BG26_ICC_065"
+      ]
+    },
+    {
+      "id": "C-09",
+      "name": "炸雞破7星高血量野豬人/做夢豬",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "低",
+      "source": "https://www.youtube.com/watch?v=XdMznIpXqtQ",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "炸雞（Ghastcoiler，帶重生）"
+      ],
+      "logic": "「刷炸雞，擺個炸雞吧，現在最重要的牌應該就是炸雞了」。對手高血量野豬人（做夢豬+珠寶盒），炸雞散傷全場 + 重生 = 持續消耗，比單點打點更有效。",
+      "tips": [
+        "炸雞需帶重生才能持續散傷",
+        "對高血量群體比對高攻單體更有效",
+        "情況性對策，主要在野豬人環境適用"
+      ],
+      "notes": "首次記錄，「炸雞是本版最重要的牌」",
+      "against": "高血量野豬人流（做夢豬、血紅豬豬、7星牌）",
+      "question": "遇到「高血量野豬人流」怎麼辦？",
+      "coreIds": [
+        "BG23_318"
+      ],
+      "addonIds": []
+    },
+    {
+      "id": "C-10",
+      "name": "迴旋機寶寶免疫魚人剋",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "source": "https://www.youtube.com/watch?v=nZqoj7grUYk",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "迴旋機（Whirlwind Tempest）",
+        "迴旋機寶寶（死聲觸發）"
+      ],
+      "logic": "「迴旋機寶寶打魚人也很強，所以也不用擔心遇到魚人」。迴旋機死聲彈射傷害不受毒素一碰即死影響，對魚人毒素流天然剋制。",
+      "tips": [
+        "選龍族/迴旋機體系時，遇到魚人局不需要換陣",
+        "彈射傷害繞過毒素直接擊殺，不觸發毒素反殺"
+      ],
+      "notes": "首次記錄，龍族對魚人的天然剋制",
+      "against": "魚人毒素流（魚人帶毒）",
+      "question": "遇到「魚人毒素流」怎麼辦？",
+      "coreIds": [
+        null,
+        null
+      ],
+      "addonIds": []
+    },
+    {
+      "id": "C-11",
+      "name": "辛多雷+野火3噴克不死族嘲諷重生",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "source": "https://www.youtube.com/watch?v=_JKeaW-iAeE",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "辛多雷（消除重生/護盾）",
+        "野火（元素，3噴散傷）"
+      ],
+      "logic": "「他最強的牌是養野火，辛多雷，然後野火 — 辛多雷消嘲諷，然後野火3噴」。辛多雷先消除嘲諷怪的聖盾/護盾，野火接連3噴清除後排重生體，形成完整清場組合。",
+      "tips": [
+        "辛多雷清除前排嘲諷護盾，野火負責中後排重生體",
+        "辛多雷需在野火前方觸發，站位安排關鍵",
+        "對不死族咕咕機/多重生流效果尤為顯著"
+      ],
+      "notes": "首次記錄，「辛多雷+野火是對抗不死族最強組合」",
+      "against": "不死族嘲諷重生流（多層嘲諷+重生護盾）",
+      "question": "遇到「不死族嘲諷重生流」怎麼辦？",
+      "coreIds": [
+        null,
+        "BGS_126"
+      ],
+      "addonIds": []
     }
   ],
   "duo": {
