@@ -72,6 +72,7 @@ function rowHTML(b, kind) {
     <div class="tier-badge tier-${tier} row-badge">${esc(b.rank)}</div>
     <span class="row-name">${esc(b.name)}</span>
     ${archived ? `<span class="archive-tag" title="使用非當前版本卡牌">🗃️ 歸檔</span>` : ""}
+    ${b.hidden ? `<span class="archive-tag" style="background:#221a33;color:#b088dd;border-color:#5a3a7a" title="${esc(b.mergedNote||'合併變體')}">🔀 變體</span>` : ""}
     ${qtag}
     ${racePills}
     <span class="diff-${dk}">${diffLabel(b.difficulty)}</span>
@@ -200,6 +201,10 @@ function buildFilterBars(key) {
 function applyFilters(key) {
   const P = PANELS[key];
   let list = (DATA[P.dataKey] || []).slice();
+  // 合併變體預設隱藏，除非勾「顯示全部牌組」
+  const showAllEl = document.getElementById("showAllBuilds");
+  const showAll = key === "tier" && showAllEl && showAllEl.checked;
+  if (!showAll) list = list.filter(b => !b.hidden);
   if (P.toggleEl) {
     const show = document.getElementById(P.toggleEl).checked;
     list = list.filter(b => show || b.currentVersion !== false);
@@ -210,10 +215,11 @@ function applyFilters(key) {
   const el = document.getElementById(P.listEl);
   renderTierGroups(el, list, P.kind);
   bindRows(el);
-  const total = (DATA[P.dataKey] || []).length;
-  const hidden = P.toggleEl ? (DATA[P.dataKey] || []).filter(b => b.currentVersion === false).length : 0;
+  const all = DATA[P.dataKey] || [];
+  const total = all.filter(b => !b.hidden).length;
+  const variants = all.filter(b => b.hidden).length;
   document.getElementById(P.countEl).textContent =
-    `${list.length} / ${total} ${P.noun}` + (hidden ? ` ｜ 🗃️ ${hidden} 組可顯示` : "");
+    `${list.length} / ${total} ${P.noun}` + (variants && key === "tier" ? ` ｜ 🔀 另有 ${variants} 組合併變體` : "");
 }
 
 function setupTabs() {
@@ -266,8 +272,9 @@ async function init() {
   document.getElementById("duoList").innerHTML =
     (duo.tips || []).map(t => `<div class="duo-card"><h3>${esc(t.title)}</h3><p>${esc(t.detail)}</p></div>`).join("");
 
-  // tier page + filters + version toggle
+  // tier page + filters + version/all toggles
   document.getElementById("showOldVersion").addEventListener("change", () => applyFilters("tier"));
+  document.getElementById("showAllBuilds").addEventListener("change", () => { buildFilterBars("tier"); applyFilters("tier"); });
   buildFilterBars("tier");
   applyFilters("tier");
 }

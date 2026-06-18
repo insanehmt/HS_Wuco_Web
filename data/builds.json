@@ -164,7 +164,8 @@
       "coreCards": [
         "佐司特",
         "旋風（金卡）",
-        "快樂球"
+        "快樂球",
+        "羅"
       ],
       "supportCards": [
         "傲氣",
@@ -180,7 +181,8 @@
       "coreIds": [
         "BG32_234",
         "BGS_119",
-        "BG30_802"
+        "BG30_802",
+        "BG33_823"
       ],
       "addonIds": [
         "BG33_825",
@@ -888,6 +890,614 @@
         "BG26_ICC_027",
         "BG29_813",
         "EBG_Spell_032"
+      ]
+    },
+    {
+      "id": "B-22",
+      "name": "野獸 香蕉海獸 / 獸環白狼流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=jH8pHP6TCSQ",
+      "episode": "#2064",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "潛伏海獸",
+        "香蕉",
+        "反光墜飾"
+      ],
+      "supportCards": [
+        "哨子",
+        "奧盧姆碎片",
+        "白狼",
+        "鸚鵡",
+        "尖牙獸環",
+        "猛虎雕刻"
+      ],
+      "logic": "反光墜飾複製香蕉 → 潛伏海獸召喚的打點隨香蕉倍率成長（2金=9倍、9香蕉=27倍）。另一線：尖牙獸環戰鬥開始給全野獸 +19/+19 靈氣 + 猛虎雕刻受傷加攻，免男爵也能爆。無口君：「野獸有 5 種變形玩法」「沒咕咕機照樣 69% 勝率」。",
+      "tips": [
+        "潛伏海獸是命脈，被狙就崩，放安全位（別貼嘲諷旁）",
+        "弱點：爆爆、剛普、野火、辛多雷",
+        "過渡可用劍龍+咕咕（改版後咕咕雞已 ban）"
+      ],
+      "notes": "合併 #2064 香蕉海獸 / #2066 劍龍咕咕 / #2072 獸環白狼",
+      "coreIds": [
+        "BG35_602",
+        null,
+        "BG30_MagicItem_706"
+      ],
+      "addonIds": [
+        null,
+        null,
+        null,
+        "BGS_078",
+        null,
+        "BG30_MagicItem_427"
+      ]
+    },
+    {
+      "id": "B-23",
+      "name": "惡魔王快樂球萬花筒流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "低",
+      "races": [
+        "惡魔",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=X6-zzWzfv6M",
+      "episode": "#2063",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "萬花筒",
+        "快樂球",
+        "惡魔王"
+      ],
+      "supportCards": [
+        "男爵",
+        "迴旋機",
+        "炸雞",
+        "蝙蝠"
+      ],
+      "logic": "萬花筒+快樂球資源滾動，弄出大量 7 星惡魔王，全程站著刷快樂。迴旋機 = 炸雞+惡魔王（金卡 2 倍），死聲彈射清場。無口君：「最悠閒又最強的惡魔」。",
+      "tips": [
+        "觸發快樂球時飼料/哨子不發動（改版已優化）",
+        "惡魔另一線：地獄怪客吃吃 / 征服者吃吃流",
+        "迴旋機戰鬥開始繼承，不怕先死"
+      ],
+      "notes": "首次記錄，含 #2063 迴旋機炸雞線",
+      "coreIds": [
+        "BG35_MagicItem_821",
+        "BG30_802",
+        null
+      ],
+      "addonIds": [
+        "BG26_ICC_065",
+        "BG21_HERO_030_Buddy",
+        "BG23_318",
+        null
+      ]
+    },
+    {
+      "id": "B-24",
+      "name": "元素 猛燃餘燼原地冰冰流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "元素",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=fHVoHR95AaI",
+      "episode": "#2067",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "猛燃餘燼（飾品）",
+        "旋風",
+        "秘法吸收"
+      ],
+      "supportCards": [
+        "口袋颶風",
+        "巴姐",
+        "男爵",
+        "鸚鵡",
+        "地脈"
+      ],
+      "logic": "英雄葛拉克朗：永遠冰凍手下，買法術觸發秘法吸收，數值每回合翻倍。一發 +300/+300 起跳，旋風一下 4000。無口君：「原地冰冰，按呢好耍」。",
+      "tips": [
+        "1.2 選旅店生命最高手下體質翻倍 → 秘法吸收翻倍",
+        "冰柱騰一格、買瞎眼觸發",
+        "旋風站 1 號先動，啪啪結束"
+      ],
+      "notes": "首次記錄，「猛燃餘燼全程放置流」",
+      "coreIds": [
+        "BG35_MagicItem_862",
+        "BGS_119",
+        "BG35_911"
+      ],
+      "addonIds": [
+        "BG35_MagicItem_850",
+        "BG35_883",
+        "BG26_ICC_065",
+        "BGS_078",
+        null
+      ]
+    },
+    {
+      "id": "B-25",
+      "name": "魚人 電台小姐未來鰭流",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "魚人",
+        "龍族"
+      ],
+      "source": "https://www.youtube.com/watch?v=V0Ot0xewcvY",
+      "episode": "#2080",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "電台小姐",
+        "未來鰭",
+        "合唱團"
+      ],
+      "supportCards": [
+        "大嘴",
+        "附魔師",
+        "男爵",
+        "辛多雷"
+      ],
+      "logic": "電台小姐偷牌 + 加強過的飛機魚（2 星魚）把大牌拉出來（龍外線 1600 攻都能拉）。金卡未來鰭一回合 +560，配附魔師 +1000+。荷蘭龍鬼轉收尾。",
+      "tips": [
+        "2 星魚（大嘴）是命脈，靠它拉大牌，絕不能弄掉",
+        "龍外線千萬別丟，可被拉出",
+        "合唱團變金卡最佳"
+      ],
+      "notes": "索引 #21 補上詳細區塊",
+      "coreIds": [
+        null,
+        "BG34_145",
+        "BG26_354"
+      ],
+      "addonIds": [
+        null,
+        "BG26_ICC_901",
+        "BG26_ICC_065",
+        "BG25_016"
+      ]
+    },
+    {
+      "id": "B-26",
+      "name": "機械 女皇燈泡快攻流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "機械"
+      ],
+      "source": "https://www.youtube.com/watch?v=iCIWVIAavSk",
+      "episode": "#2070",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "女皇",
+        "燈泡（眼睛）",
+        "魔像"
+      ],
+      "supportCards": [
+        "楊過的手",
+        "印鈔機",
+        "炸雞",
+        "毒孢"
+      ],
+      "logic": "女皇施放法術給貼片，燈泡（眼睛）持續補盾，魔像貼片放大，法強拉高。節奏快壓制對手，發育比靠背/法糯快。無口君：「沒辦法再說機械爛了」。",
+      "tips": [
+        "魔像貼自己或女皇（別貼嘲諷會卡）",
+        "咕咕 ban 後機械不需上 6，女皇流即可收工",
+        "沒女皇別硬玩機械，或開局自動機+組裝"
+      ],
+      "notes": "「版本首見女王流」",
+      "coreIds": [
+        null,
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG28_309",
+        null,
+        "BG23_318",
+        null
+      ]
+    },
+    {
+      "id": "B-27",
+      "name": "機械 墜毀飛天魔像擠擠 / 鯉魚流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=5LXeMlwZJgI",
+      "episode": "#2068",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "墜毀的飛天魔像（6星）",
+        "插座",
+        "男爵"
+      ],
+      "supportCards": [
+        "崗古",
+        "快樂球",
+        "楊過的手",
+        "鯉魚",
+        "辛多雷"
+      ],
+      "logic": "插座吸 10 個寶寶死聲 + 男爵翻倍 = 一次疊 20 層。飛天魔像金卡數值翻倍，鯉魚（恩若司）複製魔像 → 「飛天鯉魚」全 6 星一拳。",
+      "tips": [
+        "插座配獸群戰術分身，疊速 2 倍（免鸚鵡也能玩）",
+        "崗古要比插座先送掉",
+        "複製優先魔像/男爵金卡"
+      ],
+      "notes": "「鯉魚+飛天魔像」前所未見",
+      "coreIds": [
+        "BG35_342",
+        null,
+        "BG26_ICC_065"
+      ],
+      "addonIds": [
+        null,
+        "BG30_802",
+        "BG28_309",
+        null,
+        "BG25_016"
+      ]
+    },
+    {
+      "id": "B-28",
+      "name": "機械 靈巧發明家吸引靈氣流",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "機械"
+      ],
+      "source": "https://www.youtube.com/watch?v=UDdwwUtmRYg",
+      "episode": "#2094",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "靈巧發明家",
+        "拳手",
+        "手下誘餌（機械吸引飾品）"
+      ],
+      "supportCards": [
+        "組裝機",
+        "迴旋機",
+        "男爵",
+        "炸雞",
+        "佔上風"
+      ],
+      "logic": "靈巧發明家高速吸引機械，拳手無限經濟，組裝機回貼抓 3 合 1 tempo。死聲 +2x + 男爵翻倍，靈氣 +384 爆表。脫拳手防炸雞偷。",
+      "tips": [
+        "手下誘餌（新機械飾品）每次旅店重置給 2 機械",
+        "抓準 3 合 1 的回貼節奏",
+        "機甲妖怪貼紙是本版唯一風怒來源"
+      ],
+      "notes": "索引 #7 補上詳細區塊",
+      "coreIds": [
+        "BG35_890",
+        null,
+        "BG30_MagicItem_973"
+      ],
+      "addonIds": [
+        null,
+        "BG21_HERO_030_Buddy",
+        "BG26_ICC_065",
+        "BG23_318",
+        "BG28_573"
+      ]
+    },
+    {
+      "id": "B-29",
+      "name": "龍族 織女戒指龍流（奧妮克希亞）",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "龍族",
+        "不死族"
+      ],
+      "source": "https://www.youtube.com/watch?v=ExwJX_9IuCs",
+      "episode": "#2069",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "戒指龍（6星）",
+        "織女",
+        "黑龍育母（英雄奧義）"
+      ],
+      "supportCards": [
+        "巴姐",
+        "骨龍",
+        "男爵",
+        "惡霸龍",
+        "永爸"
+      ],
+      "logic": "英雄奧妮克希亞黑龍育母：越弱觸發越勤，1 星旅店鋪寶寶連勝衝刺。戒指龍攻擊觸發戒指效果 → 強化織女 → 不死族傷害疊到 300+。",
+      "tips": [
+        "黑龍育母：刻意壓低戰力觸發更勤",
+        "不死/野獸/龍 三族開時面板最完美",
+        "改版：戒指龍 5→6 星、月鋼拿 2 張、咕咕雞 ban"
+      ],
+      "notes": "6 星戒指龍配織女新招",
+      "coreIds": [
+        "BG34_921",
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG35_883",
+        "BG26_ICC_027",
+        "BG26_ICC_065",
+        null,
+        "BG34_403"
+      ]
+    },
+    {
+      "id": "B-30",
+      "name": "野豬人 地歌薩滿藤蔓豬終極版",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野豬人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=_N_agHz452o",
+      "episode": "#2065",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "6星藤蔓語者（0分）",
+        "地歌薩滿（金）",
+        "附魔師"
+      ],
+      "supportCards": [
+        "馮迪索",
+        "赤牙",
+        "血縛耳環",
+        "男爵",
+        "巴姐"
+      ],
+      "logic": "地歌薩滿關鍵字越多施放寶石越多（4 詞綴=每回合 5 顆），附魔師翻倍 → 全隊 10/20 顆。藤蔓語者每死一人 +攻，+65/顆疊層，剛普 2000 攻一拳秒殺。「0分+10分=100分」。",
+      "tips": [
+        "起手馮迪索 + 4 星赤牙給重生",
+        "詞綴拉滿：嘲諷/重生/風怒/光盾",
+        "地歌+附魔師金卡優先"
+      ],
+      "notes": "合併 #2060 / #2065 野豬人終極版",
+      "hidden": true,
+      "mergedNote": "變體，併入既有野豬人系（B-09 / B-14 / B-20）",
+      "coreIds": [
+        null,
+        "BG35_431",
+        "BG26_ICC_901"
+      ],
+      "addonIds": [
+        "BG26_160",
+        "BG35_433",
+        "BG32_MagicItem_808",
+        "BG26_ICC_065",
+        "BG35_883"
+      ]
+    },
+    {
+      "id": "B-31",
+      "name": "納迦 破土者珊瑚長矛女王之令流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "納迦",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=rXvxEUIuR-g",
+      "episode": "#2061",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "破土者",
+        "珊瑚長矛",
+        "女王之令"
+      ],
+      "supportCards": [
+        "藍調",
+        "巴姐",
+        "操縱者頭像",
+        "蛇髮"
+      ],
+      "logic": "珊瑚長矛：每次造法自動施放暴風城之力給 4 隻 buff（吃法強）。破土者出一張牌 +148/+148（雙破土 +300），靠法強無限成長。",
+      "tips": [
+        "需大量金卡 + 男爵（金女巴/金男爵/鐵頭/鸚鵡）",
+        "冥想別丟（施法次數=法強）",
+        "藍調穩場，太亮最後敲掉"
+      ],
+      "notes": "合併 #2061 納迦破土者",
+      "hidden": true,
+      "mergedNote": "變體，併入既有納迦系（B-16 / B-17 / B-18）",
+      "coreIds": [
+        "BG31_035",
+        "BG35_MagicItem_925",
+        "BG35_922"
+      ],
+      "addonIds": [
+        "BG34_931",
+        "BG35_883",
+        "BG30_MagicItem_876",
+        null
+      ]
+    },
+    {
+      "id": "B-32",
+      "name": "海盜 荷蘭人火藥桶光速飛行流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "極高",
+      "races": [
+        "海盜",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=LFPM9WQwLQo",
+      "episode": "#2071",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "荷蘭人",
+        "火藥桶",
+        "男爵"
+      ],
+      "supportCards": [
+        "羅傑傲氣",
+        "吟龍",
+        "炸雞",
+        "剛普"
+      ],
+      "logic": "火藥桶 + 男爵讓荷蘭人死亡飛行死聲連環觸發，一隻死=大量傷害飛出。羅傑經濟 + 法強提升賞金價值。1700 多打點連發。「光速飛行人」。",
+      "tips": [
+        "金卡站 1 號有盾",
+        "改版：跳船改奮戰、海盜更難玩",
+        "決賽炸雞嘲諷收尾"
+      ],
+      "notes": "合併 #2062 / #2071 海盜荷蘭人",
+      "hidden": true,
+      "mergedNote": "變體，併入既有海盜系（B-06 / B-15）",
+      "coreIds": [
+        "BG35_700",
+        "BG35_MagicItem_714",
+        "BG26_ICC_065"
+      ],
+      "addonIds": [
+        "BG33_823",
+        "BG29_813",
+        "BG23_318",
+        "BG26_817"
+      ]
+    },
+    {
+      "id": "B-33",
+      "name": "龍族 荷蘭龍鬼轉流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=V0Ot0xewcvY",
+      "episode": "#2080",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "荷蘭龍（惡霸龍）",
+        "炫彩之淚",
+        "魔焰"
+      ],
+      "supportCards": [
+        "戒指龍",
+        "龍外線",
+        "骨龍",
+        "男爵"
+      ],
+      "logic": "惡霸龍 3 條命 + 荷蘭龍飛行死聲，撞一次 19 攻起飛、配男爵一直撞一直飛。炫彩之淚（卡雷之淚）疊法強。「荷蘭龍重出江湖」。",
+      "tips": [
+        "龍蛋直接開 6 不歪",
+        "惡霸龍是重點，戒指龍可後期丟",
+        "改版卡雷苟斯加強（配銅鬚）"
+      ],
+      "notes": "合併 #2080 荷蘭龍",
+      "hidden": true,
+      "mergedNote": "變體，併入既有龍族系（B-08 / B-21 / B-29）",
+      "coreIds": [
+        null,
+        "BG35_MagicItem_840",
+        "BG32_821"
+      ],
+      "addonIds": [
+        "BG34_921",
+        "BG32_822",
+        "BG26_ICC_027",
+        "BG26_ICC_065"
+      ]
+    },
+    {
+      "id": "B-34",
+      "name": "機械 月鋼永恆騎士電台流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械"
+      ],
+      "source": "https://www.youtube.com/watch?v=KZ7qfgp3NoI",
+      "episode": "#2073",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "月鋼",
+        "銅線圈",
+        "永恆騎士"
+      ],
+      "supportCards": [
+        "鐵頭",
+        "抄錄打字機",
+        "電台",
+        "男爵頭像",
+        "附魔師"
+      ],
+      "logic": "永恆騎士（+4/+2 加強版）2 星最會打架穩場，月鋼每回合 2 衛星 + 銅線圈強化貼片。抄錄打字機複製鐵頭/重生，電台偷金卡。",
+      "tips": [
+        "永恆騎士現在 +4/+2（加強），2 星旅店最強打架",
+        "月鋼改每回合 2 衛星",
+        "電台削弱：只能對殺死手下的敵方發動"
+      ],
+      "notes": "合併 #2073 月鋼永恆騎士",
+      "hidden": true,
+      "mergedNote": "變體，併入既有機械系（B-10 / B-11）",
+      "coreIds": [
+        "BG31_171",
+        "BG35_MagicItem_300",
+        "BG25_008"
+      ],
+      "addonIds": [
+        null,
+        "BG35_MagicItem_931",
+        null,
+        null,
+        "BG26_ICC_901"
       ]
     }
   ],
