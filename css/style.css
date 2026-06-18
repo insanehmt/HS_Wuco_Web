@@ -159,6 +159,7 @@ a { text-decoration: none; }
 .duo-card p { margin: 0; font-size: .84rem; color: #c8b8e0; line-height: 1.6; }
 
 .site-footer { text-align: center; color: #5a4a6a; font-size: .74rem; padding: 22px 16px 40px; border-top: 1px solid #1f0f33; }
+.footer-logo { width: 36px; height: 36px; border-radius: 50%; opacity: .65; margin-bottom: 8px; }
 .site-footer p { margin: 3px 0; }
 
 @media (max-width: 560px) {
