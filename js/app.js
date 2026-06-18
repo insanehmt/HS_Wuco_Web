@@ -244,7 +244,8 @@ async function init() {
   const m = DATA.meta || {};
   if (m.artBase) ART = m.artBase;
   if (m.source) document.getElementById("sourceLink").href = m.source;
-  document.getElementById("hsVersion").textContent = "v" + (m.version || m.hsVersion || "[?]");
+  const ver = m.version || m.hsVersion || "[?]";
+  document.getElementById("hsVersion").textContent = /^\d/.test(ver) ? "v" + ver : ver;
   if (m.season) {
     const sb = document.getElementById("seasonBadge");
     sb.textContent = "S" + m.season;
