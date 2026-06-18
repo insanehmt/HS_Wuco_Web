@@ -137,7 +137,7 @@
       "notes": "首次記錄",
       "coreIds": [
         "BG26_867",
-        "BG26_ICC_065",
+        "BG25_354",
         "BG35_Anomaly_001"
       ],
       "addonIds": [
@@ -261,7 +261,7 @@
       "notes": "異變版本首次記錄",
       "coreIds": [
         "BG35_700",
-        "BG26_ICC_065",
+        "BG25_354",
         "BG35_MagicItem_714"
       ],
       "addonIds": [
@@ -310,7 +310,7 @@
       "addonIds": [
         "BG34_Giant_679",
         "BG32_324",
-        "BG26_ICC_027"
+        "BG29_815"
       ]
     },
     {
@@ -350,7 +350,7 @@
         "EBG_Spell_017"
       ],
       "addonIds": [
-        "BG26_ICC_027",
+        "BG29_815",
         "BG34_921",
         "BG27_004t2"
       ]
@@ -388,7 +388,7 @@
       "coreIds": [
         "BG35_MagicItem_431t",
         "BG26_867",
-        "BG26_ICC_065"
+        "BG25_354"
       ],
       "addonIds": [
         "BG30_MagicItem_700",
@@ -516,7 +516,7 @@
       ],
       "addonIds": [
         "BG35_123",
-        "BG26_ICC_027",
+        "BG29_815",
         "BG32_821"
       ]
     },
@@ -552,8 +552,8 @@
       "notes": "異變版本首次記錄",
       "coreIds": [
         "BG21_HERO_030_Buddy",
-        "BG26_ICC_027",
-        "BG26_ICC_065"
+        "BG29_815",
+        "BG25_354"
       ],
       "addonIds": [
         "BG34_921",
@@ -593,7 +593,7 @@
       "coreIds": [
         "BG32_433",
         "BG35_MagicItem_434",
-        "BG26_ICC_065"
+        "BG25_354"
       ],
       "addonIds": [
         "BG26_160",
@@ -805,7 +805,7 @@
       ],
       "addonIds": [
         "BG26_505",
-        "BG26_ICC_027"
+        "BG29_815"
       ]
     },
     {
@@ -843,7 +843,7 @@
         "BG35_MagicItem_432",
         "BG30_MagicItem_411",
         "BGS_078",
-        "BG26_ICC_065"
+        "BG25_354"
       ],
       "addonIds": [
         "BG35_433",
@@ -887,7 +887,7 @@
         "BG30_MagicItem_418"
       ],
       "addonIds": [
-        "BG26_ICC_027",
+        "BG29_815",
         "BG29_813",
         "EBG_Spell_032"
       ]
@@ -980,7 +980,7 @@
         "BG27_016"
       ],
       "addonIds": [
-        "BG26_ICC_065",
+        "BG25_354",
         "BG21_HERO_030_Buddy",
         "BG23_318",
         "BG21_005"
@@ -1028,7 +1028,7 @@
       "addonIds": [
         "BG35_MagicItem_850",
         "BG35_883",
-        "BG26_ICC_065",
+        "BG25_354",
         "BGS_078",
         "BG35_881"
       ]
@@ -1067,14 +1067,14 @@
       ],
       "notes": "索引 #21 補上詳細區塊",
       "coreIds": [
-        "BG25_399",
+        "BG34_Giant_330",
         "BG34_145",
         "BG26_354"
       ],
       "addonIds": [
-        null,
+        "BG27_556",
         "BG26_ICC_901",
-        "BG26_ICC_065",
+        "BG25_354",
         "BG25_016"
       ]
     },
@@ -1159,7 +1159,7 @@
       "coreIds": [
         "BG35_342",
         "BG23_009",
-        "BG26_ICC_065"
+        "BG25_354"
       ],
       "addonIds": [
         "BG26_817",
@@ -1210,7 +1210,7 @@
       "addonIds": [
         "BG32_172",
         "BG21_HERO_030_Buddy",
-        "BG26_ICC_065",
+        "BG25_354",
         "BG23_318",
         "BG28_573"
       ]
@@ -1256,9 +1256,9 @@
       ],
       "addonIds": [
         "BG35_883",
-        "BG26_ICC_027",
-        "BG26_ICC_065",
-        null,
+        "BG29_815",
+        "BG25_354",
+        "BG34_731",
         "BG34_403"
       ]
     },
@@ -1307,7 +1307,7 @@
         "BG26_160",
         "BG35_433",
         "BG32_MagicItem_808",
-        "BG26_ICC_065",
+        "BG25_354",
         "BG35_883"
       ]
     },
@@ -1396,7 +1396,7 @@
       "coreIds": [
         "BG35_700",
         "BG35_MagicItem_714",
-        "BG26_ICC_065"
+        "BG25_354"
       ],
       "addonIds": [
         "BG33_823",
@@ -1441,15 +1441,15 @@
       "hidden": true,
       "mergedNote": "變體，併入既有龍族系（B-08 / B-21 / B-29）",
       "coreIds": [
-        null,
+        "BG34_731",
         "BG35_MagicItem_840",
         "BG32_821"
       ],
       "addonIds": [
         "BG34_921",
         "BG32_822",
-        "BG26_ICC_027",
-        "BG26_ICC_065"
+        "BG29_815",
+        "BG25_354"
       ]
     },
     {
@@ -1703,7 +1703,7 @@
       "against": "龍族鏡像（對手也是龍族體系）",
       "question": "遇到「龍族鏡像」怎麼辦？",
       "coreIds": [
-        "BG26_ICC_027"
+        "BG29_815"
       ],
       "addonIds": []
     },
@@ -1743,7 +1743,7 @@
       ],
       "addonIds": [
         "BG26_160",
-        "BG26_ICC_065"
+        "BG25_354"
       ]
     },
     {
