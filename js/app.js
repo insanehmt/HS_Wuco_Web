@@ -244,8 +244,11 @@ async function init() {
   const m = DATA.meta || {};
   if (m.artBase) ART = m.artBase;
   if (m.source) document.getElementById("sourceLink").href = m.source;
-  const ver = m.version || m.hsVersion || "[?]";
-  document.getElementById("hsVersion").textContent = /^\d/.test(ver) ? "v" + ver : ver;
+  let ver = m.version || m.hsVersion || "";
+  if (ver === "[?]") ver = "";                       // 不顯示未知版本
+  const vEl = document.getElementById("hsVersion");
+  vEl.textContent = /^\d/.test(ver) ? "v" + ver : ver;
+  vEl.style.display = ver ? "" : "none";
   if (m.season) {
     const sb = document.getElementById("seasonBadge");
     sb.textContent = "S" + m.season;
