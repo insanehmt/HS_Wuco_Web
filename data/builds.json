@@ -929,15 +929,15 @@
       "notes": "合併 #2064 香蕉海獸 / #2066 劍龍咕咕 / #2072 獸環白狼",
       "coreIds": [
         "BG35_602",
-        null,
+        "BG26_802",
         "BG30_MagicItem_706"
       ],
       "addonIds": [
-        null,
-        null,
-        null,
+        "BG35_MagicItem_930",
+        "BG32_MagicItem_350",
+        "BGS_018",
         "BGS_078",
-        null,
+        "BG35_MagicItem_701",
         "BG30_MagicItem_427"
       ]
     },
@@ -977,7 +977,7 @@
       "coreIds": [
         "BG35_MagicItem_821",
         "BG30_802",
-        null
+        "BG27_016"
       ],
       "addonIds": [
         "BG26_ICC_065",
@@ -1030,7 +1030,7 @@
         "BG35_883",
         "BG26_ICC_065",
         "BGS_078",
-        null
+        "BG35_881"
       ]
     },
     {
@@ -1067,7 +1067,7 @@
       ],
       "notes": "索引 #21 補上詳細區塊",
       "coreIds": [
-        null,
+        "BG25_399",
         "BG34_145",
         "BG26_354"
       ],
@@ -1117,9 +1117,9 @@
       ],
       "addonIds": [
         "BG28_309",
-        null,
+        "BG26_147",
         "BG23_318",
-        null
+        "BGS_131"
       ]
     },
     {
@@ -1158,14 +1158,14 @@
       "notes": "「鯉魚+飛天魔像」前所未見",
       "coreIds": [
         "BG35_342",
-        null,
+        "BG23_009",
         "BG26_ICC_065"
       ],
       "addonIds": [
         "BG26_817",
         "BG30_802",
         "BG28_309",
-        null,
+        "BG_OG_256",
         "BG25_016"
       ]
     },
@@ -1208,7 +1208,7 @@
         "BG30_MagicItem_973"
       ],
       "addonIds": [
-        null,
+        "BG32_172",
         "BG21_HERO_030_Buddy",
         "BG26_ICC_065",
         "BG23_318",
@@ -1251,8 +1251,8 @@
       "notes": "6 星戒指龍配織女新招",
       "coreIds": [
         "BG34_921",
-        null,
-        null
+        "BG34_692",
+        "BG34_731"
       ],
       "addonIds": [
         "BG35_883",
@@ -1299,7 +1299,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有野豬人系（B-09 / B-14 / B-20）",
       "coreIds": [
-        null,
+        "BG35_437",
         "BG35_431",
         "BG26_ICC_901"
       ],
@@ -1493,10 +1493,10 @@
         "BG25_008"
       ],
       "addonIds": [
-        null,
+        "BG26_801",
         "BG35_MagicItem_931",
-        null,
-        null,
+        "BG25_399",
+        "BG30_MagicItem_310",
         "BG26_ICC_901"
       ]
     }
