@@ -21,6 +21,7 @@ a { text-decoration: none; }
   padding: 14px 0 12px;
 }
 .header-row { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.site-logo { width: 42px; height: 42px; border-radius: 50%; object-fit: cover; flex-shrink: 0; box-shadow: 0 0 14px #9060c060; border: 1px solid #3a1a50; }
 .page-title { font-family: 'Cinzel', serif; font-size: 1.5rem; font-weight: 900; color: #d0a0f0; text-shadow: 0 0 30px #9060c080; }
 .badge-season { background: #3a0a0a; border: 1px solid #8a2020; color: #ff6060; font-size: .72rem; font-weight: 700; padding: 2px 9px; border-radius: 10px; letter-spacing: .06em; }
 .badge-ver { background: #1a0a30; border: 1px solid #3a1a50; color: #6a4a80; font-size: .7rem; font-weight: 700; padding: 2px 8px; border-radius: 8px; }
