@@ -1675,7 +1675,7 @@
       ],
       "notes": "泰坦守護者塔塔吃雞，前所未見",
       "coreIds": [
-        null,
+        "BG34_173",
         "BG33_153",
         "BG34_Giant_319"
       ],
@@ -2472,7 +2472,7 @@
       "coreIds": [
         "BG28_551",
         "BG28_741",
-        null
+        "BG28_635"
       ],
       "addonIds": [
         null,
@@ -2792,7 +2792,7 @@
       "notes": "左腳踩右腳，無限/6 萬",
       "coreIds": [
         "BG31_HERO_802pt4",
-        null,
+        "BG30_105",
         "BG29_813"
       ],
       "addonIds": [
@@ -3438,7 +3438,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有不朽者/科多獸系（B-62 / B-57）",
       "coreIds": [
-        null,
+        "BG30_105",
         "BG31_HERO_802pt4",
         "BG29_813"
       ],
@@ -3623,7 +3623,7 @@
       "notes": "雷電號放置，2000 打蛋",
       "coreIds": [
         "BG32_174",
-        null,
+        "BG28_635",
         "BG26_152"
       ],
       "addonIds": [
