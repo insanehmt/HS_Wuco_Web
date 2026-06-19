@@ -1676,7 +1676,7 @@
       "notes": "泰坦守護者塔塔吃雞，前所未見",
       "coreIds": [
         null,
-        null,
+        "BG33_153",
         "BG34_Giant_319"
       ],
       "addonIds": [
@@ -1866,7 +1866,7 @@
       "coreIds": [
         null,
         "BG27_822",
-        null
+        "BG34_684"
       ],
       "addonIds": [
         "BG26_801",
@@ -1956,7 +1956,7 @@
       "notes": "第 6 回合吃雞，賣牌流",
       "coreIds": [
         null,
-        null,
+        "BG26_137",
         null
       ],
       "addonIds": [
@@ -2048,9 +2048,9 @@
       "hidden": true,
       "mergedNote": "變體，併入既有野豬人系",
       "coreIds": [
-        null,
+        "BG31_329",
         "BG34_991",
-        null
+        "BG34_684"
       ],
       "addonIds": [
         "BG34_732",
@@ -2283,7 +2283,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有龍族系",
       "coreIds": [
-        null,
+        "BG28_403",
         "BG26_502",
         "BG34_500",
         "BG34_732"
@@ -2522,7 +2522,7 @@
       "addonIds": [
         "BG32_HERO_001_Buddy",
         "BG_OG_256",
-        null,
+        "BG_LOE_012",
         "BGS_078"
       ]
     },
@@ -2567,7 +2567,7 @@
       "addonIds": [
         "BGS_078",
         "BG25_354",
-        null,
+        "BG27_HERO_801_Buddy",
         "BG_OG_256"
       ]
     },
@@ -2607,7 +2607,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有海盜系（B-45）",
       "coreIds": [
-        null,
+        "BG25_032",
         null,
         "BG34_236"
       ],
@@ -2654,7 +2654,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有龍族系",
       "coreIds": [
-        null,
+        "BG21_020",
         "BG32_822",
         "BG34_732"
       ],
@@ -2750,10 +2750,10 @@
         null
       ],
       "addonIds": [
-        null,
+        "BG26_137",
         "BG26_350",
         "BG27_822",
-        null,
+        "BG33_318",
         "BG26_ICC_901"
       ]
     },
@@ -2882,7 +2882,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有魚人系",
       "coreIds": [
-        null,
+        "BG26_137",
         null,
         "BG26_350"
       ],
@@ -3019,7 +3019,7 @@
       "notes": "真·無限壽司，循環破萬",
       "coreIds": [
         "BG34_Giant_323",
-        null,
+        "BG30_MagicItem_920",
         "BGS_078"
       ],
       "addonIds": [
@@ -3205,7 +3205,7 @@
       "coreIds": [
         "BG31_HERO_802pt4",
         "BG26_350",
-        null
+        "BG33_318"
       ],
       "addonIds": [
         "BG30_MagicItem_700",
@@ -3342,7 +3342,7 @@
       "mergedNote": "變體，併入既有海盜/法術系",
       "coreIds": [
         "BG34_521",
-        null,
+        "BG28_966",
         "BG28_551"
       ],
       "addonIds": [
@@ -3398,7 +3398,7 @@
         "BG34_731",
         null,
         "BG25_354",
-        null,
+        "BG26_172",
         "BG25_003"
       ]
     },
@@ -3536,7 +3536,7 @@
         "BG29_844"
       ],
       "addonIds": [
-        null,
+        "BG34_682",
         "BG32_821",
         "EBG_Spell_032",
         "BG23_318",
@@ -3585,7 +3585,7 @@
         "BG31_802",
         "BG26_ICC_901",
         "BG23_318",
-        null
+        "BG31_176"
       ]
     },
     {
@@ -3719,7 +3719,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有惡魔吃吃系（B-78）",
       "coreIds": [
-        null,
+        "BG34_682",
         "BG21_005",
         "BG21_029"
       ],
@@ -3858,7 +3858,7 @@
         "BG32_MagicItem_361"
       ],
       "addonIds": [
-        null,
+        "BG34_682",
         "BG32_821",
         "BG27_556",
         null
@@ -4129,7 +4129,7 @@
       "coreIds": [
         null,
         "BG23_009",
-        null
+        "BG35_141"
       ],
       "addonIds": [
         "BG28_303",
@@ -4180,7 +4180,7 @@
       "addonIds": [
         "BG26_801",
         "BGS_078",
-        null,
+        "BG23_017",
         "BG25_016",
         "BG35_MagicItem_306"
       ]
@@ -4220,7 +4220,7 @@
       ],
       "notes": "鐵爐堡靠背鐵砧 3 倍",
       "coreIds": [
-        null,
+        "BG30_MagicItem_403",
         "BG30_MagicItem_403",
         "BG35_883"
       ],
@@ -4269,14 +4269,14 @@
       "mergedNote": "變體，併入既有惡魔蝙蝠吃吃系（B-78）",
       "coreIds": [
         null,
-        null,
+        "BG34_682",
         "BG21_005"
       ],
       "addonIds": [
         "BG26_ICC_901",
         "BG32_821",
         "BG32_837",
-        null
+        "BG31_176"
       ]
     }
   ],
