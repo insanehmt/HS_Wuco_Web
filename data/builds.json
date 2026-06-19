@@ -1635,7 +1635,7 @@
         null
       ],
       "addonIds": [
-        null,
+        "BG34_Treasure_940",
         "BGS_119",
         "BGS_126",
         "BGS_131"
@@ -1817,7 +1817,7 @@
       "mergedNote": "變體，併入既有機械系",
       "coreIds": [
         "BG20_HERO_101_Buddy",
-        null,
+        "BG34_Giant_072",
         null
       ],
       "addonIds": [
@@ -1910,7 +1910,7 @@
       ],
       "notes": "摩斯拉回歸，15000 天花板",
       "coreIds": [
-        null,
+        "BG34_781",
         "BG32_204",
         "BG34_991"
       ],
@@ -1955,7 +1955,7 @@
       ],
       "notes": "第 6 回合吃雞，賣牌流",
       "coreIds": [
-        null,
+        "BG34_Giant_072",
         "BG26_137",
         null
       ],
@@ -2104,7 +2104,7 @@
         "BG31_819",
         "BGS_078",
         "BG25_354",
-        null
+        "BG34_Treasure_940"
       ]
     },
     {
@@ -2236,7 +2236,7 @@
       "notes": "毀壞領主天花板，整排 6000",
       "coreIds": [
         "BG33_154",
-        null,
+        "BG29_808",
         "BG26_801"
       ],
       "addonIds": [
@@ -2334,7 +2334,7 @@
       "coreIds": [
         "BG32_204",
         "BG26_801",
-        null
+        "BG29_808"
       ],
       "addonIds": [
         "BG25_354",
@@ -2747,7 +2747,7 @@
       "coreIds": [
         "BG34_145",
         "BG32_337",
-        null
+        "BG34_Giant_072"
       ],
       "addonIds": [
         "BG26_137",
@@ -3064,7 +3064,7 @@
       "notes": "跳蛙終極體，390 萬",
       "coreIds": [
         "BG33_140",
-        null,
+        "BG34_Giant_370",
         "BGS_078"
       ],
       "addonIds": [
@@ -3487,7 +3487,7 @@
       "coreIds": [
         "BG34_236",
         null,
-        null
+        "BG34_Giant_208"
       ],
       "addonIds": [
         "BG_LOE_077",
