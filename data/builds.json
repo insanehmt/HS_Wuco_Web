@@ -2153,6 +2153,243 @@
         "BGS_071",
         "BG30_MagicItem_406"
       ]
+    },
+    {
+      "id": "B-49",
+      "name": "中立 時光扭曲石龍賣怪流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "元素"
+      ],
+      "source": "https://www.youtube.com/watch?v=KxNzm_mYx9k",
+      "episode": "#2019",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "時光扭曲石龍",
+        "吟龍",
+        "怒兆"
+      ],
+      "supportCards": [
+        "雪崩",
+        "爺",
+        "貝斯",
+        "銅鬚",
+        "摩斯拉"
+      ],
+      "logic": "石龍：本回合出售的手下都給他數值（檯面越大、賣怪越大）。配吟龍永久翻倍，雪崩/賣怪灌量，3 萬起跳。雙石龍可「左腳踩右腳」互彈無限。",
+      "tips": [
+        "雪崩也算出售，會餵石龍",
+        "決賽全牌賣掉、石龍上場",
+        "石龍配金卡吟龍數值雙倍"
+      ],
+      "notes": "時光扭曲石龍神卡，完全體 3 萬（含 #2014 首登場）",
+      "coreIds": [
+        "BG34_Giant_675",
+        "BG29_813",
+        "BG27_822"
+      ],
+      "addonIds": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-50",
+      "name": "野獸 毀壞領主三角龍流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "野獸",
+        "惡魔"
+      ],
+      "source": "https://www.youtube.com/watch?v=JEhAYhDx-O8",
+      "episode": "#2017",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "毀壞領主",
+        "三角龍",
+        "鐵頭"
+      ],
+      "supportCards": [
+        "鸚鵡",
+        "銅鬚",
+        "男爵",
+        "香氛骨匣"
+      ],
+      "logic": "毀壞領主當靜默用（不放大）但可配銅鬚+男爵，三角龍敲盾，鐵頭+鸚鵡瘋狂觸發，整排跳 5000-6000。可與摩斯拉/三角龍/鐵頭復刻 3 萬數值。",
+      "tips": [
+        "三角龍同時配銅鬚+男爵（靜默不行）",
+        "小鸚鵡站 1 號不死可整排萬數值",
+        "香氛骨匣觸發鸚鵡爆量"
+      ],
+      "notes": "毀壞領主天花板，整排 6000",
+      "coreIds": [
+        "BG33_154",
+        null,
+        "BG26_801"
+      ],
+      "addonIds": [
+        "BGS_078",
+        null,
+        "BG25_354",
+        null
+      ]
+    },
+    {
+      "id": "B-51",
+      "name": "龍族 太陽錘藍調特技龍鬼轉流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=cj3SK75CJWo",
+      "episode": "#2015",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "太陽錘",
+        "藍調",
+        "燃焰",
+        "特技龍"
+      ],
+      "supportCards": [
+        "吟龍",
+        "香菇",
+        "男爵",
+        "惡霸龍"
+      ],
+      "logic": "英雄米羅克太陽錘從頭吃到尾，藍調+燃焰太陽錘破萬，鬼轉把燃焰數值彈到特技龍，吟龍給永久翻倍/盾，22 血 10 甲完美收場。",
+      "tips": [
+        "燃焰吃雙倍效率最高（別用魔豬吃藍調）",
+        "子嗣永久 + 吟龍翻倍給特技龍",
+        "急速復生少牌完美團"
+      ],
+      "notes": "太陽錘鬼轉特技龍",
+      "hidden": true,
+      "mergedNote": "變體，併入既有龍族系",
+      "coreIds": [
+        null,
+        "BG26_502",
+        null,
+        "BG34_732"
+      ],
+      "addonIds": [
+        "BG29_813",
+        "BG26_505",
+        "BG25_354",
+        "BG34_731"
+      ]
+    },
+    {
+      "id": "B-52",
+      "name": "不死族 鬼轉摩斯拉蟲蟲危機流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "不死族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=c9mWBK22dBM",
+      "episode": "#2016",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "摩斯拉",
+        "鐵頭",
+        "三角龍"
+      ],
+      "supportCards": [
+        "男爵",
+        "銅鬚",
+        "鸚鵡",
+        "塔姆卓",
+        "秘密大師"
+      ],
+      "logic": "不死族過渡後鬼轉摩斯拉，金鐵頭夾雙三角龍，秘密大師灌摩斯拉到 11000，雙倍數值蟲蟲 2 萬，最大 3 萬 3。",
+      "tips": [
+        "三角龍/男爵/銅鬚都戴套防擴散",
+        "鐵頭夾三角龍是最高天花板構成",
+        "塔姆卓重生致命一擊"
+      ],
+      "notes": "不死轉摩斯拉，蟲蟲 2 萬",
+      "hidden": true,
+      "mergedNote": "變體，併入既有摩斯拉/野獸系（B-43）",
+      "coreIds": [
+        null,
+        "BG26_801",
+        null
+      ],
+      "addonIds": [
+        "BG25_354",
+        null,
+        "BGS_078",
+        "BG23_HERO_201_Buddy",
+        null
+      ]
+    },
+    {
+      "id": "B-53",
+      "name": "龍族 織女石龍考憊流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=U_Sq18UBys4",
+      "episode": "#2018",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "織女",
+        "時光扭曲石龍",
+        "火砲海盜"
+      ],
+      "supportCards": [
+        "爺",
+        "怒兆",
+        "辛多雷",
+        "楊過的手"
+      ],
+      "logic": "2 合 1 異變幸運幣也算法術，織女吃幣狂疊（14 回合 600 層、千層），基礎數值 2000 比鬧鬼還高，石龍賣怪 5400。「考憊流」。",
+      "tips": [
+        "幸運幣算法術，敲幣也養織女",
+        "織女不能丟（發育來源）",
+        "石龍決賽賣怪爆數值"
+      ],
+      "notes": "1000 層織女，幸運幣受惠",
+      "hidden": true,
+      "mergedNote": "變體，併入既有龍族/織女系（B-29）",
+      "coreIds": [
+        "BG34_692",
+        "BG34_Giant_675",
+        "BG34_236"
+      ],
+      "addonIds": [
+        null,
+        "BG27_822",
+        "BG25_016",
+        "BG28_309"
+      ]
     }
   ],
   "counters": [
