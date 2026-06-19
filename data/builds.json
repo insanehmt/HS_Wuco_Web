@@ -2938,6 +2938,281 @@
         "BGS_071",
         null
       ]
+    },
+    {
+      "id": "B-66",
+      "name": "野獸 時光白狼鯉魚放置流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=2rSvr8xChM0",
+      "episode": "#2033",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "時光扭曲白狼（戈德林）",
+        "鯉魚",
+        "怒兆"
+      ],
+      "supportCards": [
+        "男爵",
+        "鸚鵡",
+        "附魔師",
+        "甲蟲法術"
+      ],
+      "logic": "時光白狼加強版（戰鬥開始全野獸 +4/+4），鯉魚點金召大寶寶，男爵+鸚鵡放大，雙怒兆開頂，整排放置破千。「白狼也有春天」。",
+      "tips": [
+        "鯉魚變金色不賣，召出的寶寶超大",
+        "白狼靠鸚鵡觸發，男爵加成不可少",
+        "怒兆站 1 號頂掉對手"
+      ],
+      "notes": "白狼加強，放置破千",
+      "coreIds": [
+        null,
+        "BG_OG_256",
+        "BG27_822"
+      ],
+      "addonIds": [
+        "BG25_354",
+        "BGS_078",
+        "BG26_ICC_901",
+        "BG28_603"
+      ]
+    },
+    {
+      "id": "B-67",
+      "name": "納迦 無限壽司流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "納迦",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=g9gysGZQebY",
+      "episode": "#2037",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "時光扭曲秘書（工兵）",
+        "壽司",
+        "鸚鵡"
+      ],
+      "supportCards": [
+        "藍調",
+        "香菇",
+        "男爵",
+        "銅鬚"
+      ],
+      "logic": "施放造法給旅店法術，壽司一直敲無限循環（造法↔法術互相連動打不完），鸚鵡光盾+風怒每回合連打 2 下保壽司滿，數值循環破萬。",
+      "tips": [
+        "鸚鵡/男爵拿盾，不改位（改位壽司拿不滿）",
+        "螃蟹全往後打",
+        "甲蟲變大關鍵是金銅鬚不是男爵"
+      ],
+      "notes": "真·無限壽司，循環破萬",
+      "coreIds": [
+        "BG34_Giant_323",
+        null,
+        "BGS_078"
+      ],
+      "addonIds": [
+        "BG26_502",
+        "BG26_505",
+        "BG25_354",
+        null
+      ]
+    },
+    {
+      "id": "B-68",
+      "name": "野獸 跳蛙帝雉鸚鵡終極流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "極高",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=P6fYGTIsZuw",
+      "episode": "#2036",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "跳蛙",
+        "金卡帝雉",
+        "鸚鵡"
+      ],
+      "supportCards": [
+        "男爵",
+        "附魔師",
+        "甲蟲法術",
+        "大地之母"
+      ],
+      "logic": "金卡帝雉開場觸發跳蛙壞掉，鸚鵡越多天花板越高（連動 2 次），1 萬→10 萬→100 萬→390 萬。終極體：金帝雉+男爵+跳蛙，其餘格全鸚鵡。",
+      "tips": [
+        "跳蛙站 1 號先送（天花板最高）",
+        "鸚鵡越多越狂，剩餘格全擺鸚鵡",
+        "帝雉死了戰鬥開始就沒了，要保"
+      ],
+      "notes": "跳蛙終極體，390 萬",
+      "coreIds": [
+        null,
+        null,
+        "BGS_078"
+      ],
+      "addonIds": [
+        "BG25_354",
+        "BG26_ICC_901",
+        "BG28_603",
+        "EBG_Spell_017"
+      ]
+    },
+    {
+      "id": "B-69",
+      "name": "中立 拉法姆偷牌未來鰭剛普流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "魚人"
+      ],
+      "source": "https://www.youtube.com/watch?v=5wrX2jHi0Xg",
+      "episode": "#2032",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "拉法姆（無限偷牌）",
+        "未來鰭",
+        "剛普"
+      ],
+      "supportCards": [
+        "怒兆",
+        "口咬",
+        "附魔師",
+        "鐵頭"
+      ],
+      "logic": "拉法姆偷牌不能斷（鐵頭/松鼠炸彈/石油），未來鰭金卡翻倍養剛普，口咬咬一圈做 2 個超大，剛普 22 萬揮擊。觀眾選擇局。",
+      "tips": [
+        "偷牌絕對不能斷",
+        "口咬一圈做超大剛普/怒兆",
+        "飛魚空格飛出十萬"
+      ],
+      "notes": "拉法姆偷牌，22 萬揮擊",
+      "hidden": true,
+      "mergedNote": "變體，併入既有未來鰭系（B-61）",
+      "coreIds": [
+        null,
+        "BG34_145",
+        "BG26_817"
+      ],
+      "addonIds": [
+        "BG27_822",
+        "EBG_Spell_032",
+        "BG26_ICC_901",
+        "BG26_801"
+      ]
+    },
+    {
+      "id": "B-70",
+      "name": "元素 相片轟炸彈魔流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "元素",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=NHAlsQ3vMOA",
+      "episode": "#2034",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "相片轟炸者",
+        "鸚鵡",
+        "黃金之觸"
+      ],
+      "supportCards": [
+        "男爵",
+        "重生",
+        "東煮",
+        "光盾"
+      ],
+      "logic": "旅店法術養相片轟炸者，鸚鵡+重生瘋狂觸發開炸，黃金之觸永遠弄金色，從頭炸到尾 7 隻毫髮無傷，專 counter 摩斯拉。",
+      "tips": [
+        "鸚鵡 1 號風怒+聖盾暴撞",
+        "黃金之觸永遠留著弄金色",
+        "開局炸掉摩斯拉"
+      ],
+      "notes": "炸彈魔本多忠勝，破摩斯拉",
+      "hidden": true,
+      "mergedNote": "變體，併入既有元素球手炸彈系（B-47）",
+      "coreIds": [
+        "BG34_780",
+        "BGS_078",
+        "BG28_830"
+      ],
+      "addonIds": [
+        "BG25_354",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-71",
+      "name": "中立 不朽者貝斯膽汁翻盤流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=-iu2Eca2cgs",
+      "episode": "#2035",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "不朽者",
+        "貝斯",
+        "膽汁"
+      ],
+      "supportCards": [
+        "香氛",
+        "回收靈魂",
+        "辛多雷",
+        "炸雞"
+      ],
+      "logic": "不朽者的不朽者傳送門，香氛讓最小不朽者再來一次，貝斯拉膽汁（帶重生）跟炸雞對換，配雷矛之力複製不朽者金卡，世紀翻盤。",
+      "tips": [
+        "不朽者夾著擺、複製金卡",
+        "貝斯拉膽汁跟炸雞對換賺",
+        "轉職偷套能力翻盤"
+      ],
+      "notes": "翻盤 5.5%，不朽者金卡",
+      "hidden": true,
+      "mergedNote": "變體，併入既有不朽者系（B-62）",
+      "coreIds": [
+        "BG31_HERO_802pt4",
+        null,
+        null
+      ],
+      "addonIds": [
+        null,
+        null,
+        "BG25_016",
+        "BG23_318"
+      ]
     }
   ],
   "counters": [
