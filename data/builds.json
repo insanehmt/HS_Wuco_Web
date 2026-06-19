@@ -2664,6 +2664,280 @@
         null,
         null
       ]
+    },
+    {
+      "id": "B-60",
+      "name": "機械 金屬販賣機眼睛流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "機械",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=5ormjrlUKbY",
+      "episode": "#2026",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "金屬販賣機",
+        "不懈偏斜者（第三代眼睛）",
+        "惡霸龍"
+      ],
+      "supportCards": [
+        "男爵",
+        "大喇叭",
+        "東煮",
+        "辛多雷"
+      ],
+      "logic": "販賣機投幣生大量小喇叭 → 無限魔力眼睛（第三代最強眼睛），喇叭飛行邊變大，1 回合 +2000，光盾循環。本版機械 T1 啟動關鍵。",
+      "tips": [
+        "無人機是廢卡，賣一買一別卡手",
+        "不懈偏斜者撞出光盾循環",
+        "眼睛帶報復 3 無限魔力"
+      ],
+      "notes": "販賣機流，機械 T1",
+      "coreIds": [
+        null,
+        "BG34_405",
+        "BG34_731"
+      ],
+      "addonIds": [
+        "BG25_354",
+        null,
+        null,
+        "BG25_016"
+      ]
+    },
+    {
+      "id": "B-61",
+      "name": "魚人 未來鰭燉菜流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "魚人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=e5ycGXXvrmc",
+      "episode": "#2028",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "未來鰭（7星）",
+        "燉菜",
+        "時光跳魚"
+      ],
+      "supportCards": [
+        "鯛魚",
+        "貝斯",
+        "怒兆",
+        "膽汁",
+        "附魔師"
+      ],
+      "logic": "未來養未來最誇張，燉菜按關鍵字數一次疊多層灌未來鰭，雙時光跳魚開養，數值 5 萬 10 萬在跳。決賽全賣再咬，飛魚無限大。",
+      "tips": [
+        "燉菜灌未來鰭最快（鐵頭/鸚鵡燉菜）",
+        "鯛魚別養太多會擠（陷阱）",
+        "7 星老莫已被未來鰭取代"
+      ],
+      "notes": "未來養未來，5-10 萬",
+      "coreIds": [
+        "BG34_145",
+        null,
+        null
+      ],
+      "addonIds": [
+        null,
+        null,
+        "BG27_822",
+        null,
+        "BG26_ICC_901"
+      ]
+    },
+    {
+      "id": "B-62",
+      "name": "中立 不朽者大象吟龍無限流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "龍族"
+      ],
+      "source": "https://www.youtube.com/watch?v=zPnm_X3SDGU",
+      "episode": "#2029",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "不朽者",
+        "大象",
+        "吟龍"
+      ],
+      "supportCards": [
+        "娜拉",
+        "織女",
+        "辛多雷",
+        "交換靈魂"
+      ],
+      "logic": "不朽者吸兩側雙倍 → 大象吸場上 3 大怪雙倍 → 吟龍再翻倍，「2 倍+2 倍+2 倍=8 倍」倍來倍去，數值顯示無限（One Punch）。",
+      "tips": [
+        "控制成 3 個種族（大象才不會跳過不朽者）",
+        "不朽者先發動，大象才最大",
+        "吟龍金卡雙倍"
+      ],
+      "notes": "左腳踩右腳，無限/6 萬",
+      "coreIds": [
+        "BG31_HERO_802pt4",
+        null,
+        "BG29_813"
+      ],
+      "addonIds": [
+        null,
+        "BG34_692",
+        "BG25_016",
+        null
+      ]
+    },
+    {
+      "id": "B-63",
+      "name": "龍族 永爸無限飛行流（奧妮克西亞）",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "惡魔"
+      ],
+      "source": "https://www.youtube.com/watch?v=2VNZYE-OHUY",
+      "episode": "#2031",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "永爸",
+        "大胖",
+        "永恆騎士"
+      ],
+      "supportCards": [
+        "香菜龍",
+        "黑龍育母",
+        "惡霸龍",
+        "銅鬚"
+      ],
+      "logic": "2 合 1 奧妮克西亞，大胖吃雙龍複製永爸，永爸無限飛行穢土重生，永恆騎士撞到 2000 層，「世界ザ·ワールド」5 萬永凍。",
+      "tips": [
+        "金錢力優先（一直升級找永爸）",
+        "大胃要嘲諷（永爸被秒就崩）",
+        "重生永爸續循環"
+      ],
+      "notes": "永爸永動飛行，永騎 2000 層",
+      "coreIds": [
+        "BG34_403",
+        null,
+        "BG25_008"
+      ],
+      "addonIds": [
+        null,
+        "BG34_731",
+        "BG34_731",
+        null
+      ]
+    },
+    {
+      "id": "B-64",
+      "name": "魚人 毒魚陣鯛魚流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "魚人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=KdeO_r8Wqlc",
+      "episode": "#2027",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "鯛魚",
+        "克羅米（偷牌）",
+        "貝斯"
+      ],
+      "supportCards": [
+        "炸雞",
+        "燉菜",
+        "毒素魚"
+      ],
+      "logic": "克羅米雙偷克羅米全自動 3 合 1，竊賊養鯛魚，貝斯拉怪 + 毒素，毒魚陣可勝摩斯拉（逆轉勝 1.5%）。",
+      "tips": [
+        "鯛魚別養太多會擠",
+        "克羅米偷牌每回合 3 合 1",
+        "毒素絕對擊殺破大怪"
+      ],
+      "notes": "毒魚陣破摩斯拉",
+      "hidden": true,
+      "mergedNote": "變體，併入既有魚人系",
+      "coreIds": [
+        null,
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG23_318",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-65",
+      "name": "機械 飛行販賣機黃金箭流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=1r2M1hQYyAQ",
+      "episode": "#2030",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "飛行販賣機（供應機）",
+        "黃金箭",
+        "惡霸龍"
+      ],
+      "supportCards": [
+        "男爵",
+        "香菜龍",
+        "眼睛",
+        "寶寶"
+      ],
+      "logic": "供應機產超多寶寶/喇叭，黃金箭只射旅店，寶寶一直貼一張合體 +100，卡手一整局還能玩，香菜龍寶寶撞掉對手打點。",
+      "tips": [
+        "重點：找男爵+惡霸龍點金",
+        "人多疊喇叭是真諦（不需大喇叭）",
+        "黃金箭會爆牌，控制寶寶數量"
+      ],
+      "notes": "卡手整局還能玩，T1",
+      "hidden": true,
+      "mergedNote": "變體，併入既有機械販賣機系（B-60）",
+      "coreIds": [
+        null,
+        null,
+        "BG34_731"
+      ],
+      "addonIds": [
+        "BG25_354",
+        null,
+        "BGS_071",
+        null
+      ]
     }
   ],
   "counters": [
