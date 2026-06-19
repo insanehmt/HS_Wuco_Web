@@ -3213,6 +3213,288 @@
         "BG25_016",
         "BG23_318"
       ]
+    },
+    {
+      "id": "B-72",
+      "name": "野獸 嘲諷男爵綠蟲子怒兆流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=iNVo4d0crAg",
+      "episode": "#2039",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "嘲諷男爵（金卡）",
+        "綠蟲子",
+        "怒兆"
+      ],
+      "supportCards": [
+        "小白狼",
+        "鸚鵡",
+        "變色龍",
+        "甲蟲"
+      ],
+      "logic": "史上罕見的嘲諷金男爵大陣（2 隻金男爵帶嘲諷穩牌序），綠蟲子小費疊層，怒兆 3 頂開頂，整排穩定逆轉。「我打戰場那麼久終於看到嘲諷男爵」。",
+      "tips": [
+        "嘲諷男爵 2 條命，被打掉也續觸發",
+        "怒兆配小白狼瞬間放大",
+        "弱點：對手辛多雷點 20 雙全倒"
+      ],
+      "notes": "6 嘲諷男爵陣，前所未見",
+      "coreIds": [
+        null,
+        null,
+        "BG27_822"
+      ],
+      "addonIds": [
+        null,
+        "BGS_078",
+        null,
+        "BG28_603t"
+      ]
+    },
+    {
+      "id": "B-73",
+      "name": "野獸 小白狼點金流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=OcjVNgyoGqA",
+      "episode": "#2040",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "小白狼（時光扭曲）",
+        "金男爵",
+        "鸚鵡"
+      ],
+      "supportCards": [
+        "怒兆",
+        "大地之母",
+        "雷矛之力",
+        "複製裝置"
+      ],
+      "logic": "捨棄跳蛙玩小白狼，雙小白狼開疊（戰鬥開始全野獸瞬間大），鸚鵡循環，怒兆是最強 combo。雷矛複製到小白狼可達 9 白狼。",
+      "tips": [
+        "小白狼計算單隻，2 隻不疊但鋪量",
+        "鸚鵡越多越狂，怒兆頂掉販賣機",
+        "跳蛙當裝飾防牌序歪"
+      ],
+      "notes": "9 小白狼，126 層",
+      "coreIds": [
+        null,
+        null,
+        "BGS_078"
+      ],
+      "addonIds": [
+        "BG27_822",
+        "EBG_Spell_017",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-74",
+      "name": "海盜 跳板僵屍法術鬼轉流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "海盜",
+        "龍族"
+      ],
+      "source": "https://www.youtube.com/watch?v=NlITGwI304s",
+      "episode": "#2038",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "跳板僵屍",
+        "蘋果",
+        "娜拉"
+      ],
+      "supportCards": [
+        "大聲公龍",
+        "海元素",
+        "特技龍",
+        "男爵",
+        "口咬"
+      ],
+      "logic": "蘋果每刷觸發，跳板僵屍+大聲公龍+海元素法術放大，娜拉全種族，決賽雪崩集中特技龍鬼轉 6000 飛，硬核吃雞。",
+      "tips": [
+        "胖達+爺/銅鬚產大量法術",
+        "最大炸雞殿後（販賣機局）",
+        "阿基拉每 4 法術變大"
+      ],
+      "notes": "法術流鬼轉特技龍，1.7%",
+      "hidden": true,
+      "mergedNote": "變體，併入既有海盜/法術系",
+      "coreIds": [
+        null,
+        null,
+        null
+      ],
+      "addonIds": [
+        null,
+        null,
+        "BG34_732",
+        "BG25_354",
+        "EBG_Spell_032"
+      ]
+    },
+    {
+      "id": "B-75",
+      "name": "龍族 永爸大胖無限飛行流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "龍族",
+        "惡魔"
+      ],
+      "source": "https://www.youtube.com/watch?v=ej2yB2T3sR8",
+      "episode": "#2041",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "永爸",
+        "大胖",
+        "變色龍"
+      ],
+      "supportCards": [
+        "惡霸龍",
+        "香菜龍",
+        "男爵",
+        "鋼琴手",
+        "不懈哨衛"
+      ],
+      "logic": "希瓦娜斯/黑龍育母，大胖吃幼龍開場衝，永爸無限飛行，變色龍/不懈複製永爸，控制格子不被卡住即無限。「世界ザ·ワールド」罰站。",
+      "tips": [
+        "大胖吃幼龍開場就無限",
+        "控格子留容錯空間防卡",
+        "複製普卡永爸不易卡"
+      ],
+      "notes": "大胖永爸最簡配置，無限",
+      "hidden": true,
+      "mergedNote": "變體，併入既有永爸飛行系（B-63）",
+      "coreIds": [
+        "BG34_403",
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG34_731",
+        null,
+        "BG25_354",
+        null,
+        "BG25_003"
+      ]
+    },
+    {
+      "id": "B-76",
+      "name": "中立 大胖迴旋機大象無限流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "龍族"
+      ],
+      "source": "https://www.youtube.com/watch?v=lx1PvzPp1lA",
+      "episode": "#2042",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "大象",
+        "不朽者",
+        "吟龍"
+      ],
+      "supportCards": [
+        "影豬人",
+        "大胖",
+        "迴旋機",
+        "男爵"
+      ],
+      "logic": "馬林英雄，大象+不朽者+吟龍 3 張無限（異變沒 ban 大象）；另線金大象+大胖吃吃+迴旋機複製雙大象，One Punch 秒殺。",
+      "tips": [
+        "大象互吞被限制（不會）",
+        "迴旋機站大胖右邊複製雙大象",
+        "吟龍讓大象效果永久"
+      ],
+      "notes": "大胖迴旋機雙大象循環",
+      "hidden": true,
+      "mergedNote": "變體，併入既有不朽者/科多獸系（B-62 / B-57）",
+      "coreIds": [
+        null,
+        "BG31_HERO_802pt4",
+        "BG29_813"
+      ],
+      "addonIds": [
+        null,
+        null,
+        "BG21_HERO_030_Buddy",
+        "BG25_354"
+      ]
+    },
+    {
+      "id": "B-77",
+      "name": "海盜 火砲海元素海王流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "海盜",
+        "元素"
+      ],
+      "source": "https://www.youtube.com/watch?v=O6HxydjbZx4",
+      "episode": "#2043",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "火砲海盜",
+        "海元素",
+        "紅髮（偷牌）"
+      ],
+      "supportCards": [
+        "銅鬚",
+        "桑德斯",
+        "剛普",
+        "炸雞"
+      ],
+      "logic": "米羅克紅髮瘋狂偷高星卡，火砲海盜+海元素純海盜發育（金火砲 +2/+2×2），正面突破所有種族，1800 攻 3 倍戰鬥力。「海王」。",
+      "tips": [
+        "火砲是海盜提升最快的牌",
+        "牌放右邊防伺服器卡賣錯",
+        "決賽原地賣灌怒兆"
+      ],
+      "notes": "純海盜海王，3 倍戰力",
+      "hidden": true,
+      "mergedNote": "變體，併入既有海盜系（B-45）",
+      "coreIds": [
+        "BG34_236",
+        null,
+        null
+      ],
+      "addonIds": [
+        null,
+        null,
+        "BG26_817",
+        "BG23_318"
+      ]
     }
   ],
   "counters": [
