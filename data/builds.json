@@ -1501,6 +1501,100 @@
         "BG30_MagicItem_310",
         "BG26_ICC_901"
       ]
+    },
+    {
+      "id": "B-35",
+      "name": "龍族 戒指龍魅翼怒鱗放置流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "納迦"
+      ],
+      "source": "https://www.youtube.com/watch?v=lmn0QjgMAFY",
+      "episode": "#2099",
+      "hsVersion": "[?]",
+      "currentVersion": true,
+      "coreCards": [
+        "戒指龍",
+        "魅翼",
+        "怒鱗",
+        "青銅龍計時器（飾品）"
+      ],
+      "supportCards": [
+        "吟龍",
+        "變色龍",
+        "海巫",
+        "快樂球"
+      ],
+      "logic": "青銅龍計時器放置生效 + 吟龍鎖數值 + 怒鱗（友方納迦獲得生命雙倍）狂養戒指龍。變色龍複製大牌，數值破百萬。「放著就無限翻倍，放置就吃雞」。",
+      "tips": [
+        "龍外線丟掉就絕對不歪",
+        "雙戒指龍 + 雙怒鱗最強",
+        "時光吟龍是最佳複製目標"
+      ],
+      "notes": "最新影片，放置型破百萬",
+      "coreIds": [
+        "BG34_921",
+        "BG33_240",
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG29_813",
+        null,
+        null,
+        "BG30_802"
+      ]
+    },
+    {
+      "id": "B-36",
+      "name": "機械 飛天魔像頭像進化流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=9mxbAli7uIs",
+      "episode": "#2100",
+      "hsVersion": "[?]",
+      "currentVersion": true,
+      "coreCards": [
+        "飛天魔像",
+        "飛天魔像頭像（飾品）",
+        "崗古"
+      ],
+      "supportCards": [
+        "男爵",
+        "拳手",
+        "發明家",
+        "組裝機"
+      ],
+      "logic": "飛天魔像頭像給全場放大，死聲越多魔像越大，崗古+男爵翻倍死聲。「拳手退位，現在是飛天魔像的時代」，勝率 99.9%。",
+      "tips": [
+        "飛天魔像頭像讓全牌放大，燒都燒不掉",
+        "發明家是本局最強牌",
+        "打機械辛多雷很強，需防"
+      ],
+      "notes": "飛天魔像超越拳手，頭像飾品版",
+      "hidden": true,
+      "mergedNote": "變體，併入既有機械飛天魔像系（B-27）",
+      "coreIds": [
+        null,
+        "BG35_MagicItem_740",
+        "BG26_817"
+      ],
+      "addonIds": [
+        "BG25_354",
+        "BG26_149",
+        null,
+        "BG32_172"
+      ]
     }
   ],
   "counters": [
