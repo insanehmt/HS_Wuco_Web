@@ -4002,6 +4002,188 @@
         "BG28_573",
         "BG27_822"
       ]
+    },
+    {
+      "id": "B-89",
+      "name": "野獸 潛伏海獸萬用飼料流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=nwkeqv9eiog",
+      "episode": "#2056",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "潛伏海獸",
+        "萬用飼料",
+        "劍龍"
+      ],
+      "supportCards": [
+        "咕咕機",
+        "豹子",
+        "蕉流猩",
+        "墜毀飛天魔像"
+      ],
+      "logic": "潛伏海獸每召喚野獸 +2攻並永久強化（後期召出幾百攻寶寶），萬用飼料給野獸永久重生，配劍龍咕咕源源不斷，蕉流猩翻倍。野獸前中期無敵。",
+      "tips": [
+        "海獸給重生防開局被秒",
+        "飼料才是最穩的成長來源",
+        "蕉流猩讓召喚怪翻倍"
+      ],
+      "notes": "潛伏海獸新玩法（新飾品版）",
+      "coreIds": [
+        "BG35_602",
+        "BG32_MagicItem_200",
+        null
+      ],
+      "addonIds": [
+        "BG33_371",
+        null,
+        "BG26_802",
+        null
+      ]
+    },
+    {
+      "id": "B-90",
+      "name": "中立 關羽呂布崗古流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "機械"
+      ],
+      "source": "https://www.youtube.com/watch?v=KBToTaBTx88",
+      "episode": "#2057",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "魔關羽",
+        "呂布",
+        "崗古"
+      ],
+      "supportCards": [
+        "男爵",
+        "墜毀飛天魔像",
+        "楊過的手",
+        "炸雞"
+      ],
+      "logic": "狼王雙能力，呂布吃給魔關羽放大（吃超準 1900），崗古召喚自動機，男爵召喚一堆魔關羽，墜毀飛天魔像機械詞綴爆量。館長貼紙。",
+      "tips": [
+        "呂布吃關羽放大",
+        "男爵死 2 個魔關羽召一堆",
+        "炸雞防爆，砲灰擺中間"
+      ],
+      "notes": "關羽呂布吃雞（新飾品版）",
+      "coreIds": [
+        null,
+        null,
+        "BG26_817"
+      ],
+      "addonIds": [
+        "BG25_354",
+        null,
+        "BG28_309",
+        "BG23_318"
+      ]
+    },
+    {
+      "id": "B-91",
+      "name": "不死族 戰鬼擠擠流（蟹膏）",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "不死族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=uYv7EcYV_Fk",
+      "episode": "#2058",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "戰鬼",
+        "插座",
+        "老莫"
+      ],
+      "supportCards": [
+        "盜墓賊",
+        "男爵",
+        "佔上風",
+        "香氛骨匣"
+      ],
+      "logic": "戰鬼擠擠流，插座+盜墓賊炸一變二瘋狂擠，老莫吸大大大陣超大，蟹膏疊飛天魔像，盜墓賊每拿一張快樂一次。13 回合開台 2 連雞。",
+      "tips": [
+        "大的站 1 號不觸發、讓對手打小的",
+        "插座有死聲別放前面亂發動",
+        "老莫最愛大大大陣"
+      ],
+      "notes": "戰鬼擠擠流重出江湖",
+      "coreIds": [
+        null,
+        "BG23_009",
+        null
+      ],
+      "addonIds": [
+        null,
+        "BG25_354",
+        "BG28_573",
+        null
+      ]
+    },
+    {
+      "id": "B-92",
+      "name": "不死族 屠殺巴姐法強流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "不死族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=NMBoQ6JCTpw",
+      "episode": "#2059",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "屠殺",
+        "巴姐（金卡）",
+        "惡毒秘典"
+      ],
+      "supportCards": [
+        "鐵頭",
+        "鸚鵡",
+        "血紅武士",
+        "辛多雷",
+        "閻獄之主貼紙"
+      ],
+      "logic": "攻擊靈氣高，屠殺一發 +14，巴姐金卡讓屠殺 3 倍（14×3），惡毒秘典法強隨人口提升，法強越高威力越大。13 回合 300 攻靈氣。",
+      "tips": [
+        "三重點：法強 + 屠殺 + 巴姐",
+        "閻獄之主貼紙多一發造法摧毀",
+        "1181 攻靈氣正面打贏永爸"
+      ],
+      "notes": "屠殺巴姐，1181 靈氣",
+      "coreIds": [
+        "BG28_604",
+        "BG35_883",
+        "BG32_MagicItem_270"
+      ],
+      "addonIds": [
+        "BG26_801",
+        "BGS_078",
+        null,
+        "BG25_016",
+        "BG35_MagicItem_306"
+      ]
     }
   ],
   "counters": [
