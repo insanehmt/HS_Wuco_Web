@@ -1632,7 +1632,7 @@
       "coreIds": [
         "BG31_818",
         "BG28_805",
-        null
+        "BG34_330"
       ],
       "addonIds": [
         "BG34_Treasure_940",
@@ -2929,7 +2929,7 @@
       "mergedNote": "變體，併入既有機械販賣機系（B-60）",
       "coreIds": [
         "BG34_176",
-        null,
+        "BG27_Anomaly_751",
         "BG34_731"
       ],
       "addonIds": [
