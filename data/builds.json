@@ -4184,6 +4184,145 @@
         "BG25_016",
         "BG35_MagicItem_306"
       ]
+    },
+    {
+      "id": "B-93",
+      "name": "中立 鐵爐堡靠背鐵砧流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "魚人"
+      ],
+      "source": "https://www.youtube.com/watch?v=G4hMGrj9kZI",
+      "episode": "#2074",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "鐵爐堡（靠背）",
+        "鐵砧",
+        "巴姐"
+      ],
+      "supportCards": [
+        "災變預示者",
+        "附魔師",
+        "金卡飛機魚",
+        "野火",
+        "魔焰"
+      ],
+      "logic": "鐵砧讓無種族牌數值 3 倍，靠背流配巴姐法術雙施放，金卡飛機魚拉手中最高攻 2 隻（不限種族），數值面碾壓 3 倍，野火補打點。「鐵爐堡 3 倍中立卡」。",
+      "tips": [
+        "鐵砧發動快於雙翼夾擊，不卡位",
+        "巴姐不對旅店牌生效（用來讓飛機魚飛出）",
+        "數值穩贏，只缺打點靠野火"
+      ],
+      "notes": "鐵爐堡靠背鐵砧 3 倍",
+      "coreIds": [
+        null,
+        null,
+        "BG35_883"
+      ],
+      "addonIds": [
+        "BG35_123",
+        "BG26_ICC_901",
+        null,
+        "BGS_126",
+        "BG32_821"
+      ]
+    },
+    {
+      "id": "B-94",
+      "name": "機械 飛天魔像頭像流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=9mxbAli7uIs",
+      "episode": "#2100",
+      "hsVersion": "[?]",
+      "currentVersion": true,
+      "coreCards": [
+        "墜毀飛天魔像（頭像）",
+        "崗古",
+        "男爵"
+      ],
+      "supportCards": [
+        "自動組裝機",
+        "發明家",
+        "辛多雷",
+        "雷矛之力"
+      ],
+      "logic": "選飛天魔像頭像（全牌放大），死聲堆疊每觸發一次變大，崗古召喚 + 男爵 3 倍靈氣，組裝機貼一堆死聲爆量。「拳手退位，飛天魔像的時代」。",
+      "tips": [
+        "飛天魔像頭像給全牌放大，燒全家也不怕",
+        "組裝機貼滿增死聲數",
+        "發明家是本局最強牌"
+      ],
+      "notes": "飛天魔像超越滿分牌",
+      "coreIds": [
+        null,
+        "BG26_817",
+        "BG25_354"
+      ],
+      "addonIds": [
+        "BG32_172",
+        null,
+        "BG25_016",
+        null
+      ]
+    },
+    {
+      "id": "B-95",
+      "name": "惡魔 大笑狗頭人蝙蝠舞女吃吃流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "惡魔",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=gXq1XQJLCE4",
+      "episode": "#2044b",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "大笑狗頭人",
+        "時光扭曲舞女",
+        "蝙蝠"
+      ],
+      "supportCards": [
+        "附魔師",
+        "魔焰",
+        "海洋生物",
+        "爆爆"
+      ],
+      "logic": "大笑狗頭人讓旅店永遠 7 隻，蝙蝠吃一排 + 附魔師再吃一排（金卡附魔師=一隻蝙蝠吃 3 排），舞女+魔焰放大，buffet 吃吃吃。吸星大法 2 回合對手死光。",
+      "tips": [
+        "蝙蝠是奧義，多 1 隻多吃 2 排",
+        "爆爆先炸對手聖盾",
+        "牌湊齊 2 回合秒殺"
+      ],
+      "notes": "吸星大法 buffet",
+      "hidden": true,
+      "mergedNote": "變體，併入既有惡魔蝙蝠吃吃系（B-78）",
+      "coreIds": [
+        null,
+        null,
+        "BG21_005"
+      ],
+      "addonIds": [
+        "BG26_ICC_901",
+        "BG32_821",
+        null,
+        null
+      ]
     }
   ],
   "counters": [
