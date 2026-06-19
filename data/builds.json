@@ -1595,6 +1595,564 @@
         null,
         "BG32_172"
       ]
+    },
+    {
+      "id": "B-37",
+      "name": "元素 球手卡2資源流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "元素",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=craijW0j0Bo",
+      "episode": "#2002",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "球手（火球手）",
+        "石油",
+        "懷錶"
+      ],
+      "supportCards": [
+        "拐杖",
+        "旋風",
+        "野火",
+        "毒孢"
+      ],
+      "logic": "卡 2 星不升級，靠資源型英雄（克羅米/時光龍/先知）瘋狂買賣球手，效率隨時間越打越高。球手疊到 80+ 層，野火超大，旋風破盾、毒孢崩場。「2 星球手流，操作感十足」。",
+      "tips": [
+        "懷錶/溫度轉變最後開（檢索剩餘球手）",
+        "買賣客家海盜減少牌池 2 星，更易找球手",
+        "早期球手比石油重要，球手先拿滿再投資石油"
+      ],
+      "notes": "卡 2 球手流，100/0/0",
+      "coreIds": [
+        null,
+        "BG28_805",
+        null
+      ],
+      "addonIds": [
+        null,
+        "BGS_119",
+        "BGS_126",
+        "BGS_131"
+      ]
+    },
+    {
+      "id": "B-38",
+      "name": "中立 戰寵塔塔流（快樂牛）",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "不死族"
+      ],
+      "source": "https://www.youtube.com/watch?v=vQrZ_LRS6q0",
+      "episode": "#2003",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "泰坦守護者（塔塔）",
+        "小販",
+        "時光扭曲畫家"
+      ],
+      "supportCards": [
+        "伊萊克",
+        "附魔師",
+        "大胖",
+        "男爵"
+      ],
+      "logic": "英雄快樂牛戰寵每回合點金夥伴。時光扭曲畫家養大小販，小販彈給隊友，塔塔 buff 3 星卡時自身也吃數值 → 雪球破 4700。「戰寵版本獨有玩法」。",
+      "tips": [
+        "戰寵首選伊萊克（每回合 +10/+10）",
+        "小販互彈需 2 隻 3 星卡",
+        "塔塔回合結束 buff 3 星卡 2 次（附魔師再加一次）"
+      ],
+      "notes": "泰坦守護者塔塔吃雞，前所未見",
+      "coreIds": [
+        null,
+        null,
+        "BG34_Giant_319"
+      ],
+      "addonIds": [
+        "BG20_HERO_101_Buddy",
+        "BG26_ICC_901",
+        null,
+        "BG25_354"
+      ]
+    },
+    {
+      "id": "B-39",
+      "name": "龍族 神龍海洋放置流",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "龍族",
+        "納迦"
+      ],
+      "source": "https://www.youtube.com/watch?v=mzsi9Asen6c",
+      "episode": "#2004",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "晉升龍（神龍）",
+        "海洋生物",
+        "魔焰"
+      ],
+      "supportCards": [
+        "吟龍",
+        "聚合體",
+        "龍外線",
+        "辛多雷"
+      ],
+      "logic": "晉升龍每回合 +15，神龍戰鬥開始 +20/+20 經附魔龍翻倍，海洋生物 buff、魔焰法強。專剋不死族鬧鬼流（放置流挑戰鬧鬼）。",
+      "tips": [
+        "神龍放前面先 +20 再翻倍",
+        "對不死族必須有海洋生物，否則打不動",
+        "野怪助攻可拖慢對手拿牌"
+      ],
+      "notes": "晉升龍首見，3000 血神龍破鬧鬼",
+      "hidden": true,
+      "mergedNote": "變體，併入既有龍族系",
+      "coreIds": [
+        null,
+        null,
+        "BG32_821"
+      ],
+      "addonIds": [
+        "BG29_813",
+        null,
+        "BG32_822",
+        "BG25_016"
+      ]
+    },
+    {
+      "id": "B-40",
+      "name": "野豬人 鐵頭戴歐司彈幕流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野豬人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=h-I_YxPUTtY",
+      "episode": "#2005",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "鐵頭獸",
+        "戴歐司",
+        "辛多雷"
+      ],
+      "supportCards": [
+        "馮迪索",
+        "鸚鵡",
+        "附魔師",
+        "培根"
+      ],
+      "logic": "戴歐司讓死聲+戰吼雙倍，鐵頭觸發爆量寶石，辛多雷打野獸破嘲諷重生。2 千辛多雷一拳，剛好一萬整 100/0/0。",
+      "tips": [
+        "鐵頭站 1 號先送（複製多一個光盾）",
+        "辛多雷移除對手嘲諷/重生",
+        "鸚鵡即時觸發不會被斷"
+      ],
+      "notes": "戴歐司雙倍彈幕，一萬整",
+      "hidden": true,
+      "mergedNote": "變體，併入既有野豬人系",
+      "coreIds": [
+        null,
+        null,
+        "BG25_016"
+      ],
+      "addonIds": [
+        "BG26_160",
+        "BGS_078",
+        "BG26_ICC_901",
+        null
+      ]
+    },
+    {
+      "id": "B-41",
+      "name": "機械 伊萊克跳魚象象流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=-ua7fuhv6IA",
+      "episode": "#2006",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "伊萊克（普卡×2）",
+        "時光跳魚",
+        "小象"
+      ],
+      "supportCards": [
+        "剛普",
+        "跑馬燈",
+        "印鈔機",
+        "銅鬚"
+      ],
+      "logic": "英雄快樂牛 + 雙普卡伊萊克 + 大時光複製跳魚，資源無限刷小象，原地無限複製大象，全普卡吃雞。剛普解毒素陣。",
+      "tips": [
+        "海盜/銅鬚財富自由",
+        "剛普第 2 輪解打點流",
+        "全普卡也能跟鬼一樣"
+      ],
+      "notes": "全普卡象象流吃雞",
+      "hidden": true,
+      "mergedNote": "變體，併入既有機械系",
+      "coreIds": [
+        "BG20_HERO_101_Buddy",
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG26_817",
+        null,
+        "BG26_147",
+        null
+      ]
+    },
+    {
+      "id": "B-42",
+      "name": "野豬人 鳥人怒兆巨牛流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野豬人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=ko0G7h5HU1w",
+      "episode": "#2007",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "鳥人（剃刀沼澤獵手）",
+        "怒兆",
+        "鬥士豬"
+      ],
+      "supportCards": [
+        "鐵頭",
+        "小瞎眼",
+        "附魔師",
+        "男爵",
+        "銅鬚"
+      ],
+      "logic": "鳥人每回合給培根/鼓手豬，小瞎眼回合結束多觸發，怒兆轉巨量寶石，3000 巨牛開頂，一路劣勢逆轉。",
+      "tips": [
+        "野獸局的豬最強（鐵頭配豬）",
+        "鬥士豬配小瞎眼回合結束",
+        "怒兆把旅店寶石轉給打點"
+      ],
+      "notes": "鳥人培根 + 怒兆巨牛逆轉",
+      "hidden": true,
+      "mergedNote": "變體，併入既有野豬人系",
+      "coreIds": [
+        null,
+        "BG27_822",
+        null
+      ],
+      "addonIds": [
+        "BG26_801",
+        "BG22_403",
+        "BG26_ICC_901",
+        "BG25_354",
+        null
+      ]
+    },
+    {
+      "id": "B-43",
+      "name": "野獸 恐角龍摩斯拉受傷流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=TCraFoQRkM0",
+      "episode": "#2008",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "恐角龍",
+        "摩斯拉（魔化犄角獸）",
+        "戴歐司（金卡）"
+      ],
+      "supportCards": [
+        "鐵頭",
+        "鸚鵡",
+        "小瞎眼",
+        "桑德斯"
+      ],
+      "logic": "摩斯拉戰吼受傷瘋狂變大，鐵頭+鸚鵡+戴歐司雙倍觸發炸爛摩斯拉，恐角龍光盾保命，召喚雙倍數值，一回合 4000，可疊到 15000。「世紀摩斯拉新創意」。",
+      "tips": [
+        "恐角龍一定要有光盾（其他都會被炸）",
+        "桑德斯+小瞎眼全變金色",
+        "時光扭曲塔姆卓可再翻倍"
+      ],
+      "notes": "摩斯拉回歸，15000 天花板",
+      "coreIds": [
+        null,
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG26_801",
+        "BGS_078",
+        "BG22_403",
+        null
+      ]
+    },
+    {
+      "id": "B-44",
+      "name": "魚人 時光跳魚出售流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "魚人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=m_UqxJ1V9Po",
+      "episode": "#2012",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "時光跳魚",
+        "鯛魚",
+        "魚人上鉤（英雄能力）"
+      ],
+      "supportCards": [
+        "貝斯（拉怪）",
+        "泡泡槍手",
+        "小瞎眼",
+        "怒兆"
+      ],
+      "logic": "魚人上鉤英雄大爆賣牌釣魚，時光跳魚 + 鯛魚把 2 星卡變誇張資源，貝斯拉大牌打點，泡泡槍手是本版唯一風怒魚人。遊戲第 6 回合就吃雞。",
+      "tips": [
+        "泡泡槍手給風怒，秒開牆壁",
+        "貝斯越多拉怪越多，數量取勝",
+        "別多養怪，會讓拉怪歪掉"
+      ],
+      "notes": "第 6 回合吃雞，賣牌流",
+      "coreIds": [
+        null,
+        null,
+        null
+      ],
+      "addonIds": [
+        null,
+        "BG31_149",
+        "BG22_403",
+        "BG27_822"
+      ]
+    },
+    {
+      "id": "B-45",
+      "name": "海盜 水元素火砲海盜流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "海盜",
+        "元素"
+      ],
+      "source": "https://www.youtube.com/watch?v=01A5yeerzSw",
+      "episode": "#2013",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "水元素（6星新卡）",
+        "火砲海盜",
+        "剛普"
+      ],
+      "supportCards": [
+        "星際掠劫者",
+        "變色龍",
+        "炸雞",
+        "爺"
+      ],
+      "logic": "火砲海盜本 +2/+3，水元素讓他加更多，數量越多越快（可 3 倍速）。星際掠劫者（攻擊版血鬼）給血，剛普天國 2 揮，純養怪不輸黑科技。",
+      "tips": [
+        "別合亮鱗（賣一買一保留變色龍奧義）",
+        "天花板看火砲+水元素數量",
+        "剛普不買等他自己跳"
+      ],
+      "notes": "海盜回歸，6 星水元素新卡",
+      "coreIds": [
+        null,
+        "BG34_236",
+        "BG26_817"
+      ],
+      "addonIds": [
+        "BG29_866",
+        null,
+        "BG23_318",
+        null
+      ]
+    },
+    {
+      "id": "B-46",
+      "name": "野豬人 魔豬彈幕特技龍流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野豬人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=MSrWZ1fbynA",
+      "episode": "#2009",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "魔豬",
+        "戴歐司",
+        "鬥士豬"
+      ],
+      "supportCards": [
+        "特技龍",
+        "男爵",
+        "附魔師",
+        "剛普",
+        "燈泡"
+      ],
+      "logic": "英雄米羅克多一個小時光，魔豬死聲彈幕，戴歐司雙倍，特技龍是任何玩法天花板。燈泡（眼睛）補盾，剛普第 2 輪揮擊破寶寶海。",
+      "tips": [
+        "米羅克 T1，第 5 回合多小時光",
+        "把魔豬丟掉防對手吸收",
+        "血量高於攻擊則對手弱者無效"
+      ],
+      "notes": "米羅克魔豬彈幕",
+      "hidden": true,
+      "mergedNote": "變體，併入既有野豬人系",
+      "coreIds": [
+        null,
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG34_732",
+        "BG25_354",
+        "BG26_ICC_901",
+        "BG26_817",
+        "BGS_071"
+      ]
+    },
+    {
+      "id": "B-47",
+      "name": "元素 球手轉相片轟炸炸彈流",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "元素",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=4q1lPd2-m_A",
+      "episode": "#2010",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "相片轟炸者",
+        "球手",
+        "石油"
+      ],
+      "supportCards": [
+        "溫度轉變",
+        "鸚鵡",
+        "男爵",
+        "拐杖"
+      ],
+      "logic": "球手流卡 2 養資源，轉相片轟炸者：施法越多丟越大炸彈（一發 180），混合數值+轟炸，專剋摩斯拉（快攻拉長時間）。",
+      "tips": [
+        "卡 2 星轉最安全（升 4 有空窗）",
+        "相片轟炸者從最大的開始炸",
+        "炸彈流是摩斯拉的好對策"
+      ],
+      "notes": "球手轉炸彈魔，又大又能炸",
+      "hidden": true,
+      "mergedNote": "變體，併入既有元素球手系（B-37）",
+      "coreIds": [
+        "BG34_780",
+        null,
+        "BG28_805"
+      ],
+      "addonIds": [
+        "BG31_819",
+        "BGS_078",
+        "BG25_354",
+        null
+      ]
+    },
+    {
+      "id": "B-48",
+      "name": "野豬人 4星豬豬寶石彈幕流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "野豬人",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=WLuFaEegDIk",
+      "episode": "#2011",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "戰壕鬥士（旋鬥者）",
+        "鮮血彈幕",
+        "寶石沒收"
+      ],
+      "supportCards": [
+        "印鈔機",
+        "貝斯",
+        "眼睛",
+        "鐮刀"
+      ],
+      "logic": "4 星不升級，複製戰壕鬥士（神級牌），鮮血彈幕金卡每打出跳 2 次，寶石沒收撞一下拿 4 顆全打旋鬥者，旅店 174 → 一回合 2000。",
+      "tips": [
+        "4 星旅店即可天文數字，不需升級",
+        "複製戰壕鬥士哪怕 6/6 也賺",
+        "帶盾豬防魚人毒"
+      ],
+      "notes": "4 星豬豬黑科技，100/0/0",
+      "hidden": true,
+      "mergedNote": "變體，併入既有野豬人系",
+      "coreIds": [
+        "BG34_684",
+        null,
+        "BG28_698"
+      ],
+      "addonIds": [
+        "BG26_147",
+        null,
+        "BGS_071",
+        "BG30_MagicItem_406"
+      ]
     }
   ],
   "counters": [
