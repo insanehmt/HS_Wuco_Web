@@ -3495,6 +3495,241 @@
         "BG26_817",
         "BG23_318"
       ]
+    },
+    {
+      "id": "B-78",
+      "name": "惡魔 蝙蝠美拉吃吃流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "惡魔",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=3gl9FKObntw",
+      "episode": "#2044",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "附魔師（金卡）",
+        "蝙蝠",
+        "美拉（魔化犄角獸）"
+      ],
+      "supportCards": [
+        "舞女",
+        "魔焰",
+        "口咬",
+        "炸雞",
+        "王牌間諜"
+      ],
+      "logic": "王牌間諜無限偷牌，金附魔師+金蝙蝠瘋狂吃吃放大，美拉口咬一圈受傷無限變大，一萬美拉×2 + 一萬雞，風怒破陣碾壓。",
+      "tips": [
+        "小費仔永遠留 1 塊賺錢",
+        "美拉靠口咬受傷變大（要很多口咬）",
+        "時光旅店竊賊請神金魔焰加速"
+      ],
+      "notes": "美拉史上最強，一萬×2",
+      "coreIds": [
+        "BG26_ICC_901",
+        "BG21_005",
+        null
+      ],
+      "addonIds": [
+        null,
+        "BG32_821",
+        "EBG_Spell_032",
+        "BG23_318",
+        null
+      ]
+    },
+    {
+      "id": "B-79",
+      "name": "中立 橘貓寶石沒收怒兆流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "野豬人"
+      ],
+      "source": "https://www.youtube.com/watch?v=BKxwvmSAtzY",
+      "episode": "#2045",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "橘貓",
+        "寶石沒收",
+        "怒兆"
+      ],
+      "supportCards": [
+        "變色龍",
+        "附魔師",
+        "炸雞",
+        "爆爆"
+      ],
+      "logic": "橘貓靠寶石沒收吸收疊出超大（35000），怒兆頂掉對手，變色龍複製，配爆爆+佔上風破陣。專剋跳蛙（怒兆）。",
+      "tips": [
+        "橘貓只能用寶石沒收吸（才有傷害怒兆）",
+        "6 發寶石沒收吸就夠",
+        "怒兆是打贏跳蛙的唯一解"
+      ],
+      "notes": "35000 橘貓",
+      "coreIds": [
+        null,
+        "BG28_698",
+        "BG27_822"
+      ],
+      "addonIds": [
+        null,
+        "BG26_ICC_901",
+        "BG23_318",
+        null
+      ]
+    },
+    {
+      "id": "B-80",
+      "name": "機械 雷電號打蛋機放置流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "機械",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=NuVmmlurfCg",
+      "episode": "#2047",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "雷電號",
+        "打蛋機",
+        "無人機"
+      ],
+      "supportCards": [
+        "附魔師",
+        "女皇",
+        "跑馬燈",
+        "楊過的手"
+      ],
+      "logic": "每打 2 個旅店法術觸發合體，無人機+打蛋機 3 合 1 buff，雷電號金卡放置掛機，2000 打蛋機，附魔師進場爆量。完全放置流。",
+      "tips": [
+        "法術來源：打蛋機/跑馬燈/女皇",
+        "楊過的手貼打蛋機",
+        "附魔師進場最誇張，全力刷"
+      ],
+      "notes": "雷電號放置，2000 打蛋",
+      "coreIds": [
+        null,
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG26_ICC_901",
+        "BG28_741",
+        null,
+        "BG28_309"
+      ]
+    },
+    {
+      "id": "B-81",
+      "name": "不死族 永爸惡霸龍鬧鬼流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "不死族",
+        "龍族"
+      ],
+      "source": "https://www.youtube.com/watch?v=d5lRrV5HB-U",
+      "episode": "#2046",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "永爸（已改 4 星）",
+        "惡霸龍",
+        "鬧鬼龍"
+      ],
+      "supportCards": [
+        "蟲王",
+        "大寶劍",
+        "路克",
+        "男爵",
+        "電台"
+      ],
+      "logic": "蟲王過渡，鬧鬼龍法強貫穿，永爸（改 4 星）+路克無限飛行，男爵靈氣，惡霸龍重生衝刺，互相引爆藝術全消失。",
+      "tips": [
+        "改版：永爸 4 星、星際 3 星只配海盜",
+        "男爵維持靈氣不可少",
+        "炸雞防元素/怒兆"
+      ],
+      "notes": "永爸改 4 星後玩法",
+      "hidden": true,
+      "mergedNote": "變體，併入既有不死族系",
+      "coreIds": [
+        "BG34_403",
+        "BG34_731",
+        null
+      ],
+      "addonIds": [
+        null,
+        null,
+        "BG34_Giant_332",
+        "BG25_354",
+        "BG25_399"
+      ]
+    },
+    {
+      "id": "B-82",
+      "name": "惡魔 蝙蝠舞女小鬼吃吃流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "惡魔",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=hhAjyPXLSd8",
+      "episode": "#2049",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "時光舞女",
+        "蝙蝠",
+        "噁心小鬼"
+      ],
+      "supportCards": [
+        "附魔師",
+        "鸚鵡",
+        "怒兆",
+        "剛普",
+        "辛多雷"
+      ],
+      "logic": "時光舞女回合結束配附魔師，蝙蝠吃吃養小鬼，鸚鵡（神之卡）後排彈射召再召，法強貫穿；對野獸帶怒兆/剛普/辛多雷對策。",
+      "tips": [
+        "鸚鵡放後排配小鬼召再召",
+        "舞女放前面點金",
+        "甲蟲法術上帝視角防炸雞陣"
+      ],
+      "notes": "噁心小鬼吃雞",
+      "hidden": true,
+      "mergedNote": "變體，併入既有惡魔吃吃系（B-78）",
+      "coreIds": [
+        null,
+        "BG21_005",
+        "BG21_029"
+      ],
+      "addonIds": [
+        "BG26_ICC_901",
+        "BGS_078",
+        "BG27_822",
+        "BG26_817",
+        "BG25_016"
+      ]
     }
   ],
   "counters": [
