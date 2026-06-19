@@ -1539,13 +1539,13 @@
       "coreIds": [
         "BG34_921",
         "BG33_240",
-        null,
-        null
+        "BG33_920",
+        "BG30_MagicItem_995"
       ],
       "addonIds": [
         "BG29_813",
-        null,
-        null,
+        "BG31_802",
+        "BG27_514",
         "BG30_802"
       ]
     },
@@ -1585,14 +1585,14 @@
       "hidden": true,
       "mergedNote": "變體，併入既有機械飛天魔像系（B-27）",
       "coreIds": [
-        null,
+        "BG35_342",
         "BG35_MagicItem_740",
         "BG26_817"
       ],
       "addonIds": [
         "BG25_354",
         "BG26_149",
-        null,
+        "BG35_890",
         "BG32_172"
       ]
     },
@@ -1630,7 +1630,7 @@
       ],
       "notes": "卡 2 球手流，100/0/0",
       "coreIds": [
-        null,
+        "BG31_818",
         "BG28_805",
         null
       ],
@@ -1722,13 +1722,13 @@
       "hidden": true,
       "mergedNote": "變體，併入既有龍族系",
       "coreIds": [
-        null,
-        null,
+        "BG21_014",
+        "BG32_837",
         "BG32_821"
       ],
       "addonIds": [
         "BG29_813",
-        null,
+        "BG_TSC_069",
         "BG32_822",
         "BG25_016"
       ]
@@ -1769,15 +1769,15 @@
       "hidden": true,
       "mergedNote": "變體，併入既有野豬人系",
       "coreIds": [
-        null,
-        null,
+        "BG26_801",
+        "BG34_991",
         "BG25_016"
       ],
       "addonIds": [
         "BG26_160",
         "BGS_078",
         "BG26_ICC_901",
-        null
+        "BG26_159"
       ]
     },
     {
@@ -1822,9 +1822,9 @@
       ],
       "addonIds": [
         "BG26_817",
-        null,
+        "BG31_178",
         "BG26_147",
-        null
+        "BG_LOE_077"
       ]
     },
     {
@@ -1873,7 +1873,7 @@
         "BG22_403",
         "BG26_ICC_901",
         "BG25_354",
-        null
+        "BG_LOE_077"
       ]
     },
     {
@@ -1911,14 +1911,14 @@
       "notes": "摩斯拉回歸，15000 天花板",
       "coreIds": [
         null,
-        null,
-        null
+        "BG32_204",
+        "BG34_991"
       ],
       "addonIds": [
         "BG26_801",
         "BGS_078",
         "BG22_403",
-        null
+        "BG25_034"
       ]
     },
     {
@@ -1960,7 +1960,7 @@
         null
       ],
       "addonIds": [
-        null,
+        "BG26_350",
         "BG31_149",
         "BG22_403",
         "BG27_822"
@@ -2006,7 +2006,7 @@
       ],
       "addonIds": [
         "BG29_866",
-        null,
+        "BG31_802",
         "BG23_318",
         null
       ]
@@ -2049,7 +2049,7 @@
       "mergedNote": "變體，併入既有野豬人系",
       "coreIds": [
         null,
-        null,
+        "BG34_991",
         null
       ],
       "addonIds": [
@@ -2097,7 +2097,7 @@
       "mergedNote": "變體，併入既有元素球手系（B-37）",
       "coreIds": [
         "BG34_780",
-        null,
+        "BG31_818",
         "BG28_805"
       ],
       "addonIds": [
@@ -2144,12 +2144,12 @@
       "mergedNote": "變體，併入既有野豬人系",
       "coreIds": [
         "BG34_684",
-        null,
+        "BG34_689",
         "BG28_698"
       ],
       "addonIds": [
         "BG26_147",
-        null,
+        "BG26_350",
         "BGS_071",
         "BG30_MagicItem_406"
       ]
@@ -2194,11 +2194,11 @@
         "BG27_822"
       ],
       "addonIds": [
+        "BG33_337",
         null,
-        null,
-        null,
-        null,
-        null
+        "BG26_350",
+        "BG_LOE_077",
+        "BG32_204"
       ]
     },
     {
@@ -2241,9 +2241,9 @@
       ],
       "addonIds": [
         "BGS_078",
-        null,
+        "BG_LOE_077",
         "BG25_354",
-        null
+        "BG30_MagicItem_700"
       ]
     },
     {
@@ -2285,7 +2285,7 @@
       "coreIds": [
         null,
         "BG26_502",
-        null,
+        "BG34_500",
         "BG34_732"
       ],
       "addonIds": [
@@ -2332,13 +2332,13 @@
       "hidden": true,
       "mergedNote": "變體，併入既有摩斯拉/野獸系（B-43）",
       "coreIds": [
-        null,
+        "BG32_204",
         "BG26_801",
         null
       ],
       "addonIds": [
         "BG25_354",
-        null,
+        "BG_LOE_077",
         "BGS_078",
         "BG23_HERO_201_Buddy",
         null
@@ -2430,7 +2430,7 @@
         "BG23_009"
       ],
       "addonIds": [
-        null,
+        "BG31_802",
         "BG30_MagicItem_406",
         "BG29_813",
         null
@@ -2470,7 +2470,7 @@
       ],
       "notes": "娜拉吃雞，法術流鬼轉",
       "coreIds": [
-        null,
+        "BG28_551",
         "BG28_741",
         null
       ],
@@ -2515,13 +2515,13 @@
       ],
       "notes": "蛙精重返榮耀，勝摩斯拉",
       "coreIds": [
-        null,
+        "BG33_140",
         null,
         "BG21_HERO_030_Buddy"
       ],
       "addonIds": [
         "BG32_HERO_001_Buddy",
-        null,
+        "BG_OG_256",
         null,
         "BGS_078"
       ]
@@ -2561,14 +2561,14 @@
       "notes": "顯示「無限」數值",
       "coreIds": [
         null,
-        null,
+        "BG34_322",
         "BG21_HERO_030_Buddy"
       ],
       "addonIds": [
         "BGS_078",
         "BG25_354",
         null,
-        null
+        "BG_OG_256"
       ]
     },
     {
@@ -2615,7 +2615,7 @@
         null,
         "BG34_732",
         "BG34_780",
-        null
+        "BG_LOE_077"
       ]
     },
     {
@@ -2662,7 +2662,7 @@
         "BG29_813",
         "BG34_731",
         null,
-        null
+        "BG_TSC_069"
       ]
     },
     {
@@ -2699,7 +2699,7 @@
       ],
       "notes": "販賣機流，機械 T1",
       "coreIds": [
-        null,
+        "BG34_176",
         "BG34_405",
         "BG34_731"
       ],
@@ -2746,12 +2746,12 @@
       "notes": "未來養未來，5-10 萬",
       "coreIds": [
         "BG34_145",
-        null,
+        "BG32_337",
         null
       ],
       "addonIds": [
         null,
-        null,
+        "BG26_350",
         "BG27_822",
         null,
         "BG26_ICC_901"
@@ -2796,7 +2796,7 @@
         "BG29_813"
       ],
       "addonIds": [
-        null,
+        "BG28_551",
         "BG34_692",
         "BG25_016",
         null
@@ -2844,7 +2844,7 @@
         null,
         "BG34_731",
         "BG34_731",
-        null
+        "BG_LOE_077"
       ]
     },
     {
@@ -2884,11 +2884,11 @@
       "coreIds": [
         null,
         null,
-        null
+        "BG26_350"
       ],
       "addonIds": [
         "BG23_318",
-        null,
+        "BG32_337",
         null
       ]
     },
@@ -2928,7 +2928,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有機械販賣機系（B-60）",
       "coreIds": [
-        null,
+        "BG34_176",
         null,
         "BG34_731"
       ],
@@ -2973,7 +2973,7 @@
       ],
       "notes": "白狼加強，放置破千",
       "coreIds": [
-        null,
+        "BGS_018",
         "BG_OG_256",
         "BG27_822"
       ],
@@ -3026,7 +3026,7 @@
         "BG26_502",
         "BG26_505",
         "BG25_354",
-        null
+        "BG_LOE_077"
       ]
     },
     {
@@ -3063,7 +3063,7 @@
       ],
       "notes": "跳蛙終極體，390 萬",
       "coreIds": [
-        null,
+        "BG33_140",
         null,
         "BGS_078"
       ],
@@ -3204,11 +3204,11 @@
       "mergedNote": "變體，併入既有不朽者系（B-62）",
       "coreIds": [
         "BG31_HERO_802pt4",
-        null,
+        "BG26_350",
         null
       ],
       "addonIds": [
-        null,
+        "BG30_MagicItem_700",
         null,
         "BG25_016",
         "BG23_318"
@@ -3249,13 +3249,13 @@
       "notes": "6 嘲諷男爵陣，前所未見",
       "coreIds": [
         null,
-        null,
+        "BG31_803",
         "BG27_822"
       ],
       "addonIds": [
-        null,
+        "BGS_018",
         "BGS_078",
-        null,
+        "BG31_802",
         "BG28_603t"
       ]
     },
@@ -3293,15 +3293,15 @@
       ],
       "notes": "9 小白狼，126 層",
       "coreIds": [
-        null,
+        "BGS_018",
         null,
         "BGS_078"
       ],
       "addonIds": [
         "BG27_822",
         "EBG_Spell_017",
-        null,
-        null
+        "BG22_HERO_003_Buddy",
+        "BG34_Treasure_302"
       ]
     },
     {
@@ -3341,12 +3341,12 @@
       "hidden": true,
       "mergedNote": "變體，併入既有海盜/法術系",
       "coreIds": [
+        "BG34_521",
         null,
-        null,
-        null
+        "BG28_551"
       ],
       "addonIds": [
-        null,
+        "BG27_005",
         null,
         "BG34_732",
         "BG25_354",
@@ -3392,7 +3392,7 @@
       "coreIds": [
         "BG34_403",
         null,
-        null
+        "BG31_802"
       ],
       "addonIds": [
         "BG34_731",
@@ -3490,8 +3490,8 @@
         null
       ],
       "addonIds": [
-        null,
-        null,
+        "BG_LOE_077",
+        "BG25_034",
         "BG26_817",
         "BG23_318"
       ]
@@ -3533,7 +3533,7 @@
       "coreIds": [
         "BG26_ICC_901",
         "BG21_005",
-        null
+        "BG29_844"
       ],
       "addonIds": [
         null,
@@ -3582,7 +3582,7 @@
         "BG27_822"
       ],
       "addonIds": [
-        null,
+        "BG31_802",
         "BG26_ICC_901",
         "BG23_318",
         null
@@ -3622,14 +3622,14 @@
       ],
       "notes": "雷電號放置，2000 打蛋",
       "coreIds": [
+        "BG32_174",
         null,
-        null,
-        null
+        "BG26_152"
       ],
       "addonIds": [
         "BG26_ICC_901",
         "BG28_741",
-        null,
+        "BG31_178",
         "BG28_309"
       ]
     },
@@ -3672,10 +3672,10 @@
       "coreIds": [
         "BG34_403",
         "BG34_731",
-        null
+        "BG33_112"
       ],
       "addonIds": [
-        null,
+        "BG25_007",
         null,
         "BG34_Giant_332",
         "BG25_354",
@@ -3769,7 +3769,7 @@
         "BG25_354"
       ],
       "addonIds": [
-        null,
+        "BG34_176",
         "BG23_318",
         "BG28_573"
       ]
@@ -3815,7 +3815,7 @@
       "addonIds": [
         "BG30_MagicItem_706",
         null,
-        null,
+        "BG35_342",
         "BG23_318"
       ]
     },
@@ -3853,14 +3853,14 @@
       ],
       "notes": "食料流無敵（新飾品版）",
       "coreIds": [
-        null,
-        null,
+        "BG35_155",
+        "BG35_150t",
         "BG32_MagicItem_361"
       ],
       "addonIds": [
         null,
         "BG32_821",
-        null,
+        "BG27_556",
         null
       ]
     },
@@ -3898,15 +3898,15 @@
       ],
       "notes": "咕咕回歸，35000（新飾品版）",
       "coreIds": [
-        null,
+        "BG33_840",
         "BG33_371",
-        null
+        "BG26_800"
       ],
       "addonIds": [
-        null,
+        "BG35_MagicItem_817",
         "EBG_Spell_017",
         null,
-        null
+        "BG24_715"
       ]
     },
     {
@@ -3945,12 +3945,12 @@
       "coreIds": [
         "BG34_145",
         "BG26_354",
-        null
+        "BG35_142"
       ],
       "addonIds": [
         "BG26_ICC_901",
-        null,
-        null,
+        "BG_LOE_077",
+        "BG27_556",
         "BG35_883"
       ]
     },
@@ -3992,8 +3992,8 @@
       "mergedNote": "變體，併入既有科多獸/大胖系（B-57）",
       "coreIds": [
         null,
-        null,
-        null
+        "BG34_322",
+        "BGS_Treasures_006"
       ],
       "addonIds": [
         "BG34_145",
@@ -4039,13 +4039,13 @@
       "coreIds": [
         "BG35_602",
         "BG32_MagicItem_200",
-        null
+        "BG33_840"
       ],
       "addonIds": [
         "BG33_371",
-        null,
+        "BG26_800",
         "BG26_802",
-        null
+        "BG35_342"
       ]
     },
     {
@@ -4088,7 +4088,7 @@
       ],
       "addonIds": [
         "BG25_354",
-        null,
+        "BG35_342",
         "BG28_309",
         "BG23_318"
       ]
@@ -4132,10 +4132,10 @@
         null
       ],
       "addonIds": [
-        null,
+        "BG28_303",
         "BG25_354",
         "BG28_573",
-        null
+        "BG30_MagicItem_700"
       ]
     },
     {
@@ -4221,7 +4221,7 @@
       "notes": "鐵爐堡靠背鐵砧 3 倍",
       "coreIds": [
         null,
-        null,
+        "BG30_MagicItem_403",
         "BG35_883"
       ],
       "addonIds": [
@@ -4275,7 +4275,7 @@
       "addonIds": [
         "BG26_ICC_901",
         "BG32_821",
-        null,
+        "BG32_837",
         null
       ]
     }
