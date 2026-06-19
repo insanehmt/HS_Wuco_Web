@@ -3730,6 +3730,278 @@
         "BG26_817",
         "BG25_016"
       ]
+    },
+    {
+      "id": "B-83",
+      "name": "中立 大胖拳手海流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "機械"
+      ],
+      "source": "https://www.youtube.com/watch?v=X7EHJKm69QY",
+      "episode": "#2051",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "大胖",
+        "拳手",
+        "男爵"
+      ],
+      "supportCards": [
+        "販賣機",
+        "炸雞",
+        "佔上風"
+      ],
+      "logic": "大胖吃拳手，男爵召喚一堆拳手，無限拷貝產出茫茫多大胖海，9000-1萬拳手對拚。佔上風把對手變一滴吃掉。",
+      "tips": [
+        "大胖吃拳手會太大，謹慎",
+        "決賽大胖吃拳手+男爵召喚",
+        "怕對手佔上風，保留部分怪"
+      ],
+      "notes": "史上最多大胖海",
+      "coreIds": [
+        null,
+        "BG26_149",
+        "BG25_354"
+      ],
+      "addonIds": [
+        null,
+        "BG23_318",
+        "BG28_573"
+      ]
+    },
+    {
+      "id": "B-84",
+      "name": "機械 自動機崗古飛天魔像流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "機械",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=sirH8Ap2FRM",
+      "episode": "#2052",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "遠古自動機",
+        "崗古",
+        "自動組裝機"
+      ],
+      "supportCards": [
+        "反光墜飾",
+        "護身符",
+        "墜毀飛天魔像",
+        "炸雞"
+      ],
+      "logic": "遠古自動機開局雙機 + 自動組裝機乘 2，崗古復活自動機，反光墜飾召喚給聖盾，墜毀飛天魔像死聲爆量，金卡護身符滿血吃雞。",
+      "tips": [
+        "核心只需自動機+組裝機+崗古",
+        "護身符滿血吃雞",
+        "飛天魔像貼組裝機爆滿"
+      ],
+      "notes": "自動機回歸（新飾品版）",
+      "coreIds": [
+        "BG_TTN_401",
+        "BG26_817",
+        "BG32_172"
+      ],
+      "addonIds": [
+        "BG30_MagicItem_706",
+        null,
+        null,
+        "BG23_318"
+      ]
+    },
+    {
+      "id": "B-85",
+      "name": "惡魔 食料憤怒守衛吃吃流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "惡魔",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=zqlLVqH8sKg",
+      "episode": "#2053",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "憤怒守衛（10分卡）",
+        "食料",
+        "可攜式工廠"
+      ],
+      "supportCards": [
+        "舞女",
+        "魔焰",
+        "泥沼採獵者",
+        "葛拉克朗"
+      ],
+      "logic": "葛拉克朗購買養旅店，食料刷牌自動吃，憤怒守衛 9 張=一次放 6 食料吃 7 隻，可攜式工廠無限金幣。賣一張一刷的吃吃節奏。",
+      "tips": [
+        "賣一張怪一刷 = 吃吃節奏",
+        "最多吃 7 隻（法術可被擠掉）",
+        "泥沼採獵者是決賽拉怪牌"
+      ],
+      "notes": "食料流無敵（新飾品版）",
+      "coreIds": [
+        null,
+        null,
+        "BG32_MagicItem_361"
+      ],
+      "addonIds": [
+        null,
+        "BG32_821",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-86",
+      "name": "野獸 劍龍咕咕機流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=VxoWw4Ri0mw",
+      "episode": "#2054",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "劍龍",
+        "咕咕機",
+        "豹子"
+      ],
+      "supportCards": [
+        "鏡片（飾品）",
+        "大地之母",
+        "克羅米",
+        "耐心"
+      ],
+      "logic": "劍龍配咕咕機（咕咕回歸），豹子穩牌序，雙咕咕直接吃雞，咕咕機 35000。本版無靜默/相片破陣，盡情正面肉搏。",
+      "tips": [
+        "劍龍變金卡才圓滿",
+        "豹是咕咕機最好的牌",
+        "鏡片點 3 星分身"
+      ],
+      "notes": "咕咕回歸，35000（新飾品版）",
+      "coreIds": [
+        null,
+        "BG33_371",
+        null
+      ],
+      "addonIds": [
+        null,
+        "EBG_Spell_017",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-87",
+      "name": "魚人 狼王未來鰭合唱團流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "魚人",
+        "不死族"
+      ],
+      "source": "https://www.youtube.com/watch?v=bWuxjtXfvd0",
+      "episode": "#2055",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "未來鰭（7星）",
+        "合唱團",
+        "表弟（莫表弟）"
+      ],
+      "supportCards": [
+        "附魔師",
+        "銅鬚",
+        "泥沼採獵者",
+        "巴琳達"
+      ],
+      "logic": "新英雄狼王（雙英雄能力）+泰絲，表弟亂給牌養未來鰭，合唱團越多越強（4萬），附魔師一回合 +4000，魚爸魚媽莫家族十萬。",
+      "tips": [
+        "表弟+未來鰭核心",
+        "合唱團變金卡升級",
+        "泥沼採獵者補打點（無貝斯）"
+      ],
+      "notes": "狼王葛雷邁恩，十萬（新飾品版）",
+      "coreIds": [
+        "BG34_145",
+        "BG26_354",
+        null
+      ],
+      "addonIds": [
+        "BG26_ICC_901",
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-88",
+      "name": "中立 戰寵大胖科多獸超進化流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "野獸"
+      ],
+      "source": "https://www.youtube.com/watch?v=YOx_LbMwd7A",
+      "episode": "#2050",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "大胖",
+        "科多獸",
+        "超進化"
+      ],
+      "supportCards": [
+        "未來鰭",
+        "鸚鵡",
+        "男爵",
+        "佔上風",
+        "怒兆"
+      ],
+      "logic": "戰寵局超進化弄 7 星卡不掉血，大胖吃科多獸無限，缺重生時靠佔上風+怒兆翻盤（27% 機率三命中）。",
+      "tips": [
+        "超進化超 7 星不掉血",
+        "大胖+重生科多獸核心",
+        "三關鍵：佔上風/怒兆/重生"
+      ],
+      "notes": "戰寵大胖科多，-46 翻盤",
+      "hidden": true,
+      "mergedNote": "變體，併入既有科多獸/大胖系（B-57）",
+      "coreIds": [
+        null,
+        null,
+        null
+      ],
+      "addonIds": [
+        "BG34_145",
+        "BGS_078",
+        "BG25_354",
+        "BG28_573",
+        "BG27_822"
+      ]
     }
   ],
   "counters": [
