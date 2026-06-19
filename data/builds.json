@@ -2283,7 +2283,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有龍族系",
       "coreIds": [
-        "BG28_403",
+        null,
         "BG26_502",
         "BG34_500",
         "BG34_732"
@@ -2654,7 +2654,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有龍族系",
       "coreIds": [
-        "BG21_020",
+        null,
         "BG32_822",
         "BG34_732"
       ],
@@ -3398,7 +3398,7 @@
         "BG34_731",
         null,
         "BG25_354",
-        "BG26_172",
+        null,
         "BG25_003"
       ]
     },
@@ -3536,7 +3536,7 @@
         "BG29_844"
       ],
       "addonIds": [
-        "BG34_682",
+        null,
         "BG32_821",
         "EBG_Spell_032",
         "BG23_318",
@@ -3719,7 +3719,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有惡魔吃吃系（B-78）",
       "coreIds": [
-        "BG34_682",
+        null,
         "BG21_005",
         "BG21_029"
       ],
@@ -3858,7 +3858,7 @@
         "BG32_MagicItem_361"
       ],
       "addonIds": [
-        "BG34_682",
+        null,
         "BG32_821",
         "BG27_556",
         null
@@ -4269,7 +4269,7 @@
       "mergedNote": "變體，併入既有惡魔蝙蝠吃吃系（B-78）",
       "coreIds": [
         null,
-        "BG34_682",
+        null,
         "BG21_005"
       ],
       "addonIds": [
