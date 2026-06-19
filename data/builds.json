@@ -4234,51 +4234,6 @@
     },
     {
       "id": "B-94",
-      "name": "機械 飛天魔像頭像流",
-      "rank": "S+",
-      "status": "🟢 現役有效",
-      "statusKey": "active",
-      "difficulty": "高",
-      "races": [
-        "機械",
-        "中立"
-      ],
-      "source": "https://www.youtube.com/watch?v=9mxbAli7uIs",
-      "episode": "#2100",
-      "hsVersion": "[?]",
-      "currentVersion": true,
-      "coreCards": [
-        "墜毀飛天魔像（頭像）",
-        "崗古",
-        "男爵"
-      ],
-      "supportCards": [
-        "自動組裝機",
-        "發明家",
-        "辛多雷",
-        "雷矛之力"
-      ],
-      "logic": "選飛天魔像頭像（全牌放大），死聲堆疊每觸發一次變大，崗古召喚 + 男爵 3 倍靈氣，組裝機貼一堆死聲爆量。「拳手退位，飛天魔像的時代」。",
-      "tips": [
-        "飛天魔像頭像給全牌放大，燒全家也不怕",
-        "組裝機貼滿增死聲數",
-        "發明家是本局最強牌"
-      ],
-      "notes": "飛天魔像超越滿分牌",
-      "coreIds": [
-        null,
-        "BG26_817",
-        "BG25_354"
-      ],
-      "addonIds": [
-        "BG32_172",
-        null,
-        "BG25_016",
-        null
-      ]
-    },
-    {
-      "id": "B-95",
       "name": "惡魔 大笑狗頭人蝙蝠舞女吃吃流",
       "rank": "S+",
       "status": "🟢 現役有效",
