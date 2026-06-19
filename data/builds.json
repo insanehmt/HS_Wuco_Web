@@ -2390,6 +2390,280 @@
         "BG25_016",
         "BG28_309"
       ]
+    },
+    {
+      "id": "B-54",
+      "name": "納迦 藍媽香菇終極陣流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "納迦",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=a7RBD_xhrdU",
+      "episode": "#2021",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "藍媽（女族長）",
+        "香菇",
+        "插座"
+      ],
+      "supportCards": [
+        "變色龍",
+        "鐮刀",
+        "吟龍",
+        "爺"
+      ],
+      "logic": "香菇觸發法術，藍媽每施法給全隊永久 buff，9 藍媽終極陣血量高於攻擊，變色龍複製藍媽，弱者打不死。「我的未來不是夢」。",
+      "tips": [
+        "香菇越多越好，藍調只要 1 張",
+        "變色龍複製藍媽 + 嘲諷防狙",
+        "藍媽加血>加攻，對弱者有血量優勢"
+      ],
+      "notes": "9 藍媽終極陣",
+      "coreIds": [
+        null,
+        "BG26_505",
+        "BG23_009"
+      ],
+      "addonIds": [
+        null,
+        "BG30_MagicItem_406",
+        "BG29_813",
+        null
+      ]
+    },
+    {
+      "id": "B-55",
+      "name": "納迦 娜拉女皇法術流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "納迦",
+        "機械"
+      ],
+      "source": "https://www.youtube.com/watch?v=Lb2txDCFyPU",
+      "episode": "#2022",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "娜拉",
+        "女皇",
+        "打蛋機"
+      ],
+      "supportCards": [
+        "海胖達",
+        "爺",
+        "炸彈超人",
+        "東煮"
+      ],
+      "logic": "前期女皇+打蛋機法術，後期鬼轉娜拉法術流（最強法術體系），海胖達+爺財富自由爆刷，炸彈超人 4 條命破盾收尾。",
+      "tips": [
+        "女皇慢，需轉爺+海胖達才運作",
+        "娜拉野獸局可養怒兆",
+        "口咬來幾張拿幾張"
+      ],
+      "notes": "娜拉吃雞，法術流鬼轉",
+      "coreIds": [
+        null,
+        "BG28_741",
+        null
+      ],
+      "addonIds": [
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-56",
+      "name": "野獸 跳蛙迴旋機流",
+      "rank": "A",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "極高",
+      "races": [
+        "野獸",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=A0WhW0AomlY",
+      "episode": "#2023",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "跳蛙",
+        "金男爵",
+        "迴旋機"
+      ],
+      "supportCards": [
+        "瑪洛尼",
+        "恩若司（點金）",
+        "資深探墓者",
+        "鸚鵡"
+      ],
+      "logic": "本版跳蛙超難（無豹子/烏龜穩牌序），靠瑪洛尼過渡+恩若司點金男爵，迴旋機繼承跳蛙死聲 7000，跳蛙+迴旋機可勝摩斯拉。",
+      "tips": [
+        "瑪洛尼石油王戰寵，錢多放更大",
+        "跳蛙自帶嘲諷，恩若司點金",
+        "迴旋機複製死聲爆量"
+      ],
+      "notes": "蛙精重返榮耀，勝摩斯拉",
+      "coreIds": [
+        null,
+        null,
+        "BG21_HERO_030_Buddy"
+      ],
+      "addonIds": [
+        "BG32_HERO_001_Buddy",
+        null,
+        null,
+        "BGS_078"
+      ]
+    },
+    {
+      "id": "B-57",
+      "name": "中立 戰寵科多獸大胖無限流",
+      "rank": "S+",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "高",
+      "races": [
+        "中立",
+        "野獸"
+      ],
+      "source": "https://www.youtube.com/watch?v=9B1i4DXSsbA",
+      "episode": "#2025",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "大胖",
+        "科多獸（帶重生）",
+        "迴旋機"
+      ],
+      "supportCards": [
+        "鸚鵡",
+        "男爵",
+        "瓦王戰寵",
+        "恩若司"
+      ],
+      "logic": "夥伴/戰寵局，大胖吃科多獸+迴旋機，鸚鵡彈射，數值無限成長（30 萬 → 80 萬 → 無限）。核心只需大胖+重生科多獸。",
+      "tips": [
+        "最難取得：大胖 + 重生科多獸",
+        "迴旋機站後面，鸚鵡彈射",
+        "怒兆 counter 此流要小心"
+      ],
+      "notes": "顯示「無限」數值",
+      "coreIds": [
+        null,
+        null,
+        "BG21_HERO_030_Buddy"
+      ],
+      "addonIds": [
+        "BGS_078",
+        "BG25_354",
+        null,
+        null
+      ]
+    },
+    {
+      "id": "B-58",
+      "name": "海盜 時光佩G海元素發育流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "中",
+      "races": [
+        "海盜",
+        "元素"
+      ],
+      "source": "https://www.youtube.com/watch?v=KpRsa9gZMrM",
+      "episode": "#2020",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "時光扭曲佩G",
+        "海元素",
+        "火砲海盜"
+      ],
+      "supportCards": [
+        "爺",
+        "特技龍",
+        "相片轟炸者",
+        "銅鬚"
+      ],
+      "logic": "時光佩G是海盜最強發育牌（賣怪跳數值），海元素+火砲海盜整排發育，決賽雪崩集中到特技龍/相片轟炸鬼轉。60 血克羅米開局硬扛。",
+      "tips": [
+        "佩G選數值最高版本打架",
+        "決賽把海元素/火砲雪崩集中",
+        "自信打幣滾雪球"
+      ],
+      "notes": "海元素盤活海盜",
+      "hidden": true,
+      "mergedNote": "變體，併入既有海盜系（B-45）",
+      "coreIds": [
+        null,
+        null,
+        "BG34_236"
+      ],
+      "addonIds": [
+        null,
+        "BG34_732",
+        "BG34_780",
+        null
+      ]
+    },
+    {
+      "id": "B-59",
+      "name": "龍族 光龍特技龍放置流",
+      "rank": "S",
+      "status": "🟢 現役有效",
+      "statusKey": "active",
+      "difficulty": "低",
+      "races": [
+        "龍族",
+        "中立"
+      ],
+      "source": "https://www.youtube.com/watch?v=HSs9Vwtj1_I",
+      "episode": "#2024",
+      "hsVersion": "[異變版]",
+      "currentVersion": true,
+      "coreCards": [
+        "光龍",
+        "龍外線",
+        "特技龍"
+      ],
+      "supportCards": [
+        "吟龍",
+        "惡霸龍",
+        "爺",
+        "聚合體龍"
+      ],
+      "logic": "光龍拿牌 + 龍外線法術疊，特技龍放置一直加，全排光盾傷害無限高，擺著沒事幹就整排萬攻。適合手機黨。",
+      "tips": [
+        "不擺龍族就不會套盾套歪",
+        "光龍點金幫拿法術",
+        "龍外線別出第 2 隻會擠"
+      ],
+      "notes": "放置型龍族，手機友善",
+      "hidden": true,
+      "mergedNote": "變體，併入既有龍族系",
+      "coreIds": [
+        null,
+        "BG32_822",
+        "BG34_732"
+      ],
+      "addonIds": [
+        "BG29_813",
+        "BG34_731",
+        null,
+        null
+      ]
     }
   ],
   "counters": [
