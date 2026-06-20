@@ -2478,7 +2478,7 @@
         "BG34_235",
         null,
         null,
-        null
+        "BG_BOT_911"
       ]
     },
     {
@@ -2706,7 +2706,7 @@
       "addonIds": [
         "BG25_354",
         "BG34_173",
-        null,
+        "BG_BOT_911",
         "BG25_016"
       ]
     },
@@ -3164,7 +3164,7 @@
       "addonIds": [
         "BG25_354",
         null,
-        null,
+        "BG_BOT_911",
         null
       ]
     },
