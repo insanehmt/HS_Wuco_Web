@@ -2883,7 +2883,7 @@
       "mergedNote": "變體，併入既有魚人系",
       "coreIds": [
         "BG26_137",
-        null,
+        "TB_BaconShop_HERO_57_Buddy",
         "BG26_350"
       ],
       "addonIds": [
@@ -3905,7 +3905,7 @@
       "addonIds": [
         "BG35_MagicItem_817",
         "EBG_Spell_017",
-        null,
+        "TB_BaconShop_HERO_57_Buddy",
         "BG24_715"
       ]
     },
