@@ -4086,8 +4086,8 @@
       ],
       "notes": "關羽呂布吃雞（新飾品版）",
       "coreIds": [
-        null,
-        null,
+        "BG_TSC_069",
+        "BG_TSC_069",
         "BG26_817"
       ],
       "addonIds": [
