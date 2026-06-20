@@ -1843,7 +1843,7 @@
       "hsVersion": "[異變版]",
       "currentVersion": true,
       "coreCards": [
-        "鳥人（剃刀沼澤獵手）",
+        "棘背鼓手",
         "怒兆",
         "鬥士豬"
       ],
@@ -1864,7 +1864,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有野豬人系",
       "coreIds": [
-        null,
+        "BG34_683",
         "BG27_822",
         "BG34_684"
       ],
