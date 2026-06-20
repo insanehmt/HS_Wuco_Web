@@ -163,10 +163,17 @@ const RACE_ORDER = ["DRAGON","NAGA","DEMON","PIRATE","MECHANICAL","MURLOC","QUIL
 const PANELS = {
   tier:    { dataKey:"scalingBuilds", kind:"tier",    listEl:"tierList",    tierRow:"tierFilterRow",    raceRow:"raceFilterRow",        countEl:"tierCount",    toggleEl:"showOldVersion", noun:"套組合", f:{tier:"全部",diff:"全部",race:"全部"} },
   counter: { dataKey:"counters",      kind:"counter", listEl:"counterList", tierRow:"counterFilterRow", raceRow:"counterRaceFilterRow", countEl:"counterCount", toggleEl:null,             noun:"個對策", f:{tier:"全部",diff:"全部",race:"全部"} },
+  concept: { dataKey:"scalingBuilds", kind:"tier",    listEl:"conceptList", tierRow:"conceptFilterRow", raceRow:"conceptRaceFilterRow", countEl:"conceptCount", toggleEl:null, conceptOnly:true, noun:"套概念牌組", f:{tier:"全部",diff:"全部",race:"全部"} },
 };
 
+// 概念分頁只取標記 concept 的牌組；其餘分頁取整個資料陣列
+function panelItems(P) {
+  const items = DATA[P.dataKey] || [];
+  return P.conceptOnly ? items.filter(b => b.concept) : items;
+}
+
 function buildFilterBars(key) {
-  const P = PANELS[key], items = DATA[P.dataKey] || [];
+  const P = PANELS[key], items = panelItems(P);
   const tiers = ["全部","S","A","B","C"];
   const diffs = [["全部","全部難度"],["easy","🟢 簡單"],["medium","🟡 中等"],["hard","🔴 困難"]];
   let th = "";
@@ -200,7 +207,7 @@ function buildFilterBars(key) {
 
 function applyFilters(key) {
   const P = PANELS[key];
-  let list = (DATA[P.dataKey] || []).slice();
+  let list = panelItems(P).slice();
   // 合併變體預設隱藏，除非勾「顯示全部牌組」
   const showAllEl = document.getElementById("showAllBuilds");
   const showAll = key === "tier" && showAllEl && showAllEl.checked;
@@ -213,9 +220,13 @@ function applyFilters(key) {
   if (P.f.diff !== "全部") list = list.filter(b => diffKey(b.difficulty) === P.f.diff);
   if (P.f.race !== "全部") list = list.filter(b => raceCodes(b.races).includes(P.f.race));
   const el = document.getElementById(P.listEl);
-  renderTierGroups(el, list, P.kind);
-  bindRows(el);
-  const all = DATA[P.dataKey] || [];
+  if (!list.length && P.conceptOnly) {
+    el.innerHTML = `<p class="note">（本季尚未標記概念牌組）</p>`;
+  } else {
+    renderTierGroups(el, list, P.kind);
+    bindRows(el);
+  }
+  const all = panelItems(P);
   const total = all.filter(b => !b.hidden).length;
   const variants = all.filter(b => b.hidden).length;
   document.getElementById(P.countEl).textContent =
@@ -265,6 +276,10 @@ async function init() {
   // counter page (with filters)
   buildFilterBars("counter");
   applyFilters("counter");
+
+  // 當季概念牌組頁
+  buildFilterBars("concept");
+  applyFilters("concept");
 
   // duo page
   const duo = DATA.duo || {};

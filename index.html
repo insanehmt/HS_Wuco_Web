@@ -16,7 +16,7 @@
   <meta name="twitter:title" content="無口君 爐石戰場 排組對策站" />
   <meta name="twitter:image" content="https://insanehmt.github.io/HS_Wuco_Web/img/wuco_logo.png" />
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700;900&family=Noto+Sans+TC:wght@400;600;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css?v=0.6.2" />
+  <link rel="stylesheet" href="css/style.css?v=0.7.0" />
 </head>
 <body>
   <header class="site-header">
@@ -30,6 +30,7 @@
     <nav class="wrap tabs" role="tablist">
       <button class="tab is-active" data-tab="tier"    role="tab">⚔️ 排組頁 <small>Tier List</small></button>
       <button class="tab"           data-tab="counter" role="tab">🛡️ 對策頁 <small>Counter</small></button>
+      <button class="tab"           data-tab="concept" role="tab">💡 當季概念 <small>Concept</small></button>
       <button class="tab"           data-tab="duo"     role="tab">👥 雙打專區 <small>Duo</small></button>
     </nav>
   </header>
@@ -60,6 +61,17 @@
       <div id="counterList"></div>
     </section>
 
+    <!-- 當季概念牌組頁 -->
+    <section id="tab-concept" class="tabpanel">
+      <p class="note">💡 當季概念牌組 — 本季精選的概念／實驗性組合，值得參考嘗試。點一列看詳情。</p>
+      <div class="filterbar">
+        <div class="filter-row" id="conceptFilterRow"></div>
+        <div class="filter-row" id="conceptRaceFilterRow"></div>
+        <div class="filter-row meta-row"><span class="count" id="conceptCount">—</span></div>
+      </div>
+      <div id="conceptList"></div>
+    </section>
+
     <!-- 雙打專區 -->
     <section id="tab-duo" class="tabpanel">
       <p class="note" id="duoIntro"></p>
@@ -78,6 +90,6 @@
     <p>Project HS_Wuco ｜ 前端 GitHub Pages ｜ 資料：hs-battlegrounds-analyst</p>
   </footer>
 
-  <script src="js/app.js?v=0.6.1"></script>
+  <script src="js/app.js?v=0.7.0"></script>
 </body>
 </html>
