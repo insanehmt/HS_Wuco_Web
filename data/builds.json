@@ -1682,7 +1682,7 @@
       "addonIds": [
         "BG20_HERO_101_Buddy",
         "BG26_ICC_901",
-        null,
+        "BG31_999",
         "BG25_354"
       ]
     },
@@ -2560,7 +2560,7 @@
       ],
       "notes": "顯示「無限」數值",
       "coreIds": [
-        null,
+        "BG31_999",
         "BG34_322",
         "BG21_HERO_030_Buddy"
       ],
@@ -2837,7 +2837,7 @@
       "notes": "永爸永動飛行，永騎 2000 層",
       "coreIds": [
         "BG34_403",
-        null,
+        "BG31_999",
         "BG25_008"
       ],
       "addonIds": [
@@ -3391,7 +3391,7 @@
       "mergedNote": "變體，併入既有永爸飛行系（B-63）",
       "coreIds": [
         "BG34_403",
-        null,
+        "BG31_999",
         "BG31_802"
       ],
       "addonIds": [
@@ -3444,7 +3444,7 @@
       ],
       "addonIds": [
         "BG34_Giant_681",
-        null,
+        "BG31_999",
         "BG21_HERO_030_Buddy",
         "BG25_354"
       ]
@@ -3764,7 +3764,7 @@
       ],
       "notes": "史上最多大胖海",
       "coreIds": [
-        null,
+        "BG31_999",
         "BG26_149",
         "BG25_354"
       ],
@@ -3991,7 +3991,7 @@
       "hidden": true,
       "mergedNote": "變體，併入既有科多獸/大胖系（B-57）",
       "coreIds": [
-        null,
+        "BG31_999",
         "BG34_322",
         "BGS_Treasures_006"
       ],
